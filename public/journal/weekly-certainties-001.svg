@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d8c36b"/>
+      <stop offset="0.52" stop-color="#a87542"/>
+      <stop offset="1" stop-color="#2e3d29"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff8d2" stop-opacity=".88"/>
+      <stop offset="1" stop-color="#fff8d2" stop-opacity=".18"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <rect x="135" y="120" width="355" height="600" rx="8" fill="url(#paper)"/>
+  <rect x="540" y="170" width="130" height="500" rx="65" fill="#1f1a17" opacity=".32"/>
+  <rect x="720" y="220" width="320" height="420" rx="10" fill="#ffffed" opacity=".22"/>
+  <path d="M185 620h255M185 560h255M185 500h190M185 440h255M185 380h225" stroke="#1f1a17" stroke-width="12" stroke-linecap="round" opacity=".38"/>
+  <circle cx="880" cy="430" r="78" fill="#ffffed" opacity=".2"/>
+  <circle cx="880" cy="430" r="8" fill="#1f1a17" opacity=".62"/>
+  <circle cx="835" cy="454" r="8" fill="#1f1a17" opacity=".62"/>
+  <circle cx="925" cy="454" r="8" fill="#1f1a17" opacity=".62"/>
+</svg>

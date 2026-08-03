@@ -1,0 +1,8 @@
+node_modules
+.npm-cache
+.next
+storybook-static
+.env*.local
+.sanity
+dist
+*.tsbuildinfo
