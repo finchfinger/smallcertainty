@@ -15,7 +15,7 @@ Human pages:
 - /profile — site background.
 
 Catalog item fields:
-- label: the best-list row, such as "Best Towels".
+- label: the best-list row, such as "Best Bath Towels".
 - topPick: the current top recommendation.
 - pagePath: the internal detail page.
 - outboundUrl: the external site for the recommendation, when available.

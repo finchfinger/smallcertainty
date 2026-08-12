@@ -12,6 +12,8 @@
     "seed": "tsx sanity/seed.ts",
     "migrate:recommendations": "tsx sanity/migrateRecommendations.ts",
     "add:best-towels-recs": "tsx sanity/addBestTowelsRecommendations.ts",
+    "update:best-bath-towels": "tsx sanity/updateBestBathTowels.ts",
+    "update:best-t-shirts": "tsx sanity/updateBestTShirts.ts",
     "ensure:three-recs": "tsx sanity/ensureThreeRecommendations.ts",
     "refine:home": "tsx sanity/refineHomeRecommendations.ts",
     "refine:women": "tsx sanity/refineWomenRecommendations.ts",
@@ -32,6 +34,7 @@
     "rename:body-section": "tsx sanity/renameWellnessToBody.ts",
     "update:taxonomy-cleanup": "tsx sanity/updateTaxonomyCleanup.ts",
     "migrate:journal": "node --env-file=.env.local --import tsx sanity/migrateJournalArticles.ts",
+    "add:journal-features": "node --env-file=.env.local --import tsx sanity/addJournalFeatures.ts",
     "add:collaborators": "node --env-file=.env.local --import tsx sanity/addCollaborators.ts",
     "refine:infrastructure": "tsx sanity/refineInfrastructureRecommendations.ts",
     "refine:imprint": "tsx sanity/refineImprintRecommendations.ts"

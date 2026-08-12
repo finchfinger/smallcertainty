@@ -21,10 +21,12 @@ const sentencePattern=/[^.!?]+[.!?]+(?:\s+|$)/g;
 
 function noteParagraphs(note:string){
   const sentences=note.match(sentencePattern)?.map(sentence=>sentence.trim())||[note];
-  if(sentences.length<5) return [note];
-  const paragraphs:string[]=[];
-  for(let i=0;i<sentences.length;i+=4) paragraphs.push(sentences.slice(i,i+4).join(" "));
-  return paragraphs;
+  if(sentences.length<8) return [note];
+  const midpoint=Math.ceil(sentences.length/2);
+  return [
+    sentences.slice(0,midpoint).join(" "),
+    sentences.slice(midpoint).join(" "),
+  ];
 }
 
 export function DetailPageShell({ item,searchItems,activeNav="Catalog",counterStyle="hash" }:DetailPageShellProps) {

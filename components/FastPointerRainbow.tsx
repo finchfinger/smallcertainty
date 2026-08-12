@@ -12,6 +12,8 @@ const COLORS=["#ffe8e8","#fff0c7","#f5ffd2","#ddffe4","#d9f8ff","#e5eaff","#f6e1
 
 export function FastPointerRainbow() {
   useEffect(()=>{
+    if(!window.matchMedia("(hover: hover) and (pointer: fine)").matches) return;
+
     let lastX=0;
     let lastY=0;
     let lastTime=0;
