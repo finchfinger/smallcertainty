@@ -98,7 +98,7 @@ async function main(){
     ?[...textBlocks.slice(0,2),imageArrangement,...textBlocks.slice(2)]
     :textBlocks;
   const patch={
-    title:"The Best Thing He Could Make: A History of Patagonia",
+    title:"The Best Thing He Could Make",
     dek:"Yvon Chouinard built Patagonia around a demanding proposition: the best product should work beautifully, last for years and take less from the earth. Its history is the record of how that definition of quality kept expanding.",
     content,
   };

@@ -197,7 +197,7 @@ export const journalArticles:JournalArticle[]=[
   },
   {
     slug:"john-morgan-the-grand-detail",
-    title:"John Morgan: The Grand Detail",
+    title:"The Very Good Whisperer",
     dek:"John Morgan, 1973–2025, made books, identities and public lettering with the same exacting intelligence. His work joined typographic detail to the grand gesture—and left British design with a more generous definition of restraint.",
     date:"2026-08-28",
     tags:["Design","Publishing","Typography"],
@@ -220,7 +220,7 @@ export const journalArticles:JournalArticle[]=[
   },
   {
     slug:"kluane-mountaineering-made-for-the-long-cold",
-    title:"Kluane Mountaineering: Made for the Long Cold",
+    title:"Kluane Mountaineering — Made for the Long Cold",
     dek:"An Edmonton workshop that began with two students, one unaffordable sleeping bag and the useful conviction that serious outdoor equipment could be made closer to home. More than half a century later, Kluane Mountaineering still treats warmth as a matter of materials, judgement and patient construction.",
     date:"2026-08-12",
     tags:["Canada","Outdoors","Manufacturing"],
@@ -275,7 +275,7 @@ export const journalArticles:JournalArticle[]=[
   },
   {
     slug:"one-good-street-jaegersborggade",
-    title:"One Good Street: Jægersborggade, Copenhagen",
+    title:"One Good Street — Jægersborggade, Copenhagen",
     dek:"A short Copenhagen street that manages to hold coffee, ceramics, food, books and ordinary residential life without turning itself into a district. Jægersborggade is useful not because every address is essential, but because the whole street still behaves like a street.",
     date:"2026-08-12",
     tags:["Cities","Copenhagen","Streets"],
@@ -368,7 +368,7 @@ export const journalArticles:JournalArticle[]=[
   },
   {
     slug:"weekly-certainties-001",
-    title:"Weekly Certainties No. 001: The Useful Pile",
+    title:"Weekly Certainties No. 001 — The Useful Pile",
     dek:"Five objects from the current working pile, considered after the first enthusiasm has passed. A dispatch about the useful middle ground between a saved tab and a permanent place in the catalog.",
     date:"2026-06-23",
     tags:["Notes","Objects","Issue 001"],
@@ -395,7 +395,7 @@ export const journalArticles:JournalArticle[]=[
   },
   {
     slug:"lamp-for-the-hour-before-dinner",
-    title:"A Lamp for the Hour Before Dinner: The Domestic Pool of Light",
+    title:"A Lamp for the Hour Before Dinner",
     dek:"A short note on the kind of light that makes a desk stop feeling temporary. The best lamp is not a sculpture pretending to be useful, nor a task light with office bitterness. It pools quietly, flatters paper, and gives the room a more generous second shift.",
     date:"2026-06-23",
     tags:["Lighting","Rooms","Workday"],

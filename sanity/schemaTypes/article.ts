@@ -5,7 +5,11 @@ export const article=defineType({
   title:"Article",
   type:"document",
   fields:[
-    defineField({name:"title",type:"string",validation:rule=>rule.required()}),
+    defineField({
+      name:"title",
+      type:"string",
+      validation:rule=>rule.required().custom(value=>value?.includes(":")?"Journal titles do not use colons.":true),
+    }),
     defineField({
       name:"slug",
       type:"slug",
