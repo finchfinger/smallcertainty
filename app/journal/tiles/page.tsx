@@ -26,11 +26,6 @@ function tileImageStyle(article:JournalArticle) {
   return article.imageSrc?{backgroundImage:`url(${article.imageSrc})`}:{background:article.imageTone};
 }
 
-function repeatArticles(articles:JournalArticle[],count:number) {
-  if(!articles.length) return [];
-  return Array.from({length:count},(_,index)=>articles[index%articles.length]);
-}
-
 function JournalTileStrip({ articles }:{articles:JournalArticle[]}) {
   return <section className="col-span-full mb-12 grid grid-cols-1 gap-y-0 sm:grid-cols-2 sm:gap-x-6 md:grid-cols-3 lg:grid-cols-4">
     {articles.map((article,index)=>{
@@ -85,8 +80,8 @@ export default async function JournalTilesPage(){
   const searchItems=getSearchItems(sections);
   const journalArticles=await getJournalArticles();
   const sortedArticles=[...journalArticles].sort((a,b)=>new Date(`${b.date}T00:00:00`).getTime()-new Date(`${a.date}T00:00:00`).getTime());
-  const tileArticles=repeatArticles(sortedArticles,12);
-  const simpleArticles=repeatArticles(sortedArticles,12);
+  const tileArticles=sortedArticles.slice(0,4);
+  const simpleArticles=sortedArticles.slice(4);
 
   return <div className="min-h-screen bg-paper">
     <Header activeNav="Journal" searchItems={searchItems}/>
