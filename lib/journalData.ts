@@ -131,7 +131,7 @@ export async function getJournalArticle(slug:string):Promise<JournalArticle|unde
         {slug},
         {next:{revalidate:60}},
       );
-      if(article) return normalizeArticle(article);
+      return article?normalizeArticle(article):undefined;
     }catch(error){
       console.warn("Sanity article fetch failed; using local journal content.",error);
     }
@@ -147,12 +147,7 @@ export async function getJournalArticles():Promise<JournalArticle[]> {
       {},
       {next:{revalidate:60}},
     );
-    const sanityArticles=articles.map(normalizeArticle);
-    const sanitySlugs=new Set(sanityArticles.map(article=>article.slug));
-    return [
-      ...sanityArticles,
-      ...journalArticles.filter(article=>!sanitySlugs.has(article.slug)),
-    ];
+    return articles.map(normalizeArticle);
   }catch(error){
     console.warn("Sanity article list fetch failed; using local journal content.",error);
     return journalArticles;
