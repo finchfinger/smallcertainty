@@ -13,9 +13,9 @@ type SanityFigure={
 type SanityContentBlock =
   | {
       _key:string;
-      _type:"articleTextSection";
-      heading?:string;
-      body:string[];
+      _type:"block";
+      style?:"normal"|"h2";
+      children?:Array<{_type:"span";text?:string}>;
     }
   | {
       _key:string;
@@ -49,8 +49,12 @@ const articleProjection=`{
   content[]{
     _key,
     _type,
-    heading,
-    body,
+    style,
+    children[]{
+      _key,
+      _type,
+      text
+    },
     layout,
     primaryImage{
       image,
@@ -77,14 +81,33 @@ function normalizeFigure(figure:SanityFigure) {
 }
 
 function normalizeArticle(article:SanityArticle):JournalArticle {
-  const content:JournalContentBlock[]=(article.content||[]).map(block=>{
-    if(block._type==="articleTextSection") return block;
-    return {
+  const content:JournalContentBlock[]=[];
+  let pendingText:Extract<JournalContentBlock,{_type:"articleTextSection"}>|undefined;
+  const flushText=()=>{
+    if(pendingText?.body.length) content.push(pendingText);
+    pendingText=undefined;
+  };
+  for(const block of article.content||[]){
+    if(block._type==="block"){
+      const text=(block.children||[]).map(child=>child.text||"").join("");
+      if(!text) continue;
+      if(block.style==="h2"){
+        flushText();
+        pendingText={_key:block._key,_type:"articleTextSection",heading:text,body:[]};
+      }else{
+        pendingText||={_key:`${block._key}-section`,_type:"articleTextSection",body:[]};
+        pendingText.body.push(text);
+      }
+      continue;
+    }
+    flushText();
+    content.push({
       ...block,
       primaryImage:normalizeFigure(block.primaryImage),
       secondaryImage:block.secondaryImage?normalizeFigure(block.secondaryImage):undefined,
-    };
-  });
+    });
+  }
+  flushText();
   const textSections=content
     .filter((block):block is Extract<JournalContentBlock,{_type:"articleTextSection"}>=>block._type==="articleTextSection")
     .map(block=>({heading:block.heading,body:block.body}));

@@ -36,6 +36,21 @@ async function uploadImage(figure:JournalImage) {
   };
 }
 
+function portableTextBlock(key:string,text:string,style:"normal"|"h2") {
+  return {
+    _key:key,
+    _type:"block",
+    style,
+    markDefs:[],
+    children:[{
+      _key:`${key}-span`,
+      _type:"span",
+      marks:[],
+      text,
+    }],
+  };
+}
+
 async function addFeatures() {
   const requestedSlugs=(process.env.JOURNAL_ARTICLE_SLUGS||"")
     .split(",")
@@ -69,7 +84,12 @@ async function addFeatures() {
     const content=[];
     for(const block of orderedContent){
       if(block._type==="articleTextSection"){
-        content.push(block);
+        if(block.heading){
+          content.push(portableTextBlock(`${block._key}-heading`,block.heading,"h2"));
+        }
+        block.body.forEach((paragraph,index)=>{
+          content.push(portableTextBlock(`${block._key}-paragraph-${index+1}`,paragraph,"normal"));
+        });
         continue;
       }
       content.push({

@@ -25,9 +25,17 @@ export const article=defineType({
       name:"content",
       title:"Article content",
       type:"array",
-      description:"Add and reorder text sections and image arrangements.",
+      description:"Write the article as one continuous document. Insert image arrangements between paragraphs where needed.",
       of:[
-        {type:"articleTextSection"},
+        {
+          type:"block",
+          styles:[
+            {title:"Normal",value:"normal"},
+            {title:"Section heading",value:"h2"},
+          ],
+          lists:[],
+          marks:{decorators:[],annotations:[]},
+        },
         {type:"imageArrangement"},
       ],
       validation:rule=>rule.required().min(1),

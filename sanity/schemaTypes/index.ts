@@ -1,6 +1,5 @@
 import { article } from "./article";
 import { articleImage } from "./articleImage";
-import { articleTextSection } from "./articleTextSection";
 import { catalogItem } from "./catalogItem";
 import { catalogSection } from "./catalogSection";
 import { collaborator } from "./collaborator";
@@ -14,7 +13,6 @@ export const schemaTypes=[
   recommendation,
   catalogItem,
   articleImage,
-  articleTextSection,
   imageArrangement,
   article,
 ];
