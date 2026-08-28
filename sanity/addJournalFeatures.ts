@@ -37,8 +37,27 @@ async function uploadImage(figure:JournalImage) {
 }
 
 async function addFeatures() {
-  const features=journalArticles;
+  const requestedSlugs=(process.env.JOURNAL_ARTICLE_SLUGS||"")
+    .split(",")
+    .map(slug=>slug.trim())
+    .filter(Boolean);
+  const deletedSlugs=(process.env.JOURNAL_DELETE_SLUGS||"")
+    .split(",")
+    .map(slug=>slug.trim())
+    .filter(Boolean);
+  const features=requestedSlugs.length
+    ?journalArticles.filter(article=>requestedSlugs.includes(article.slug))
+    :journalArticles;
+  if(requestedSlugs.length&&features.length!==requestedSlugs.length){
+    const found=new Set(features.map(article=>article.slug));
+    const missing=requestedSlugs.filter(slug=>!found.has(slug));
+    throw new Error(`Unknown Journal article slug${missing.length===1?"":"s"}: ${missing.join(", ")}`);
+  }
   let transaction=client.transaction();
+
+  for(const slug of deletedSlugs){
+    transaction=transaction.delete(`article-${slug}`);
+  }
 
   for(const article of features){
     const orderedContent=article.content||article.sections.map((section,index)=>({
@@ -84,7 +103,7 @@ async function addFeatures() {
   }
 
   const result=await transaction.commit();
-  console.log(`Added ${result.results.length} Journal features to ${projectId}/${dataset}.`);
+  console.log(`Committed ${result.results.length} Journal feature changes to ${projectId}/${dataset}.`);
 }
 
 addFeatures().catch(error=>{

@@ -31,11 +31,11 @@ const recommendations=[
   },
   {
     rank:3,
-    productId:"product-frontgate-resort-collection-bath-towels",
-    name:"Frontgate Resort Collection Bath Towels",
-    brand:"Frontgate",
-    url:"https://www.frontgate.com/frontgate-resort-collection-26trade-3b-bath-towels/bed-bath/bath/bath-towels/18414?uniqueId=18414&isNewProduct=false&newItemBadge=true&hideNewTagFromPLP=false&isCrossSell=true&gtmPageName=Content%20Recos-HomeView2&strategy=82711",
-    note:"Frontgate offers the orthodox answer and executes it with unusual conviction. The Resort Collection is 700-GSM, long-staple Turkish cotton: thick, absorbent and generously sized, with the broad dobby border expected of a proper hotel towel. It is less visually adventurous than the alternatives above, but that restraint is useful in a busy bathroom and reassuring in a guest room. The colour range is extensive, though white remains the clearest expression of the idea. This is dependable abundance, made for people who want a towel to feel unmistakably like a towel.",
+    productId:"product-waterworks-gotham-bath-towels",
+    name:"Waterworks Gotham Bath Towels",
+    brand:"Waterworks",
+    url:"https://www.waterworks.com/us_en/gotham-cotton-bath-towels-gobt01",
+    note:"Waterworks approaches the bath towel with the restraint of a good tailor. Gotham is woven in the United States from long-staple cotton, then finished with narrow cotton binding borrowed from the language of fine men’s shirting. The detail is subtle but decisive, giving an otherwise orthodox white towel a clean architectural edge. Choose navy, black or slate piping and allow the trim to do the work. Gotham provides the conventional luxury towel this group needs, but avoids the swollen anonymity of resort terry. It feels considered rather than decorated, and looks particularly convincing against marble, unlacquered brass or plain white tile.",
   },
 ] as const;
 

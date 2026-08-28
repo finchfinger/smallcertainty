@@ -41,7 +41,10 @@ async function getCatalogItemDetail(section:string,slug:string) {
   let item:DetailData|undefined=findFallbackItem(section,slug);
   if(sanityConfigured) {
     try {
-      const remoteItem=await client.fetch<DetailData|null>(catalogItemDetailQuery,{section,slug});
+      const remoteItem=await client.fetch<DetailData|null>(catalogItemDetailQuery,{section,slug},{
+        cache:"no-store",
+        next:{revalidate:0},
+      });
       if(remoteItem) item=remoteItem;
     } catch(error) {
       console.warn("Sanity metadata fetch failed; showing local detail metadata.",error);
@@ -65,7 +68,10 @@ export default async function CatalogItemPage({ params }:{ params:Promise<{ sect
 
   if(sanityConfigured) {
     try {
-      const remoteSections=await client.fetch<CatalogSectionData[]>(catalogQuery);
+      const remoteSections=await client.fetch<CatalogSectionData[]>(catalogQuery,{}, {
+        cache:"no-store",
+        next:{revalidate:0},
+      });
       if(remoteSections?.length) sections=remoteSections;
     } catch(error) {
       console.warn("Sanity fetch failed; showing local detail preview.",error);
