@@ -93,10 +93,10 @@ async function addFeatures() {
       dek:article.dek,
       publishedAt:article.date,
       author:article.author||"Small Certainty",
-      coverImage:firstImage
-        ?await uploadImage(firstImage.primaryImage)
-        :localCover
-          ?await uploadImage(localCover)
+      coverImage:localCover
+        ?await uploadImage(localCover)
+        :firstImage
+          ?await uploadImage(firstImage.primaryImage)
           :undefined,
       content,
     });

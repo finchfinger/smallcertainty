@@ -195,7 +195,7 @@ export const journalArticles:JournalArticle[]=[
     dek:"John Morgan, 1973–2025, made books, identities and public lettering with the same exacting intelligence. His work joined typographic detail to the grand gesture—and left British design with a more generous definition of restraint.",
     date:"2026-08-28",
     tags:["Design","Publishing","Typography"],
-    imageSrc:"/journal/features/john-morgan-cover.webp",
+    imageSrc:"/journal/features/john-morgan-dracula-cover.webp",
     author:"Small Certainty",
     sections:johnMorganSections,
     content:[
