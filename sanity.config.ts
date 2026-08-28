@@ -10,7 +10,7 @@ export default defineConfig({
   name:"default",
   title:"Small Certainty",
   basePath:"/studio",
-  projectId:projectId||"demo-project",
+  projectId:projectId||"8luodcfj",
   dataset,
   plugins:[structureTool({structure}),visionTool({defaultApiVersion:apiVersion})],
   schema:{
