@@ -70,7 +70,7 @@ export default async function JournalArticlePage({ params }:JournalArticlePagePr
           <div className="mt-8 max-w-[680px] font-simon-mono text-[14px] font-normal leading-[20px] tracking-[-0.01em] lg:col-span-6 lg:col-start-4 lg:mt-0">
             <header className="mb-5 grid gap-5">
               <h1 className="font-normal">{article.title}</h1>
-              <p>{article.author||"Small Certainty"}</p>
+              {article.author?<p>By: {article.author}</p>:null}
             </header>
           </div>
           <ArticleContent blocks={content}/>
