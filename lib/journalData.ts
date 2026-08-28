@@ -1,4 +1,4 @@
-import { journalArticles,type JournalArticle,type JournalContentBlock } from "@/content/journal";
+import { journalArticles,type JournalArticle,type JournalContentBlock,type JournalTextParagraph } from "@/content/journal";
 import { client,sanityConfigured } from "@/sanity/lib/client";
 import imageUrlBuilder from "@sanity/image-url";
 
@@ -15,7 +15,8 @@ type SanityContentBlock =
       _key:string;
       _type:"block";
       style?:"normal"|"h2";
-      children?:Array<{_type:"span";text?:string}>;
+      children?:Array<{_type:"span";text?:string;marks?:string[]}>;
+      markDefs?:Array<{_key:string;_type:"link";href?:string}>;
     }
   | {
       _key:string;
@@ -54,6 +55,12 @@ const articleProjection=`{
       _key,
       _type,
       text
+      ,marks
+    },
+    markDefs[]{
+      _key,
+      _type,
+      href
     },
     layout,
     primaryImage{
@@ -96,7 +103,14 @@ function normalizeArticle(article:SanityArticle):JournalArticle {
         pendingText={_key:block._key,_type:"articleTextSection",heading:text,body:[]};
       }else{
         pendingText||={_key:`${block._key}-section`,_type:"articleTextSection",body:[]};
-        pendingText.body.push(text);
+        const links=new Map((block.markDefs||[]).filter(mark=>mark._type==="link"&&mark.href).map(mark=>[mark._key,mark.href as string]));
+        const paragraph:JournalTextParagraph={
+          spans:(block.children||[]).map(child=>({
+            text:child.text||"",
+            href:(child.marks||[]).map(mark=>links.get(mark)).find(Boolean),
+          })),
+        };
+        pendingText.body.push(paragraph.spans.some(span=>span.href)?paragraph:text);
       }
       continue;
     }
@@ -110,7 +124,10 @@ function normalizeArticle(article:SanityArticle):JournalArticle {
   flushText();
   const textSections=content
     .filter((block):block is Extract<JournalContentBlock,{_type:"articleTextSection"}>=>block._type==="articleTextSection")
-    .map(block=>({heading:block.heading,body:block.body}));
+    .map(block=>({
+      heading:block.heading,
+      body:block.body.map(paragraph=>typeof paragraph==="string"?paragraph:paragraph.spans.map(span=>span.text).join("")),
+    }));
   const leadImage=article.coverImage
     ?normalizeFigure(article.coverImage).url
     :content.find((block):block is Extract<JournalContentBlock,{_type:"imageArrangement"}>=>block._type==="imageArrangement")?.primaryImage.url;

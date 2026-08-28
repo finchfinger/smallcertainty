@@ -88,7 +88,8 @@ async function addFeatures() {
           content.push(portableTextBlock(`${block._key}-heading`,block.heading,"h2"));
         }
         block.body.forEach((paragraph,index)=>{
-          content.push(portableTextBlock(`${block._key}-paragraph-${index+1}`,paragraph,"normal"));
+          const text=typeof paragraph==="string"?paragraph:paragraph.spans.map(span=>span.text).join("");
+          content.push(portableTextBlock(`${block._key}-paragraph-${index+1}`,text,"normal"));
         });
         continue;
       }

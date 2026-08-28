@@ -34,7 +34,27 @@ export const article=defineType({
             {title:"Section heading",value:"h2"},
           ],
           lists:[],
-          marks:{decorators:[],annotations:[]},
+          marks:{
+            decorators:[],
+            annotations:[
+              {
+                name:"link",
+                title:"Link",
+                type:"object",
+                fields:[
+                  defineField({
+                    name:"href",
+                    title:"URL",
+                    type:"string",
+                    validation:rule=>rule.required().custom(value=>{
+                      if(!value||/^(https?:\/\/|mailto:|\/)/.test(value)) return true;
+                      return "Enter a full web address, email link, or internal path.";
+                    }),
+                  }),
+                ],
+              },
+            ],
+          },
         },
         {type:"imageArrangement"},
       ],

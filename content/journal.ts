@@ -5,12 +5,18 @@ export type JournalImage = {
   credit?:string;
 };
 
+export type JournalTextParagraph =
+  | string
+  | {
+      spans:Array<{text:string;href?:string}>;
+    };
+
 export type JournalContentBlock =
   | {
       _key:string;
       _type:"articleTextSection";
       heading?:string;
-      body:string[];
+      body:JournalTextParagraph[];
     }
   | {
       _key:string;

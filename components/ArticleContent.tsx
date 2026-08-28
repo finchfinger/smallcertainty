@@ -14,7 +14,12 @@ function Figure({ image,className="",imageClassName="" }:{image:JournalImage;cla
 function TextSection({ block }:{block:Extract<JournalContentBlock,{_type:"articleTextSection"}>}) {
   return <section className="col-span-2 font-simon-mono text-[14px] font-normal leading-[20px] tracking-[-0.01em] lg:col-span-6 lg:col-start-4">
     {block.heading&&<h2 className="mb-5 font-normal">{block.heading.toUpperCase()}</h2>}
-    {block.body.map((paragraph,index)=><p key={`${block._key}-${index}`} className={index>0?"editorial-indent":undefined}>{paragraph}</p>)}
+    {block.body.map((paragraph,index)=><p key={`${block._key}-${index}`} className={index>0?"editorial-indent":undefined}>
+      {typeof paragraph==="string"?paragraph:paragraph.spans.map((span,spanIndex)=>span.href
+        ?<a key={spanIndex} href={span.href} className="underline decoration-1 underline-offset-2 hover:bg-black/[0.05] focus-visible:bg-black/[0.05] focus-visible:outline-none">{span.text}</a>
+        :span.text
+      )}
+    </p>)}
   </section>;
 }
 
