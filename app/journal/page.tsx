@@ -23,7 +23,29 @@ function formatTileDate(date:string) {
 }
 
 function tileImageStyle(article:JournalArticle) {
-  return article.imageSrc?{backgroundImage:`url(${article.imageSrc})`}:{background:article.imageTone};
+  return article.imageSrc?{backgroundImage:`url(${article.imageSrc})`}:{background:article.imageTone||"rgba(0,0,0,.05)"};
+}
+
+function JournalSimpleRows({ articles }:{articles:JournalArticle[]}) {
+  if(!articles.length) return null;
+  return <section className="col-span-full">
+    <div className="border-t border-ink">
+      {articles.map(article=><div key={`simple-row-${article.slug}`}>
+        <a
+          href={`/journal/${article.slug}`}
+          className="-mx-3 grid min-h-[52px] grid-cols-1 gap-1 rounded-lg px-3 py-4 transition-colors duration-150 hover:bg-black/[0.04] focus-visible:bg-black/[0.04] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink focus-visible:ring-offset-2 focus-visible:ring-offset-paper sm:grid-cols-12 sm:items-center sm:gap-x-6 sm:py-0"
+        >
+          <time dateTime={article.date} className="font-simon-mono text-[14px] leading-[20px] tracking-[-0.01em] sm:col-span-2">
+            {formatTileDate(article.date)}
+          </time>
+          <span className="min-w-0 truncate font-simon-mono text-[14px] font-normal leading-[20px] tracking-[-0.01em] sm:col-span-10">
+            {article.title}
+          </span>
+        </a>
+        <span aria-hidden="true" className="block border-t border-ink"/>
+      </div>)}
+    </div>
+  </section>;
 }
 
 function JournalTileStrip({ articles }:{articles:JournalArticle[]}) {
@@ -57,11 +79,14 @@ export default async function JournalPage(){
   const searchItems=getSearchItems(sections);
   const journalArticles=await getJournalArticles();
   const sortedArticles=[...journalArticles].sort((a,b)=>new Date(`${b.date}T00:00:00`).getTime()-new Date(`${a.date}T00:00:00`).getTime());
+  const tileArticles=sortedArticles.slice(0,12);
+  const simpleArticles=sortedArticles.slice(12);
 
   return <div className="min-h-screen bg-paper">
     <Header activeNav="Journal" searchItems={searchItems}/>
     <main className="page-grid page-pad w-full pb-28 pt-12 lg:pt-20">
-      <JournalTileStrip articles={sortedArticles}/>
+      <JournalTileStrip articles={tileArticles}/>
+      <JournalSimpleRows articles={simpleArticles}/>
     </main>
   </div>;
 }

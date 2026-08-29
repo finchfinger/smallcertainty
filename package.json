@@ -37,6 +37,7 @@
     "migrate:journal-portable-text": "node --env-file=.env.local --import tsx sanity/migrateArticleContentToPortableText.ts",
     "update:patagonia-history": "node --env-file=.env.local --import tsx sanity/updatePatagoniaHistory.ts",
     "update:journal-title-colons": "node --env-file=.env.local --import tsx sanity/removeJournalTitleColons.ts",
+    "add:provisional-journal": "node --env-file=.env.local --import tsx sanity/addProvisionalJournalArticles.ts",
     "add:journal-features": "node --env-file=.env.local --import tsx sanity/addJournalFeatures.ts",
     "add:collaborators": "node --env-file=.env.local --import tsx sanity/addCollaborators.ts",
     "refine:infrastructure": "tsx sanity/refineInfrastructureRecommendations.ts",
