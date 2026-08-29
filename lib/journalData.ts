@@ -146,7 +146,7 @@ export async function getJournalArticle(slug:string):Promise<JournalArticle|unde
       const article=await client.fetch<SanityArticle|null>(
         `*[_type=="article" && slug.current==$slug][0]${articleProjection}`,
         {slug},
-        {next:{revalidate:60}},
+        {cache:"no-store"},
       );
       return article?normalizeArticle(article):undefined;
     }catch(error){
@@ -162,7 +162,7 @@ export async function getJournalArticles():Promise<JournalArticle[]> {
     const articles=await client.fetch<SanityArticle[]>(
       `*[_type=="article" && defined(slug.current)] | order(publishedAt desc)${articleProjection}`,
       {},
-      {next:{revalidate:60}},
+      {cache:"no-store"},
     );
     return articles.map(normalizeArticle);
   }catch(error){
