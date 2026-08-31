@@ -42,11 +42,18 @@ function Images({ block }:{block:Extract<JournalContentBlock,{_type:"imageArrang
   </section>;
 }
 
+function PullQuote({ block }:{block:Extract<JournalContentBlock,{_type:"pullQuote"}>}) {
+  return <blockquote className="col-span-2 whitespace-pre-wrap font-simon-mono text-[28px] font-normal leading-[40px] lg:col-span-6 lg:col-start-4">
+    {block.text}
+  </blockquote>;
+}
+
 export function ArticleContent({ blocks }:{blocks:JournalContentBlock[]}) {
   return <div className="grid grid-cols-2 gap-x-5 gap-y-[52px] lg:col-span-12 lg:grid-cols-12 lg:gap-x-6">
-    {blocks.map(block=>block._type==="articleTextSection"
-      ?<TextSection key={block._key} block={block}/>
-      :<Images key={block._key} block={block}/>
-    )}
+    {blocks.map(block=>{
+      if(block._type==="articleTextSection") return <TextSection key={block._key} block={block}/>;
+      if(block._type==="pullQuote") return <PullQuote key={block._key} block={block}/>;
+      return <Images key={block._key} block={block}/>;
+    })}
   </div>;
 }

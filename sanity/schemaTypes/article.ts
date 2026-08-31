@@ -39,6 +39,7 @@ export const article=defineType({
           styles:[
             {title:"Normal",value:"normal"},
             {title:"Section heading",value:"h2"},
+            {title:"Pull quote",value:"pullQuote"},
           ],
           lists:[],
           marks:{

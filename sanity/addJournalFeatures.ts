@@ -36,7 +36,7 @@ async function uploadImage(figure:JournalImage) {
   };
 }
 
-function portableTextBlock(key:string,text:string,style:"normal"|"h2") {
+function portableTextBlock(key:string,text:string,style:"normal"|"h2"|"pullQuote") {
   return {
     _key:key,
     _type:"block",
@@ -91,6 +91,10 @@ async function addFeatures() {
           const text=typeof paragraph==="string"?paragraph:paragraph.spans.map(span=>span.text).join("");
           content.push(portableTextBlock(`${block._key}-paragraph-${index+1}`,text,"normal"));
         });
+        continue;
+      }
+      if(block._type==="pullQuote"){
+        content.push(portableTextBlock(block._key,block.text,"pullQuote"));
         continue;
       }
       content.push({

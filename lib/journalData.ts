@@ -14,7 +14,7 @@ type SanityContentBlock =
   | {
       _key:string;
       _type:"block";
-      style?:"normal"|"h2";
+      style?:"normal"|"h2"|"pullQuote";
       children?:Array<{_type:"span";text?:string;marks?:string[]}>;
       markDefs?:Array<{_key:string;_type:"link";href?:string}>;
     }
@@ -117,6 +117,11 @@ function normalizeArticle(article:SanityArticle):JournalArticle {
     if(block._type==="block"){
       const text=(block.children||[]).map(child=>child.text||"").join("");
       if(!text) continue;
+      if(block.style==="pullQuote"){
+        flushText();
+        content.push({_key:block._key,_type:"pullQuote",text});
+        continue;
+      }
       if(block.style==="h2"){
         flushText();
         pendingText={_key:block._key,_type:"articleTextSection",heading:text,body:[]};

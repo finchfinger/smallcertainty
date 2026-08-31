@@ -24,6 +24,11 @@ export type JournalContentBlock =
       layout:"split"|"full"|"centered";
       primaryImage:JournalImage;
       secondaryImage?:JournalImage;
+    }
+  | {
+      _key:string;
+      _type:"pullQuote";
+      text:string;
     };
 
 export type JournalArticle = {
