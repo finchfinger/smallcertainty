@@ -37,6 +37,13 @@ export type JournalArticle = {
   sections:Array<{heading?:string;body:string[]}>;
   author?:string;
   content?:JournalContentBlock[];
+  seo?:{
+    seoTitle?:string;
+    metaDescription?:string;
+    ogTitle?:string;
+    ogDescription?:string;
+    ogImage?:JournalImage;
+  };
 };
 
 const johnMorganSections:Array<{heading?:string;body:string[]}>= [

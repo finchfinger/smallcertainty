@@ -1,4 +1,7 @@
 import { defineField,defineType } from "sanity";
+import { SeoSocialPreview } from "../components/SeoSocialPreview";
+
+const noColons=(value:string|undefined)=>value?.includes(":")?"Journal titles do not use colons.":true;
 
 export const article=defineType({
   name:"article",
@@ -8,7 +11,7 @@ export const article=defineType({
     defineField({
       name:"title",
       type:"string",
-      validation:rule=>rule.required().custom(value=>value?.includes(":")?"Journal titles do not use colons.":true),
+      validation:rule=>rule.required().custom(noColons),
     }),
     defineField({
       name:"slug",
@@ -63,6 +66,58 @@ export const article=defineType({
         {type:"imageArrangement"},
       ],
       validation:rule=>rule.required().min(1),
+    }),
+    defineField({
+      name:"seo",
+      title:"SEO and social",
+      type:"object",
+      description:"Optional overrides. Leave these blank to use the article title, Summary and cover image automatically.",
+      options:{collapsible:true,collapsed:true},
+      fields:[
+        defineField({
+          name:"seoTitle",
+          title:"SEO title",
+          type:"string",
+          description:"Browser and search-result title. Falls back to the article title.",
+          validation:rule=>rule.max(60).warning("Search results may truncate titles longer than 60 characters.").custom(noColons),
+        }),
+        defineField({
+          name:"metaDescription",
+          title:"Meta description",
+          type:"text",
+          rows:3,
+          description:"Search-result description. Falls back to Summary.",
+          validation:rule=>rule.max(160).warning("Search results may truncate descriptions longer than 160 characters."),
+        }),
+        defineField({
+          name:"ogTitle",
+          title:"Open Graph title",
+          type:"string",
+          description:"Optional title for shared links. Falls back to SEO title, then article title.",
+          validation:rule=>rule.max(90).warning("Long social titles may be truncated.").custom(noColons),
+        }),
+        defineField({
+          name:"ogDescription",
+          title:"Open Graph description",
+          type:"text",
+          rows:3,
+          description:"Optional description for shared links. Falls back to meta description, then Summary.",
+          validation:rule=>rule.max(200).warning("Long social descriptions may be truncated."),
+        }),
+        defineField({
+          name:"ogImage",
+          title:"Open Graph image",
+          type:"articleImage",
+          description:"Optional image for shared links. Falls back to the Journal cover image.",
+        }),
+        defineField({
+          name:"socialPreview",
+          title:"Social preview",
+          type:"string",
+          readOnly:true,
+          components:{input:SeoSocialPreview},
+        }),
+      ],
     }),
   ],
   preview:{

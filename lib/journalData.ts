@@ -33,6 +33,13 @@ type SanityArticle = {
   author?:string;
   coverImage?:SanityFigure;
   content?:SanityContentBlock[];
+  seo?:{
+    seoTitle?:string;
+    metaDescription?:string;
+    ogTitle?:string;
+    ogDescription?:string;
+    ogImage?:SanityFigure;
+  };
 };
 
 const articleProjection=`{
@@ -46,6 +53,18 @@ const articleProjection=`{
     alt,
     caption,
     credit
+  },
+  seo{
+    seoTitle,
+    metaDescription,
+    ogTitle,
+    ogDescription,
+    ogImage{
+      image,
+      alt,
+      caption,
+      credit
+    }
   },
   content[]{
     _key,
@@ -134,6 +153,10 @@ function normalizeArticle(article:SanityArticle):JournalArticle {
 
   return {
     ...article,
+    seo:article.seo?{
+      ...article.seo,
+      ogImage:article.seo.ogImage?normalizeFigure(article.seo.ogImage):undefined,
+    }:undefined,
     sections:textSections,
     content,
     imageSrc:leadImage,

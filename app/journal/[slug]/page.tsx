@@ -5,6 +5,7 @@ import { Header } from "@/components/Header";
 import { journalArticles,type JournalContentBlock } from "@/content/journal";
 import { getCatalogSections,getSearchItems } from "@/lib/catalogData";
 import { getJournalArticle } from "@/lib/journalData";
+import { absoluteUrl,pageTitle } from "@/lib/seo";
 
 type JournalArticlePageProps = {
   params:Promise<{slug:string}>;
@@ -18,22 +19,36 @@ export async function generateMetadata({ params }:JournalArticlePageProps):Promi
   const { slug }=await params;
   const article=await getJournalArticle(slug);
   if(!article) return { title:"Small Certainty" };
-  const url=`/journal/${article.slug}`;
+  const url=absoluteUrl(`/journal/${article.slug}`);
+  const seoTitle=article.seo?.seoTitle||article.title;
+  const description=article.seo?.metaDescription||article.dek;
+  const socialTitle=article.seo?.ogTitle||seoTitle;
+  const socialDescription=article.seo?.ogDescription||description;
+  const socialImage=article.seo?.ogImage||article.imageSrc
+    ? article.seo?.ogImage||{url:article.imageSrc as string,alt:article.title}
+    : undefined;
+  const images=socialImage?[{
+    url:absoluteUrl(socialImage.url),
+    alt:socialImage.alt,
+  }]:undefined;
   return {
-    title:"Small Certainty",
-    description:article.dek,
+    title:pageTitle(seoTitle),
+    description,
     alternates:{ canonical:url },
     openGraph:{
       type:"article",
-      title:`${article.title} — Small Certainty`,
-      description:article.dek,
+      siteName:"Small Certainty",
+      title:pageTitle(socialTitle),
+      description:socialDescription,
       url,
       publishedTime:article.date,
+      images,
     },
     twitter:{
-      card:"summary",
-      title:`${article.title} — Small Certainty`,
-      description:article.dek,
+      card:images?"summary_large_image":"summary",
+      title:pageTitle(socialTitle),
+      description:socialDescription,
+      images:images?.map(image=>image.url),
     },
   };
 }
