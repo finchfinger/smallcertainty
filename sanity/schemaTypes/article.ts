@@ -65,9 +65,33 @@ export const article=defineType({
           },
         },
         {type:"imageArrangement"},
-        {type:"furtherReading"},
       ],
       validation:rule=>rule.required().min(1),
+    }),
+    defineField({
+      name:"furtherReading",
+      title:"Further reading",
+      type:"array",
+      description:"Add multiple citations as separate paragraphs in this one text box. Select text and use Link when a source has a URL.",
+      of:[{
+        type:"block",
+        styles:[{title:"Normal",value:"normal"}],
+        lists:[],
+        marks:{
+          decorators:[],
+          annotations:[{
+            name:"link",
+            title:"Link",
+            type:"object",
+            fields:[defineField({
+              name:"href",
+              title:"URL",
+              type:"url",
+              validation:rule=>rule.required().uri({scheme:["http","https"]}),
+            })],
+          }],
+        },
+      }],
     }),
     defineField({
       name:"seo",

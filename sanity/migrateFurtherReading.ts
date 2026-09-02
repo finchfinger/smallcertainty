@@ -8,50 +8,28 @@ if(!token) throw new Error("Set SANITY_API_WRITE_TOKEN before migrating Further 
 
 const client=createClient({projectId,dataset,token,apiVersion:"2025-01-01",useCdn:false,perspective:"raw"});
 
-type PortableTextBlock={
+type ContentBlock={
   _key:string;
   _type:string;
-  style?:string;
-  children?:Array<{text?:string}>;
+  children?:Array<{_key?:string;_type?:string;text?:string;marks?:string[]}>;
+  markDefs?:Array<{_key:string;_type:string;href?:string}>;
+  entries?:Array<{_key:string;citation?:string;url?:string;note?:string}>;
 };
-type ArticleDocument={_id:string;content?:PortableTextBlock[]};
+type ArticleDocument={_id:string;content?:ContentBlock[]};
 
-function blockText(block:PortableTextBlock) {
-  return (block.children||[]).map(child=>child.text||"").join("").trim();
-}
-
-function migrateContent(content:PortableTextBlock[]) {
-  if(content.some(block=>block._type==="furtherReading")) return content;
-  const headingIndex=content.findIndex(block=>
-    block._type==="block"&&
-    block.style==="h2"&&
-    blockText(block).toLowerCase()==="further reading"
-  );
-  if(headingIndex<0) return content;
-
-  let endIndex=headingIndex+1;
-  const entries=[];
-  while(endIndex<content.length){
-    const block=content[endIndex];
-    if(block._type!=="block"||block.style!=="normal") break;
-    const citation=blockText(block);
-    if(citation) entries.push({
-      _key:`${block._key}-reading`,
-      _type:"furtherReadingEntry",
-      citation,
-    });
-    endIndex+=1;
-  }
-  if(!entries.length) return content;
-  return [
-    ...content.slice(0,headingIndex),
-    {
-      _key:`${content[headingIndex]._key}-section`,
-      _type:"furtherReading",
-      entries,
-    },
-    ...content.slice(endIndex),
-  ];
+function portableTextBlock(key:string,text:string,url?:string):ContentBlock {
+  const markKey=url?`${key}-link`:undefined;
+  return {
+    _key:key,
+    _type:"block",
+    markDefs:markKey?[{_key:markKey,_type:"link",href:url}]:[],
+    children:[{
+      _key:`${key}-span`,
+      _type:"span",
+      marks:markKey?[markKey]:[],
+      text,
+    }],
+  };
 }
 
 async function main(){
@@ -60,17 +38,28 @@ async function main(){
   let updateCount=0;
   for(const article of articles){
     const content=article.content||[];
-    const migrated=migrateContent(content);
-    if(migrated===content) continue;
-    transaction=transaction.patch(article._id,patch=>patch.set({content:migrated}));
+    const blockIndex=content.findIndex(block=>block._type==="furtherReading");
+    if(blockIndex<0) continue;
+    const block=content[blockIndex];
+    const furtherReading=(block.entries||[])
+      .filter(entry=>entry.citation)
+      .map(entry=>portableTextBlock(
+        entry._key,
+        [entry.citation,entry.note].filter(Boolean).join(" "),
+        entry.url,
+      ));
+    transaction=transaction.patch(article._id,patch=>patch.set({
+      content:content.filter((_,index)=>index!==blockIndex),
+      furtherReading,
+    }));
     updateCount+=1;
   }
   if(!updateCount){
-    console.log("No Further reading text sections needed migration.");
+    console.log("No nested Further reading blocks needed migration.");
     return;
   }
   await transaction.commit();
-  console.log(`Migrated Further reading sections in ${updateCount} Sanity document${updateCount===1?"":"s"}.`);
+  console.log(`Moved Further reading into one text field in ${updateCount} Sanity document${updateCount===1?"":"s"}.`);
 }
 
 main().catch(error=>{

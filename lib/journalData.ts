@@ -25,16 +25,7 @@ type SanityContentBlock =
       primaryImage:SanityFigure;
       secondaryImage?:SanityFigure;
     }
-  | {
-      _key:string;
-      _type:"furtherReading";
-      entries?:Array<{
-        _key:string;
-        citation?:string;
-        url?:string;
-        note?:string;
-      }>;
-    };
+  ;
 type SanityArticle = {
   slug:string;
   title:string;
@@ -43,6 +34,7 @@ type SanityArticle = {
   author?:string;
   coverImage?:SanityFigure;
   content?:SanityContentBlock[];
+  furtherReading?:Array<Extract<SanityContentBlock,{_type:"block"}>>;
   seo?:{
     seoTitle?:string;
     metaDescription?:string;
@@ -104,11 +96,21 @@ const articleProjection=`{
       caption,
       credit
     },
-    entries[]{
+  },
+  furtherReading[]{
+    _key,
+    _type,
+    style,
+    children[]{
       _key,
-      citation,
-      url,
-      note
+      _type,
+      text,
+      marks
+    },
+    markDefs[]{
+      _key,
+      _type,
+      href
     }
   }
 }`;
@@ -120,6 +122,18 @@ function normalizeFigure(figure:SanityFigure) {
     caption:figure.caption,
     credit:figure.credit,
   };
+}
+
+function normalizeTextParagraph(block:Extract<SanityContentBlock,{_type:"block"}>):JournalTextParagraph {
+  const links=new Map((block.markDefs||[]).filter(mark=>mark._type==="link"&&mark.href).map(mark=>[mark._key,mark.href as string]));
+  const paragraph:JournalTextParagraph={
+    spans:(block.children||[]).map(child=>({
+      text:child.text||"",
+      href:(child.marks||[]).map(mark=>links.get(mark)).find(Boolean),
+    })),
+  };
+  const text=paragraph.spans.map(span=>span.text).join("");
+  return paragraph.spans.some(span=>span.href)?paragraph:text;
 }
 
 function normalizeArticle(article:SanityArticle):JournalArticle {
@@ -143,28 +157,11 @@ function normalizeArticle(article:SanityArticle):JournalArticle {
         pendingText={_key:block._key,_type:"articleTextSection",heading:text,body:[]};
       }else{
         pendingText||={_key:`${block._key}-section`,_type:"articleTextSection",body:[]};
-        const links=new Map((block.markDefs||[]).filter(mark=>mark._type==="link"&&mark.href).map(mark=>[mark._key,mark.href as string]));
-        const paragraph:JournalTextParagraph={
-          spans:(block.children||[]).map(child=>({
-            text:child.text||"",
-            href:(child.marks||[]).map(mark=>links.get(mark)).find(Boolean),
-          })),
-        };
-        pendingText.body.push(paragraph.spans.some(span=>span.href)?paragraph:text);
+        pendingText.body.push(normalizeTextParagraph(block));
       }
       continue;
     }
     flushText();
-    if(block._type==="furtherReading"){
-      content.push({
-        _key:block._key,
-        _type:"furtherReading",
-        entries:(block.entries||[])
-          .filter(entry=>entry.citation)
-          .map(entry=>({...entry,citation:entry.citation as string})),
-      });
-      continue;
-    }
     content.push({
       ...block,
       primaryImage:normalizeFigure(block.primaryImage),
@@ -190,6 +187,7 @@ function normalizeArticle(article:SanityArticle):JournalArticle {
     }:undefined,
     sections:textSections,
     content,
+    furtherReading:(article.furtherReading||[]).map(normalizeTextParagraph),
     imageSrc:leadImage,
   };
 }

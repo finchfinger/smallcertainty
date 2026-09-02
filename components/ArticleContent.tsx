@@ -1,4 +1,4 @@
-import type { JournalContentBlock,JournalImage } from "@/content/journal";
+import type { JournalContentBlock,JournalImage,JournalTextParagraph } from "@/content/journal";
 
 function Figure({ image,className="",imageClassName="" }:{image:JournalImage;className?:string;imageClassName?:string}) {
   const note=[image.caption,image.credit].filter(Boolean).join(" — ");
@@ -48,25 +48,25 @@ function PullQuote({ block }:{block:Extract<JournalContentBlock,{_type:"pullQuot
   </blockquote>;
 }
 
-function FurtherReading({ block }:{block:Extract<JournalContentBlock,{_type:"furtherReading"}>}) {
+function FurtherReading({ paragraphs }:{paragraphs:JournalTextParagraph[]}) {
   return <section className="col-span-2 font-simon-mono text-[14px] font-normal leading-[20px] tracking-[-0.01em] lg:col-span-6 lg:col-start-4">
     <h2 className="mb-5 font-normal">FURTHER READING</h2>
-    {block.entries.map((entry,index)=><p key={entry._key} className={index>0?"editorial-indent":undefined}>
-      {entry.url
-        ?<a href={entry.url} className="journal-text-link">{entry.citation}</a>
-        :entry.citation}
-      {entry.note?` ${entry.note}`:""}
+    {paragraphs.map((paragraph,index)=><p key={index} className={index>0?"editorial-indent":undefined}>
+      {typeof paragraph==="string"?paragraph:paragraph.spans.map((span,spanIndex)=>span.href
+        ?<a key={spanIndex} href={span.href} className="journal-text-link">{span.text}</a>
+        :span.text
+      )}
     </p>)}
   </section>;
 }
 
-export function ArticleContent({ blocks }:{blocks:JournalContentBlock[]}) {
+export function ArticleContent({ blocks,furtherReading=[] }:{blocks:JournalContentBlock[];furtherReading?:JournalTextParagraph[]}) {
   return <div className="grid grid-cols-2 gap-x-5 gap-y-[52px] lg:col-span-12 lg:grid-cols-12 lg:gap-x-6">
     {blocks.map(block=>{
       if(block._type==="articleTextSection") return <TextSection key={block._key} block={block}/>;
       if(block._type==="pullQuote") return <PullQuote key={block._key} block={block}/>;
-      if(block._type==="furtherReading") return <FurtherReading key={block._key} block={block}/>;
       return <Images key={block._key} block={block}/>;
     })}
+    {furtherReading.length?<FurtherReading paragraphs={furtherReading}/>:null}
   </div>;
 }

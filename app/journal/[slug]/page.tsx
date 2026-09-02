@@ -88,7 +88,7 @@ export default async function JournalArticlePage({ params }:JournalArticlePagePr
               {article.author?<p>By: {article.author}</p>:null}
             </header>
           </div>
-          <ArticleContent blocks={content}/>
+          <ArticleContent blocks={content} furtherReading={article.furtherReading}/>
         </div>
       </article>
     </main>
