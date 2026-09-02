@@ -24,6 +24,16 @@ type SanityContentBlock =
       layout:"split"|"full"|"centered";
       primaryImage:SanityFigure;
       secondaryImage?:SanityFigure;
+    }
+  | {
+      _key:string;
+      _type:"furtherReading";
+      entries?:Array<{
+        _key:string;
+        citation?:string;
+        url?:string;
+        note?:string;
+      }>;
     };
 type SanityArticle = {
   slug:string;
@@ -93,6 +103,12 @@ const articleProjection=`{
       alt,
       caption,
       credit
+    },
+    entries[]{
+      _key,
+      citation,
+      url,
+      note
     }
   }
 }`;
@@ -139,6 +155,16 @@ function normalizeArticle(article:SanityArticle):JournalArticle {
       continue;
     }
     flushText();
+    if(block._type==="furtherReading"){
+      content.push({
+        _key:block._key,
+        _type:"furtherReading",
+        entries:(block.entries||[])
+          .filter(entry=>entry.citation)
+          .map(entry=>({...entry,citation:entry.citation as string})),
+      });
+      continue;
+    }
     content.push({
       ...block,
       primaryImage:normalizeFigure(block.primaryImage),

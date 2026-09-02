@@ -29,6 +29,16 @@ export type JournalContentBlock =
       _key:string;
       _type:"pullQuote";
       text:string;
+    }
+  | {
+      _key:string;
+      _type:"furtherReading";
+      entries:Array<{
+        _key:string;
+        citation:string;
+        url?:string;
+        note?:string;
+      }>;
     };
 
 export type JournalArticle = {

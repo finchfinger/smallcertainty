@@ -97,6 +97,17 @@ async function addFeatures() {
         content.push(portableTextBlock(block._key,block.text,"pullQuote"));
         continue;
       }
+      if(block._type==="furtherReading"){
+        content.push({
+          _key:block._key,
+          _type:block._type,
+          entries:block.entries.map(entry=>({
+            ...entry,
+            _type:"furtherReadingEntry",
+          })),
+        });
+        continue;
+      }
       content.push({
         _key:block._key,
         _type:block._type,

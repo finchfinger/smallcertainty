@@ -65,6 +65,7 @@ export const article=defineType({
           },
         },
         {type:"imageArrangement"},
+        {type:"furtherReading"},
       ],
       validation:rule=>rule.required().min(1),
     }),
