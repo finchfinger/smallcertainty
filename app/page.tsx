@@ -1,5 +1,6 @@
 import { CatalogPageShell } from "@/components/CatalogPageShell";
 import { getCatalogSections } from "@/lib/catalogData";
+import { absoluteUrl,defaultSocialImage,defaultSocialImageAlt } from "@/lib/seo";
 import type { Metadata } from "next";
 
 export const dynamic="force-dynamic";
@@ -12,6 +13,10 @@ export const metadata:Metadata={
     title:"Small Certainty",
     description:"An edited catalog of things worth choosing.",
     url:"/",
+    images:[{
+      url:absoluteUrl(defaultSocialImage),
+      alt:defaultSocialImageAlt,
+    }],
   },
 };
 
