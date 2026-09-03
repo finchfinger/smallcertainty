@@ -5,7 +5,7 @@ import { Header } from "@/components/Header";
 import { journalArticles,type JournalContentBlock } from "@/content/journal";
 import { getCatalogSections,getSearchItems } from "@/lib/catalogData";
 import { getJournalArticle } from "@/lib/journalData";
-import { absoluteUrl,pageTitle } from "@/lib/seo";
+import { absoluteUrl,defaultSocialImage,defaultSocialImageAlt,pageTitle } from "@/lib/seo";
 
 type JournalArticlePageProps = {
   params:Promise<{slug:string}>;
@@ -24,13 +24,15 @@ export async function generateMetadata({ params }:JournalArticlePageProps):Promi
   const description=article.seo?.metaDescription||article.dek;
   const socialTitle=article.seo?.ogTitle||seoTitle;
   const socialDescription=article.seo?.ogDescription||description;
-  const socialImage=article.seo?.ogImage||article.imageSrc
-    ? article.seo?.ogImage||{url:article.imageSrc as string,alt:article.title}
-    : undefined;
-  const images=socialImage?[{
+  const socialImage=article.seo?.ogImage||(
+    article.imageSrc
+      ?{url:article.imageSrc,alt:article.title}
+      :{url:defaultSocialImage,alt:defaultSocialImageAlt}
+  );
+  const images=[{
     url:absoluteUrl(socialImage.url),
     alt:socialImage.alt,
-  }]:undefined;
+  }];
   return {
     title:pageTitle(seoTitle),
     description,
@@ -45,10 +47,10 @@ export async function generateMetadata({ params }:JournalArticlePageProps):Promi
       images,
     },
     twitter:{
-      card:images?"summary_large_image":"summary",
+      card:"summary_large_image",
       title:pageTitle(socialTitle),
       description:socialDescription,
-      images:images?.map(image=>image.url),
+      images:images.map(image=>image.url),
     },
   };
 }

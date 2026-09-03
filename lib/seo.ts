@@ -4,6 +4,8 @@ import type { CatalogItemData } from "@/components/types";
 export const siteName="Small Certainty";
 export const siteDescription="An edited catalog of things worth choosing.";
 export const siteUrl=(process.env.NEXT_PUBLIC_SITE_URL||"https://smallcertainty.com").replace(/\/$/,"");
+export const defaultSocialImage="/journal/features/kluane-icefield.jpg";
+export const defaultSocialImageAlt="The Kluane Icefield and Mount Augusta in Yukon";
 
 export function absoluteUrl(path="/") {
   if(path.startsWith("http")) return path;
@@ -21,6 +23,7 @@ export function truncateDescription(text:string,maxLength=155) {
 }
 
 export function defaultMetadata(path="/"):Metadata {
+  const socialImage={url:absoluteUrl(defaultSocialImage),alt:defaultSocialImageAlt};
   return {
     metadataBase:new URL(siteUrl),
     title:siteName,
@@ -32,11 +35,13 @@ export function defaultMetadata(path="/"):Metadata {
       title:siteName,
       description:siteDescription,
       url:absoluteUrl(path),
+      images:[socialImage],
     },
     twitter:{
-      card:"summary",
+      card:"summary_large_image",
       title:siteName,
       description:siteDescription,
+      images:[socialImage.url],
     },
   };
 }
@@ -50,6 +55,7 @@ export function catalogItemDescription(item:CatalogItemData) {
 export function catalogItemMetadata(item:CatalogItemData,path=item.href):Metadata {
   const description=catalogItemDescription(item);
   const url=absoluteUrl(path);
+  const socialImage={url:absoluteUrl(defaultSocialImage),alt:defaultSocialImageAlt};
   return {
     title:siteName,
     description,
@@ -60,11 +66,13 @@ export function catalogItemMetadata(item:CatalogItemData,path=item.href):Metadat
       title:pageTitle(item.label),
       description,
       url,
+      images:[socialImage],
     },
     twitter:{
-      card:"summary",
+      card:"summary_large_image",
       title:pageTitle(item.label),
       description,
+      images:[socialImage.url],
     },
   };
 }
