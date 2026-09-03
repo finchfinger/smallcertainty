@@ -14,7 +14,7 @@ function Figure({ image,className="",imageClassName="" }:{image:JournalImage;cla
 function TextSection({ block }:{block:Extract<JournalContentBlock,{_type:"articleTextSection"}>}) {
   return <section className="col-span-2 font-simon-mono text-[14px] font-normal leading-[20px] tracking-[-0.01em] lg:col-span-6 lg:col-start-4">
     {block.heading&&<h2 className="mb-5 font-normal">{block.heading.toUpperCase()}</h2>}
-    {block.body.map((paragraph,index)=><p key={`${block._key}-${index}`} className={index>0?"editorial-indent":undefined}>
+    {block.body.map((paragraph,index)=><p key={`${block._key}-${index}`} className={index>0?"mt-5":undefined}>
       {typeof paragraph==="string"?paragraph:paragraph.spans.map((span,spanIndex)=>span.href
         ?<a key={spanIndex} href={span.href} className="journal-text-link">{span.text}</a>
         :span.text
@@ -51,7 +51,7 @@ function PullQuote({ block }:{block:Extract<JournalContentBlock,{_type:"pullQuot
 function FurtherReading({ paragraphs }:{paragraphs:JournalTextParagraph[]}) {
   return <section className="col-span-2 font-simon-mono text-[14px] font-normal leading-[20px] tracking-[-0.01em] lg:col-span-6 lg:col-start-4">
     <h2 className="mb-5 font-normal">FURTHER READING</h2>
-    {paragraphs.map((paragraph,index)=><p key={index} className={index>0?"editorial-indent":undefined}>
+    {paragraphs.map((paragraph,index)=><p key={index} className={index>0?"mt-5":undefined}>
       {typeof paragraph==="string"?paragraph:paragraph.spans.map((span,spanIndex)=>span.href
         ?<a key={spanIndex} href={span.href} className="journal-text-link">{span.text}</a>
         :span.text
@@ -61,7 +61,7 @@ function FurtherReading({ paragraphs }:{paragraphs:JournalTextParagraph[]}) {
 }
 
 export function ArticleContent({ blocks,furtherReading=[] }:{blocks:JournalContentBlock[];furtherReading?:JournalTextParagraph[]}) {
-  return <div className="grid grid-cols-2 gap-x-5 gap-y-[52px] lg:col-span-12 lg:grid-cols-12 lg:gap-x-6">
+  return <div className="grid grid-cols-2 gap-x-5 gap-y-10 lg:col-span-12 lg:grid-cols-12 lg:gap-x-6">
     {blocks.map(block=>{
       if(block._type==="articleTextSection") return <TextSection key={block._key} block={block}/>;
       if(block._type==="pullQuote") return <PullQuote key={block._key} block={block}/>;
