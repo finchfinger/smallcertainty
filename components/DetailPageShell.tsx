@@ -78,7 +78,7 @@ export function DetailPageShell({ item,searchItems,activeNav="Catalog",counterSt
           </div>
 
           <div className="mt-6 flex flex-wrap items-center gap-3">
-            {best.productHref&&<ActionLink href={best.productHref} target="_blank" rel="noreferrer" variant="outline">Visit site</ActionLink>}
+            {best.productHref&&<ActionLink href={best.productHref} target="_blank" rel="noreferrer" variant="outline" className="!h-11">Visit site</ActionLink>}
             <ShareButton category={item.label} title={best.productName} path={item.href} triggerVariant="text"/>
           </div>
         </>}
