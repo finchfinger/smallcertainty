@@ -12,16 +12,8 @@ type DetailPageShellProps = {
 };
 
 const fallbackNote="Through workshops, illustration systems and careful typographic choices, Hymn has built something that operates at human scale within technological infrastructure. The mascot guides without lecturing. The colours signal without shouting. The sub-brands distinguish themselves without fragmenting. In an industry that often designs for buildings first and people second, Shareman reverses the priority, a benevolent companion that happens to automate your laundry payments.";
-const sentencePattern=/[^.!?]+[.!?]+(?:\s+|$)/g;
-
 function noteParagraphs(note:string){
-  const sentences=note.match(sentencePattern)?.map(sentence=>sentence.trim())||[note];
-  if(sentences.length<8) return [note];
-  const midpoint=Math.ceil(sentences.length/2);
-  return [
-    sentences.slice(0,midpoint).join(" "),
-    sentences.slice(midpoint).join(" "),
-  ];
+  return note.split(/\n+/).map(paragraph=>paragraph.trim()).filter(Boolean);
 }
 
 export function DetailPageShell({ item,searchItems,activeNav="Catalog",counterStyle="hash" }:DetailPageShellProps) {
