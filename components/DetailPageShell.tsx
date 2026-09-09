@@ -83,7 +83,7 @@ export function DetailPageShell({ item,searchItems,activeNav="Catalog",counterSt
           </div>
         </>}
 
-        {honorableMentions.length>0&&<section className="mt-16" aria-labelledby="honorable-mentions-title">
+        {honorableMentions.length>0&&<section className="mt-20" aria-labelledby="honorable-mentions-title">
           <h2 id="honorable-mentions-title" className="mb-5 font-normal">Honorable Mentions</h2>
           <ul className="border-t border-ink">
             {honorableMentions.map(recommendation=><li key={`${recommendation.rank}-${recommendation.productName}`} className="border-b border-ink">
