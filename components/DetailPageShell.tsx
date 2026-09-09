@@ -64,7 +64,7 @@ export function DetailPageShell({ item,searchItems,activeNav="Catalog",counterSt
   return <>
     <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(structuredData)}}/>
     <Header activeNav={activeNav} searchItems={searchItems}/>
-    <main className="page-grid page-pad w-full pb-28 pt-20 lg:pt-32">
+    <main className="page-grid page-pad w-full pb-28 pt-12 lg:pt-20">
       <article className="col-span-full text-[14px] leading-[20px] tracking-[-0.01em] lg:col-start-3 lg:col-end-11">
         <h1 className="font-normal">{item.label}</h1>
 
