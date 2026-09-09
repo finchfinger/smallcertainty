@@ -1,6 +1,7 @@
 export type RecommendationData = {
   rank:number;
   productName:string;
+  brand?:string;
   productHref?:string;
   note?:string;
   badge?:string;

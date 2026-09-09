@@ -163,6 +163,7 @@ input[type="search"]::-webkit-search-cancel-button { -webkit-appearance:none; ap
 @media (hover:hover) and (pointer:fine) {
   .action-button--primary:hover { background:#000!important; }
   .action-button--bare:hover { background:rgba(0,0,0,.04)!important; }
+  .best-page-link:hover { background:rgba(0,0,0,.04); }
   .sc-share-interactive:hover::before { background:rgba(0,0,0,.02); }
   .sc-share-control:hover {
     border-bottom-style:solid;

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { DetailPageShell } from "@/components/DetailPageShell";
+import { RankedDetailPageShell } from "@/components/RankedDetailPageShell";
 import { getMiscPage,miscPages } from "@/content/misc";
 import { getCatalogSections,getSearchItems } from "@/lib/catalogData";
 
@@ -50,5 +50,5 @@ export default async function MiscDetailPage({ params }:MiscPageProps){
     }],
   };
 
-  return <DetailPageShell item={detailItem} searchItems={searchItems} activeNav="Profile" counterStyle="hash"/>;
+  return <RankedDetailPageShell item={detailItem} searchItems={searchItems} activeNav="Profile"/>;
 }

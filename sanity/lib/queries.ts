@@ -28,6 +28,7 @@ export const catalogItemDetailQuery=groq`*[_type == "catalogItem" && published =
     rank,
     badge,
     "productName": product->name,
+    "brand": product->brand,
     "productHref": coalesce(outboundUrlOverride, product->outboundUrl),
     "note": coalesce(editorialNote, product->description)
   }
