@@ -14,6 +14,7 @@
     "add:best-towels-recs": "tsx sanity/addBestTowelsRecommendations.ts",
     "update:best-bath-towels": "tsx sanity/updateBestBathTowels.ts",
     "update:best-sunscreen": "tsx sanity/updateBestSunscreen.ts",
+    "update:best-kids-backpack": "tsx sanity/updateBestKidsBackpack.ts",
     "update:best-t-shirts": "tsx sanity/updateBestTShirts.ts",
     "ensure:three-recs": "tsx sanity/ensureThreeRecommendations.ts",
     "refine:home": "tsx sanity/refineHomeRecommendations.ts",
