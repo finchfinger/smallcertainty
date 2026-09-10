@@ -6,6 +6,7 @@ import { collaborator } from "./collaborator";
 import { imageArrangement } from "./imageArrangement";
 import { product } from "./product";
 import { recommendation } from "./recommendation";
+import {siteHealthReport} from "./siteHealthReport";
 export const schemaTypes=[
   catalogSection,
   collaborator,
@@ -15,4 +16,5 @@ export const schemaTypes=[
   articleImage,
   imageArrangement,
   article,
+  siteHealthReport,
 ];

@@ -5,6 +5,7 @@ import { structureTool } from "sanity/structure";
 import { apiVersion,dataset,projectId } from "./sanity/lib/client";
 import { schemaTypes } from "./sanity/schemaTypes";
 import { structure } from "./sanity/structure";
+import {siteHealthTool} from "./sanity/siteHealth/tool";
 
 export default defineConfig({
   name:"default",
@@ -13,6 +14,7 @@ export default defineConfig({
   projectId:projectId||"8luodcfj",
   dataset,
   plugins:[structureTool({structure}),visionTool({defaultApiVersion:apiVersion})],
+  tools:[siteHealthTool()],
   schema:{
     types:schemaTypes,
     templates:previous=>[

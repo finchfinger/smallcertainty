@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import { FastPointerRainbow } from "@/components/FastPointerRainbow";
 import { SiteFooter } from "@/components/SiteFooter";
 import { defaultMetadata } from "@/lib/seo";
@@ -19,6 +20,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <FastPointerRainbow />
         {children}
         <SiteFooter />
+        <Analytics />
       </body>
     </html>
   );
