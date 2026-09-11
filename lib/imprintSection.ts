@@ -5,18 +5,16 @@ export const imprintSection:CatalogSectionData={
   icon:"miscellaneous",
   items:[
     {
-      label:"Best Contact Method",
+      label:"Best Email Address",
       productName:"hello@smallcertainty.com",
-      href:"mailto:hello@smallcertainty.com",
+      href:"/catalog/imprint/contact-method",
       productHref:"mailto:hello@smallcertainty.com",
-      external:true,
     },
     {
       label:"Best Instagram Account",
       productName:"@smallcertainty",
-      href:"https://www.instagram.com/smallcertainty/",
+      href:"/catalog/imprint/instagram-account",
       productHref:"https://www.instagram.com/smallcertainty/",
-      external:true,
     },
     {
       label:"Best X Account",

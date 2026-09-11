@@ -9,10 +9,10 @@ if(!projectId||!token) throw new Error("Sanity project ID and write token are re
 
 const client=createClient({projectId,dataset,token,apiVersion,useCdn:false});
 const updates=[
-  {id:"catalogItem-imprint-contact-method",name:"hello@smallcertainty.com",url:"mailto:hello@smallcertainty.com"},
-  {id:"catalogItem-imprint-instagram-account",name:"@smallcertainty",url:"https://www.instagram.com/smallcertainty/"},
-  {id:"catalogItem-imprint-x-account",name:"@smallcertainty",url:"https://x.com/smallcertainty"},
-  {id:"catalogItem-imprint-tiktok-account",name:"@smallcertainty",url:"https://www.tiktok.com/@smallcertainty"},
+  {id:"catalogItem-imprint-contact-method",name:"hello@smallcertainty.com",url:"mailto:hello@smallcertainty.com",directLink:false},
+  {id:"catalogItem-imprint-instagram-account",name:"@smallcertainty",url:"https://www.instagram.com/smallcertainty/",directLink:false},
+  {id:"catalogItem-imprint-x-account",name:"@smallcertainty",url:"https://x.com/smallcertainty",directLink:true},
+  {id:"catalogItem-imprint-tiktok-account",name:"@smallcertainty",url:"https://www.tiktok.com/@smallcertainty",directLink:true},
 ];
 
 async function main() {
@@ -30,7 +30,7 @@ for(const update of updates) {
   if(!first?.productId) throw new Error(`Missing first recommendation for ${update.id}.`);
   transaction=transaction
     .patch(update.id,patch=>patch
-      .set({directLink:true,productName:update.name,outboundUrl:update.url})
+      .set({directLink:update.directLink,productName:update.name,outboundUrl:update.url})
       .set({[`recommendations[_key=="${first._key}"].outboundUrlOverride`]:update.url}))
     .patch(first.productId,patch=>patch.set({name:update.name,outboundUrl:update.url}));
 }
