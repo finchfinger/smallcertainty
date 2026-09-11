@@ -59,7 +59,8 @@
     "add:collaborators": "node --env-file=.env.local --import tsx sanity/addCollaborators.ts",
     "refine:infrastructure": "tsx sanity/refineInfrastructureRecommendations.ts",
     "refine:imprint": "tsx sanity/refineImprintRecommendations.ts",
-    "update:direct-profile-links": "node --env-file=.env.local --import tsx sanity/updateDirectProfileLinks.ts"
+    "update:direct-profile-links": "node --env-file=.env.local --import tsx sanity/updateDirectProfileLinks.ts",
+    "update:culture-canon": "node --env-file=.env.local --import tsx sanity/updateCultureCanon.ts"
   },
   "dependencies": {
     "@sanity/client": "^7.8.2",

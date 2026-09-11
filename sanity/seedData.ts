@@ -602,7 +602,7 @@ export const seedSections = [
   { title:"Office", icon:"office", items:[
     ...officeRecommendations.map(item=>[item.label,item.recommendations[0].productName] as const)]},
   { title:"Culture", icon:"culture", items:[
-    ["Best Film","The Third Man"],["Best Television Series","The Sopranos"],["Best Novel","Middlemarch"],["Best Nonfiction Book","The Power Broker"],["Best Album","Songs in the Key of Life"],["Best Song","This Must Be the Place (Naive Melody)"],["Best Magazine","Monocle"],["Best Podcast","How Long Gone"],["Best Cookbook","The Zuni Cafe Cookbook"],["Best Children’s Book","Where the Wild Things Are"],["Best Photographer","William Eggleston"],["Best Architect","Alvar Aalto"],["Best Museum","Louisiana Museum of Modern Art"]]},
+    ["Best Magazine","BRUTUS"],["Best Newspaper","Financial Times"],["Best Cookbook","Essentials of Classic Italian Cooking, Marcella Hazan"],["Best Novel","Moby-Dick, Herman Melville"],["Best Nonfiction Book","The Power Broker, Robert Caro"],["Best Film","Tokyo Story, Yasujirō Ozu"],["Best Album","Trans-Europe Express, Kraftwerk"],["Best Song","The River, Bruce Springsteen"],["Best Podcast","99% Invisible"],["Best Television Series","Tinker Tailor Soldier Spy"],["Best Radio Station","FIP"]]},
   { title:"Infrastructure", icon:"miscellaneous", items:[
     ...infrastructureRecommendations.map(item=>[item.label,item.recommendations[0].productName] as const)]}
 ] as const;
