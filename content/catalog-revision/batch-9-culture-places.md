@@ -50,40 +50,6 @@ Cookbooks often promise ease by concealing the decisions that make food good. Ha
 
 Honorable mentions: Mastering the Art of French Cooking; The River Cafe Cookbook
 
-## HOME
-
-### Best Board Game
-
-**Backgammon**
-
-Backgammon is the board game we choose because its rules can be learned in one sitting while its mixture of probability, tactics, risk, and temperament remains inexhaustible. Two players move fifteen checkers around twenty-four points according to dice, racing them home while hitting and blocking. Chance keeps the weaker player alive; judgment determines what each roll can become. Every game ends before its argument does.
-
-The board’s mirrored geometry makes position visible, while the bar, bearing-off trays, dice cups, and doubling cube give play a satisfying physical sequence. A good set uses clear contrasting points, checkers heavy enough to stack securely, and a surface that quiets the dice. The doubling cube turns advantage into a decision about value, adding psychological and mathematical depth without changing how a single checker moves.
-
-Beginners should first learn legal movement, hitting, entering from the bar, and bearing off before worrying about opening tables or match equity. Games are quick enough to repeat, and analysis afterward should remain proportionate to the company. Cheap folding sets play perfectly well if the colors are legible and pieces move smoothly. Avoid ornate boards whose materials obstruct sight or make ordinary use feel risky.
-
-Many games achieve complexity by adding rules, cards, narratives, and setup. Backgammon creates it from a board, thirty checkers, two dice, and the uncertainty of the next roll. It can fill ten minutes in a café or sustain a lifetime of study across languages and generations. Buy a set meant to travel, learn the doubling cube, and accept that luck is not the opposite of skill but its changing weather.
-
-[Visit site](https://www.bkgm.com/)
-
-Honorable mentions: Go; Catan
-
-### Best Chess Set
-
-**Josef Hartwig Bauhaus Chess Set**
-
-Josef Hartwig’s Bauhaus chess set is the one we choose because each piece explains how it moves. Designed at the Bauhaus around 1923, bishops are marked by diagonals, rooks become cubes, and knights form right angles. The set removes heraldry without removing character, turning a medieval army into a legible system of geometry. It is both a teaching tool and a complete visual argument.
-
-The pieces are built from stained and natural wood using spheres, cubes, cylinders, and joined blocks. Their proportions make relative value and movement readable across a simple gridded board. Unlike figurative sets, no carved face or crown competes with play. Good reproductions preserve Hartwig’s exact relationships, clean joinery, and sufficient weight, because crude approximations turn disciplined reduction into a collection of craft-store shapes.
-
-The knight’s abstract form and low pieces take adjustment for players accustomed to Staunton silhouettes. Confirm every piece quickly before serious play, and choose a board whose squares give the forms enough contrast. Wood marks and edges soften, so store pieces in compartments rather than loose in a box. The set is playable, but collectors should not preserve it so carefully that its explanatory purpose disappears.
-
-Most designer chess sets make the game harder in order to make the object conspicuous. Hartwig improves visibility by changing representation itself. A century later, the pieces remain radical because form, rule, and manufacture coincide without decoration. It is not the universal tournament standard, but it is the rare alternative that deepens rather than distracts from chess. Buy a faithful edition, learn its language, and play on it.
-
-[Visit site](https://www.naefspiele.ch/en/product/bauhaus-chess-set/)
-
-Honorable mentions: Man Ray Chess Set; DGT Timeless
-
 ## PLACES
 
 ### Best Hotel
