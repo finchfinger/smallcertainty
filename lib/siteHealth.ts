@@ -33,6 +33,7 @@ function isSafePublicUrl(value:string){
 }
 
 async function checkLink(candidate:LinkCandidate){
+  if(candidate.url.startsWith("mailto:")) return {...candidate,status:"healthy"};
   if(!isSafePublicUrl(candidate.url)) return {...candidate,status:"broken",message:"Invalid or non-public URL"};
   const controller=new AbortController();
   const timeout=setTimeout(()=>controller.abort(),12000);
@@ -54,7 +55,7 @@ async function checkLink(candidate:LinkCandidate){
       ...(broken?{message:`HTTP ${response.status}`}:restricted?{message:`HTTP ${response.status} · the site blocked the automated check`}:{}),
     };
   }catch(error){
-    return {...candidate,status:"broken",message:error instanceof Error&&error.name==="AbortError"?"Timed out after 12 seconds":error instanceof Error?error.message:"Request failed"};
+    return {...candidate,status:"restricted",message:error instanceof Error&&error.name==="AbortError"?"Timed out after 12 seconds":error instanceof Error?error.message:"Request failed"};
   }finally{clearTimeout(timeout);}
 }
 
