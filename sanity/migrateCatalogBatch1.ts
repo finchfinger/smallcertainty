@@ -207,7 +207,7 @@ const aliases:Record<string,string>={
   "best-pillow":"best-pillows",
 };
 const sectionSlug=(title:string)=>({"GARDEN & YARD":"garden","MEN’S CLOTHING":"mens-clothing","MEN’S ACCESSORIES":"mens-accessories","WOMEN’S CLOTHING":"womens-clothing","WOMEN’S ACCESSORIES":"womens-accessories",KIDS:"children","SPORT & OUTDOORS":"sport",PLACES:"travel"}[title]||slugify(title));
-const sectionTitle=(title:string)=>({"GARDEN & YARD":"Garden & Yard","MEN’S CLOTHING":"Men’s Clothing","MEN’S ACCESSORIES":"Men’s Accessories","WOMEN’S CLOTHING":"Women’s Clothing","WOMEN’S ACCESSORIES":"Women’s Accessories",KIDS:"Children","SPORT & OUTDOORS":"Sport",PLACES:"Places"}[title]||title[0]+title.slice(1).toLowerCase());
+const sectionTitle=(title:string)=>({"GARDEN & YARD":"Garden","MEN’S CLOTHING":"Men’s Clothing","MEN’S ACCESSORIES":"Men’s Accessories","WOMEN’S CLOTHING":"Women’s Clothing","WOMEN’S ACCESSORIES":"Women’s Accessories",KIDS:"Children","SPORT & OUTDOORS":"Sport",PLACES:"Places"}[title]||title[0]+title.slice(1).toLowerCase());
 const sectionOrder:Record<string,number>=batch===9?{CULTURE:16,PLACES:17}:batch===8?{"SPORT & OUTDOORS":14}:batch===7?{KIDS:15}:batch===6?{"WOMEN’S CLOTHING":10,"WOMEN’S ACCESSORIES":11}:batch===5?{"MEN’S CLOTHING":8,"MEN’S ACCESSORIES":9}:batch===4?{"GARDEN & YARD":7,BODY:13}:batch===3?{OFFICE:5,TECH:6,ACCESSORIES:12}:batch===2?{KITCHEN:4}:{HOME:1,BEDROOM:2,BATH:3};
 
 async function main(){
