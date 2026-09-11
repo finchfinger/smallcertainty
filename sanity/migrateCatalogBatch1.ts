@@ -251,7 +251,7 @@ async function main(){
     const slug=slugify(draft.label);
     const oldSlug=aliases[slug];
     const item=bySlug.get(slug)||bySlug.get(oldSlug);
-    const itemId=batch>=5?`catalog-item-${sectionSlug(draft.section)}-${slug}`:item?._id||`catalog-item-${slug}`;
+    const itemId=item?._id||(batch>=5?`catalog-item-${sectionSlug(draft.section)}-${slug}`:`catalog-item-${slug}`);
     const products=[{name:draft.winner,url:draft.winnerUrl,description:draft.description},...draft.mentions.map(name=>({name,url:honorableMentionUrls[name],description:undefined}))];
     products.forEach(product=>{
       const productId=`product-${slugify(product.name)}`;
