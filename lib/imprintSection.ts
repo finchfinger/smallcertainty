@@ -7,7 +7,7 @@ export const imprintSection:CatalogSectionData={
     {
       label:"Best Email Address",
       productName:"hello@smallcertainty.com",
-      href:"/catalog/imprint/contact-method",
+      href:"/catalog/imprint/email-address",
       productHref:"mailto:hello@smallcertainty.com",
     },
     {

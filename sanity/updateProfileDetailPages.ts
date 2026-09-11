@@ -9,7 +9,7 @@ if(!projectId||!token) throw new Error("Sanity project ID and write token are re
 
 const client=createClient({projectId,dataset,token,apiVersion,useCdn:false});
 const targets=[
-  {id:"catalogItem-imprint-contact-method",slug:"contact-method"},
+  {id:"catalogItem-imprint-contact-method",slug:"email-address"},
   {id:"catalogItem-imprint-instagram-account",slug:"instagram-account"},
 ];
 

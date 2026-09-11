@@ -6,7 +6,7 @@ export type ImprintRecommendationSet={
 
 export const imprintRecommendations:ImprintRecommendationSet[]=[
   {
-    slug:"contact-method",
+    slug:"email-address",
     label:"Best Email Address",
     recommendations:[
       {
