@@ -7,6 +7,7 @@ export const catalogQuery=groq`*[_type == "catalogSection" && published == true]
   "items": *[_type == "catalogItem" && published == true && references(^._id)] | order(sortOrder asc) {
     label,
     "productName": coalesce(recommendations[published != false][0].product->name, productName),
+    "brand": recommendations[published != false][0].product->brand,
     "href": "/catalog/" + ^.slug.current + "/" + slug.current,
     "productHref": coalesce(recommendations[published != false][0].outboundUrlOverride, recommendations[published != false][0].product->outboundUrl, outboundUrl),
     "status": select(

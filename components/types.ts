@@ -10,6 +10,7 @@ export type RecommendationData = {
 export type CatalogItemData = {
   label:string;
   productName:string;
+  brand?:string;
   href:string;
   productHref?:string;
   wrapLabel?:boolean;
