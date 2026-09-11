@@ -42,7 +42,7 @@
     "remove:misc-mattress": "tsx sanity/removeMiscMattress.ts",
     "remove:misc-theme-background": "tsx sanity/removeMiscThemeBackground.ts",
     "set:typefaces": "tsx sanity/setTypefaceRecommendations.ts",
-    "add:children-pets-wellness": "tsx sanity/addChildrenPetsWellnessSections.ts",
+    "add:children-wellness": "tsx sanity/addChildrenPetsWellnessSections.ts",
     "add:monocle-kids": "tsx sanity/addMonocleKidsCategories.ts",
     "fix:womens-slug": "tsx sanity/fixWomensSlug.ts",
     "fix:mens-slug": "tsx sanity/fixMensSlug.ts",

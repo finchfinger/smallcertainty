@@ -593,8 +593,6 @@ export const seedSections = [
     ...gardenRecommendations.map(item=>[item.label,item.recommendations[0].productName] as const)]},
   { title:"Children", icon:"children", items:[
     ...childrenRecommendations.map(item=>[item.label,item.recommendations[0].productName] as const)]},
-  { title:"Pets", icon:"pets", items:[
-    ...petsRecommendations.map(item=>[item.label,item.recommendations[0].productName] as const)]},
   { title:"Body", icon:"body", items:[
     ...wellnessRecommendations.map(item=>[item.label,item.recommendations[0].productName] as const)]},
   { title:"Sport", icon:"sport", items:[
@@ -631,7 +629,6 @@ const seededRecommendationsBySectionAndLabel:Map<string,readonly SeededRecommend
   ...kitchenRecommendations.map(item=>[`Kitchen::${item.label}`,item.recommendations] as const),
   ...gardenRecommendations.map(item=>[`Garden::${item.label}`,item.recommendations] as const),
   ...childrenRecommendations.map(item=>[`Children::${item.label}`,item.recommendations] as const),
-  ...petsRecommendations.map(item=>[`Pets::${item.label}`,item.recommendations] as const),
   ...wellnessRecommendations.map(item=>[`Body::${item.label}`,item.recommendations] as const),
   ...sportRecommendations.map(item=>[`Sport::${item.label}`,item.recommendations] as const),
   ...officeRecommendations.map(item=>[`Office::${item.label}`,item.recommendations] as const),

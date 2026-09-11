@@ -1,6 +1,6 @@
 import { createClient } from "@sanity/client";
 import { loadEnvConfig } from "@next/env";
-import { childrenRecommendations,petsRecommendations,wellnessRecommendations,slugify } from "./seedData";
+import { childrenRecommendations,wellnessRecommendations,slugify } from "./seedData";
 
 loadEnvConfig(process.cwd());
 
@@ -9,13 +9,12 @@ const dataset=process.env.NEXT_PUBLIC_SANITY_DATASET||"production";
 const token=process.env.SANITY_API_WRITE_TOKEN;
 const apiVersion=process.env.NEXT_PUBLIC_SANITY_API_VERSION||"2025-01-01";
 
-if(!projectId||!token) throw new Error("Set NEXT_PUBLIC_SANITY_PROJECT_ID and SANITY_API_WRITE_TOKEN before adding Children, Pets, and Wellness.");
+if(!projectId||!token) throw new Error("Set NEXT_PUBLIC_SANITY_PROJECT_ID and SANITY_API_WRITE_TOKEN before adding Children and Wellness.");
 
 const client=createClient({projectId,dataset,token,apiVersion,useCdn:false});
 
 const sections=[
   {title:"Children",icon:"children",sortOrder:5,recommendations:childrenRecommendations},
-  {title:"Pets",icon:"pets",sortOrder:6,recommendations:petsRecommendations},
   {title:"Wellness",icon:"wellness",sortOrder:7,recommendations:wellnessRecommendations},
 ] as const;
 
@@ -103,7 +102,7 @@ async function addChildrenPetsWellnessSections(){
 
   await tx.commit();
   const rowCount=sections.reduce((sum,section)=>sum+section.recommendations.length,0);
-  console.log(`Added Children, Pets, and Wellness: ${rowCount} rows and ${rowCount*3} recommendations.`);
+  console.log(`Added Children and Wellness: ${rowCount} rows and ${rowCount*3} recommendations.`);
 }
 
 addChildrenPetsWellnessSections().catch(error=>{console.error(error);process.exit(1);});

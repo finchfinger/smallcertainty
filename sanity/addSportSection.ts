@@ -19,13 +19,12 @@ const sectionOrder=[
   ["mens-clothing",3],
   ["kitchen",4],
   ["children",5],
-  ["pets",6],
-  ["body",7],
-  ["sport",8],
-  ["travel",9],
-  ["office",10],
-  ["culture",11],
-  ["miscellaneous",12],
+  ["body",6],
+  ["sport",7],
+  ["travel",8],
+  ["office",9],
+  ["culture",10],
+  ["miscellaneous",11],
 ] as const;
 
 async function addSportSection(){

@@ -3,7 +3,6 @@ import { loadEnvConfig } from "@next/env";
 import {
   gardenRecommendations,
   menRecommendations,
-  petsRecommendations,
   slugify,
   wellnessRecommendations,
   womenRecommendations,
@@ -241,19 +240,18 @@ async function upsertRows(
 async function updateTaxonomyCleanup(){
   const existingSections=await client.fetch<{_id:string; title:string; slug?:{current?:string}}[]>(
     `*[_type == "catalogSection" && slug.current in $slugs]{_id,title,slug}`,
-    {slugs:["womens-clothing","women-s-clothing","mens-clothing","men-s-clothing","garden","pets","body","wellness","office","culture","miscellaneous","colophon"]},
+    {slugs:["womens-clothing","women-s-clothing","mens-clothing","men-s-clothing","garden","body","wellness","office","culture","miscellaneous","colophon"]},
   );
   const sectionIdBySlug=new Map(existingSections.map(section=>[section.slug?.current,section._id]));
   const womensSectionId=sectionIdBySlug.get("womens-clothing")||sectionIdBySlug.get("women-s-clothing");
   const bodySectionId=sectionIdBySlug.get("body")||sectionIdBySlug.get("wellness");
-  const petsSectionId=sectionIdBySlug.get("pets");
   const menSectionId=sectionIdBySlug.get("mens-clothing")||sectionIdBySlug.get("men-s-clothing");
   const gardenSectionId=sectionIdBySlug.get("garden")||"catalogSection-garden";
   const officeSectionId=sectionIdBySlug.get("office");
   const cultureSectionId=sectionIdBySlug.get("culture");
   const colophonSectionId=sectionIdBySlug.get("colophon")||sectionIdBySlug.get("miscellaneous");
 
-  if(!womensSectionId||!menSectionId||!petsSectionId||!bodySectionId) throw new Error("Could not find one of Women’s, Men’s, Pets, or Body sections.");
+  if(!womensSectionId||!menSectionId||!bodySectionId) throw new Error("Could not find one of Women’s, Men’s, or Body sections.");
 
   const staleBodyItems=await client.fetch<{_id:string}[]>(
     `*[_type == "catalogItem" && label == "Best Water Bottle" && section->slug.current in ["body","wellness"]]{_id}`,
@@ -280,7 +278,6 @@ async function updateTaxonomyCleanup(){
     published:true,
   }));
   tx=await upsertRows(tx,gardenSectionId,"garden",gardenRecommendations);
-  tx=await upsertRows(tx,petsSectionId,"pets",petsRecommendations);
   tx=await upsertRows(tx,bodySectionId,"body",wellnessRecommendations);
 
   staleBodyItems.forEach(item=>{
