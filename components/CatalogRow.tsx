@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { CatalogItemData } from "./types";
 
 export type CatalogRowProps = CatalogItemData & { flushTop?:boolean; textClassName?:string; monoClassName?:string; rowHeight?:52; hoverInset?:0|8|12|16; tone?:"default"|"inverted"; showStatus?:boolean };
-export function CatalogRow({ label,productName,brand,href,status,wrapLabel=false,wrapProductName=false,disabled=false,flushTop=false,textClassName="text-[14px] sm:text-[14px]",monoClassName="",rowHeight=52,hoverInset=12,tone="default",showStatus=false }:CatalogRowProps) {
+export function CatalogRow({ label,productName,brand,href,status,external=false,wrapLabel=false,wrapProductName=false,disabled=false,flushTop=false,textClassName="text-[14px] sm:text-[14px]",monoClassName="",rowHeight=52,hoverInset=12,tone="default",showStatus=false }:CatalogRowProps) {
   const bestTowelsRadius=label==="Best Bath Towels"?"rounded-[8px]":"";
   const desktopHeightClass=rowHeight===52?"sm:min-h-[52px]":"sm:min-h-[52px]";
   const hoverShell={
@@ -33,14 +33,20 @@ export function CatalogRow({ label,productName,brand,href,status,wrapLabel=false
   const statusLabel=status==="new"?"New":status==="updated"?"Updated":null;
   const statusColor=status==="new"?"text-[#ff2b2b]":"text-[#ff27ff]";
   const displayProduct=brand?`${productName} from ${brand}`:productName;
+  const opensNewWindow=external&&!href.startsWith("mailto:");
+  const productLink=external
+    ?<a href={href} target={opensNewWindow?"_blank":undefined} rel={opensNewWindow?"noreferrer":undefined} className={`${plainProductClass} pointer-events-auto rounded py-2 transition-colors duration-150 ${itemHoverBg} focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-ink`}>{displayProduct}</a>
+    :<Link href={href} className={`${plainProductClass} pointer-events-auto rounded py-2 transition-colors duration-150 ${itemHoverBg} focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-ink`}>{displayProduct}</Link>;
   const body=<>
     <span className={`pointer-events-none relative z-10 flex min-w-0 items-center font-normal leading-[20px] tracking-[-0.01em] transition-colors duration-150 ${groupHoverText} ${labelColumnClass} sm:h-full ${textClassName} ${monoClassName}`}><span className={labelClass}>{label}</span></span>
-    {productName&&<span className={`pointer-events-none relative z-20 flex min-w-0 items-center overflow-hidden leading-[20px] ${textTone} transition-colors duration-150 ${productColumnClass} sm:h-full ${textClassName} ${monoClassName}`}><Link href={href} className={`${plainProductClass} pointer-events-auto rounded py-2 transition-colors duration-150 ${itemHoverBg} focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-ink`}>{displayProduct}</Link></span>}
+    {productName&&<span className={`pointer-events-none relative z-20 flex min-w-0 items-center overflow-hidden leading-[20px] ${textTone} transition-colors duration-150 ${productColumnClass} sm:h-full ${textClassName} ${monoClassName}`}>{productLink}</span>}
     {showStatus&&statusLabel&&<span className={`pointer-events-none relative z-20 col-start-2 row-start-1 justify-self-end whitespace-nowrap font-normal leading-[20px] tracking-[-0.01em] sm:col-start-9 sm:row-start-auto ${statusColor} ${textClassName} ${monoClassName}`}>{statusLabel}</span>}
   </>;
   if(disabled) return <div aria-disabled="true" className={`${cls} cursor-not-allowed opacity-35`}>{body}</div>;
   return <div className={cls}>
-    <Link href={href} aria-label={`${label}: view recommendations`} className="absolute inset-0 z-10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-ink"/>
+    {external
+      ?<a href={href} target={opensNewWindow?"_blank":undefined} rel={opensNewWindow?"noreferrer":undefined} aria-label={`${label}: ${productName}`} className="absolute inset-0 z-10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-ink"/>
+      :<Link href={href} aria-label={`${label}: view recommendations`} className="absolute inset-0 z-10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-ink"/>}
     {body}
   </div>;
 }

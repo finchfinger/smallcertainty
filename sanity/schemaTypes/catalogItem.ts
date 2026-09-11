@@ -14,6 +14,7 @@ export const catalogItem=defineType({
     defineField({name:"slug",type:"slug",group:"row",options:{source:"label"},description:"Reserved for a future internal detail-page URL."}),
     defineField({name:"productName",title:"Row product name (legacy)",type:"string",group:"row",validation:rule=>rule.required(),description:"Kept for the current outbound-row experience. The first ranked recommendation will eventually replace this."}),
     defineField({name:"outboundUrl",title:"Row product URL (legacy)",type:"url",group:"row",validation:rule=>rule.required()}),
+    defineField({name:"directLink",title:"Link row directly to destination",type:"boolean",group:"row",description:"Use for contact and social rows that should open their destination instead of a catalog detail page."}),
     defineField({name:"section",type:"reference",group:"row",to:[{type:"catalogSection"}],validation:rule=>rule.required()}),
     defineField({name:"sortOrder",type:"number",group:"row",validation:rule=>rule.required()}),
     defineField({

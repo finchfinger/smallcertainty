@@ -78,7 +78,7 @@ export default async function CatalogItemPage({ params }:{ params:Promise<{ sect
     }
   }
 
-  if(!item) notFound();
+  if(!item||item.external) notFound();
   const searchItems=sections.flatMap(entry=>entry.items.filter(row=>!row.disabled).map(row=>({...row,section:entry.title})));
   return <DetailPageShell item={item} searchItems={searchItems} activeNav={section==="imprint"?"Profile":"Catalog"}/>;
 }

@@ -8,7 +8,7 @@ export default async function sitemap():Promise<MetadataRoute.Sitemap> {
   const sections=await getCatalogSections();
   const now=new Date();
   const catalogPages=sections.flatMap(section=>section.items
-    .filter(item=>!item.disabled)
+    .filter(item=>!item.disabled&&!item.external)
     .map(item=>({
       url:absoluteUrl(item.href),
       lastModified:item.updated?now:undefined,
