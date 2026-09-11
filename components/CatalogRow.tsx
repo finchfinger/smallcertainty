@@ -16,7 +16,6 @@ export function CatalogRow({ label,productName,brand,href,status,external=false,
   const textTone=isInverted?"text-paper":"text-ink";
   const groupHoverText=isInverted?"group-hover:text-paper":"group-hover:text-ink";
   const hoverBg=isInverted?"hover:bg-paper/[0.10]":"hover:bg-black/[0.04]";
-  const itemHoverBg=isInverted?"hover:bg-paper/[0.10] focus-visible:bg-paper/[0.10]":"hover:bg-black/[0.04] focus-visible:bg-black/[0.04]";
   const cls=`rainbow-hover group relative grid min-h-[72px] content-center ${showStatus?"grid-cols-[minmax(0,1fr)_auto]":"grid-cols-1"} gap-x-1 gap-y-2 py-3 transition-colors duration-150 before:absolute before:top-0 before:border-t ${ruleClass} ${hoverBg} ${hoverShell} ${bestTowelsRadius} ${desktopHeightClass} sm:grid-cols-9 sm:items-center sm:gap-x-4 sm:gap-y-0 sm:py-0 xl:gap-x-6 ${flushTop?"before:hidden":""}`;
   const plainProductClass=wrapProductName
     ?"inline-block max-w-[920px] whitespace-normal sm:px-2"
@@ -34,12 +33,9 @@ export function CatalogRow({ label,productName,brand,href,status,external=false,
   const statusColor=status==="new"?"text-[#ff2b2b]":"text-[#ff27ff]";
   const displayProduct=brand?`${productName} from ${brand}`:productName;
   const opensNewWindow=external&&!href.startsWith("mailto:");
-  const productLink=external
-    ?<a href={href} target={opensNewWindow?"_blank":undefined} rel={opensNewWindow?"noreferrer":undefined} className={`${plainProductClass} pointer-events-auto rounded py-2 transition-colors duration-150 ${itemHoverBg} focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-ink`}>{displayProduct}</a>
-    :<Link href={href} className={`${plainProductClass} pointer-events-auto rounded py-2 transition-colors duration-150 ${itemHoverBg} focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-ink`}>{displayProduct}</Link>;
   const body=<>
     <span className={`pointer-events-none relative z-10 flex min-w-0 items-center font-normal leading-[20px] tracking-[-0.01em] transition-colors duration-150 ${groupHoverText} ${labelColumnClass} sm:h-full ${textClassName} ${monoClassName}`}><span className={labelClass}>{label}</span></span>
-    {productName&&<span className={`pointer-events-none relative z-20 flex min-w-0 items-center overflow-hidden leading-[20px] ${textTone} transition-colors duration-150 ${productColumnClass} sm:h-full ${textClassName} ${monoClassName}`}>{productLink}</span>}
+    {productName&&<span className={`pointer-events-none relative z-20 flex min-w-0 items-center overflow-hidden leading-[20px] ${textTone} transition-colors duration-150 ${productColumnClass} sm:h-full ${textClassName} ${monoClassName}`}><span className={plainProductClass}>{displayProduct}</span></span>}
     {showStatus&&statusLabel&&<span className={`pointer-events-none relative z-20 col-start-2 row-start-1 justify-self-end whitespace-nowrap font-normal leading-[20px] tracking-[-0.01em] sm:col-start-9 sm:row-start-auto ${statusColor} ${textClassName} ${monoClassName}`}>{statusLabel}</span>}
   </>;
   if(disabled) return <div aria-disabled="true" className={`${cls} cursor-not-allowed opacity-35`}>{body}</div>;
