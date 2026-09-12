@@ -191,6 +191,18 @@ input[type="search"]::-webkit-search-cancel-button { -webkit-appearance:none; ap
     background-size:100% var(--journal-link-rule-hover);
   }
 }
+.best-detail-action {
+  background-position:center bottom;
+  background-size:calc(100% - 24px) var(--journal-link-rule);
+}
+.best-detail-action:focus-visible {
+  background-size:calc(100% - 24px) var(--journal-link-rule-hover);
+}
+@media (hover:hover) and (pointer:fine) {
+  .best-detail-action:hover {
+    background-size:calc(100% - 24px) var(--journal-link-rule-hover);
+  }
+}
 @media (min-width:1024px) {
   .page-grid { display:grid; grid-template-columns:repeat(12,minmax(0,1fr)); column-gap:24px; max-width:1450px; margin-inline:auto; }
   .listing-reading-column { grid-column:var(--listing-reading-start) / span var(--listing-reading-span); }

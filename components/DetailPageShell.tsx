@@ -79,8 +79,8 @@ export function DetailPageShell({ item,searchItems,activeNav="Catalog",counterSt
             </div>
 
             <div className="mt-10 flex flex-wrap items-center gap-6">
-              {best.productHref&&<ActionLink href={best.productHref} target="_blank" rel="noreferrer" variant="text" className="journal-text-link !h-auto !rounded-none !px-0 pb-1 hover:!bg-transparent focus-visible:!bg-transparent">Visit site</ActionLink>}
-              <ShareButton category={item.label} title={best.productName} path={item.href} triggerVariant="text" triggerClassName="journal-text-link !h-auto !rounded-none !px-0 pb-1 hover:!bg-transparent focus-visible:!bg-transparent"/>
+              {best.productHref&&<ActionLink href={best.productHref} target="_blank" rel="noreferrer" variant="text" className="journal-text-link best-detail-action -mx-3 !rounded-md">Visit site</ActionLink>}
+              <ShareButton category={item.label} title={best.productName} path={item.href} triggerVariant="text" triggerClassName="journal-text-link best-detail-action -mx-3 !rounded-md"/>
             </div>
           </>}
 
