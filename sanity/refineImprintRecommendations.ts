@@ -16,7 +16,8 @@ const client=createClient({projectId,dataset,token,apiVersion,useCdn:false});
 
 async function refineImprintRecommendations(){
   const sectionId="catalogSection-imprint";
-  const maxSortOrder=await client.fetch<number|null>(`*[_type == "catalogSection"] | order(sortOrder desc)[0].sortOrder`);
+  const existingSortOrder=await client.fetch<number|null>(`*[_id==$sectionId][0].sortOrder`,{sectionId});
+  const maxSortOrder=existingSortOrder??await client.fetch<number|null>(`*[_type == "catalogSection"] | order(sortOrder desc)[0].sortOrder`);
   const reviewedOn=new Date().toISOString().slice(0,10);
   let tx=client.transaction().createOrReplace({
     _id:sectionId,
@@ -24,7 +25,7 @@ async function refineImprintRecommendations(){
     title:"Imprint",
     slug:{_type:"slug",current:"imprint"},
     icon:"miscellaneous",
-    sortOrder:(maxSortOrder||0)+1,
+    sortOrder:existingSortOrder??(maxSortOrder||0)+1,
     published:true,
   });
 
@@ -42,8 +43,9 @@ async function refineImprintRecommendations(){
         published:true,
       });
     });
+    const itemId=set.slug==="email-address"?"catalogItem-imprint-contact-method":`catalogItem-imprint-${set.slug}`;
     tx=tx.createOrReplace({
-      _id:`catalogItem-imprint-${set.slug}`,
+      _id:itemId,
       _type:"catalogItem",
       label:set.label,
       slug:{_type:"slug",current:set.slug},
@@ -53,6 +55,7 @@ async function refineImprintRecommendations(){
       sortOrder:setIndex+1,
       rowStatus:"none",
       updated:false,
+      directLink:set.slug==="x-account"||set.slug==="tiktok-account",
       published:true,
       intro:topPick.note,
       lastReviewed:reviewedOn,
