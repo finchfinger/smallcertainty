@@ -20,6 +20,7 @@ function noteParagraphs(note:string){
 export function DetailPageShell({ item,searchItems,activeNav="Catalog",counterStyle="hash" }:DetailPageShellProps) {
   const recommendations:RecommendationData[]=item.recommendations?.length?item.recommendations:[1,2,3].map(rank=>({rank,productName:item.productName,productHref:item.productHref,note:item.intro||fallbackNote}));
   const best=recommendations[0];
+  const isEmailAction=best?.productHref?.startsWith("mailto:")??false;
   const honorableMentions=recommendations.slice(1);
   const url=absoluteUrl(item.href);
   const structuredData=[
@@ -78,7 +79,7 @@ export function DetailPageShell({ item,searchItems,activeNav="Catalog",counterSt
             </div>
 
             <div className="mt-10 flex flex-wrap items-center">
-              {best.productHref&&<ActionLink href={best.productHref} target="_blank" rel="noreferrer" variant="text" className="journal-text-link best-detail-action -mx-3 !rounded-md">Visit site</ActionLink>}
+              {best.productHref&&<ActionLink href={best.productHref} {...(!isEmailAction?{target:"_blank",rel:"noreferrer"}:{})} variant="text" className="journal-text-link best-detail-action -mx-3 !rounded-md">{isEmailAction?"Send a message":"Visit site"}</ActionLink>}
             </div>
           </>}
 

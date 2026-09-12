@@ -12,7 +12,7 @@ export const imprintRecommendations:ImprintRecommendationSet[]=[
       {
         productName:"hello@smallcertainty.com",
         productHref:"mailto:hello@smallcertainty.com",
-        note:`Email hello@smallcertainty.com with recommendations, corrections, questions, and useful disagreements. If there is an object, place, publication, or service that belongs in the catalog, send its name, a link, and a brief explanation of what makes it unusually good. We are interested in specific experience, not votes or enthusiasm measured by volume.
+        note:`Email us with recommendations, corrections, questions, and useful disagreements. If there is an object, place, publication, or service that belongs in the catalog, send its name, a link, and a brief explanation of what makes it unusually good. We are interested in specific experience, not votes or enthusiasm measured by volume.
 
 Corrections are especially welcome. Include the page in question, describe what is wrong, and provide a reliable source when one is available. Product links change, companies close, specifications drift, and even confident editors make mistakes. A clear note helps us repair the catalog quickly and properly.
 
