@@ -20,7 +20,7 @@ function noteParagraphs(note:string){
 export function DetailPageShell({ item,searchItems,activeNav="Catalog",counterStyle="hash" }:DetailPageShellProps) {
   const recommendations:RecommendationData[]=item.recommendations?.length?item.recommendations:[1,2,3].map(rank=>({rank,productName:item.productName,productHref:item.productHref,note:item.intro||fallbackNote}));
   const best=recommendations[0];
-  const isEmailAction=best?.productHref?.startsWith("mailto:")??false;
+  const isEmailAction=(best?.productHref?.startsWith("mailto:")??false)||item.href==="/catalog/imprint/email-address";
   const honorableMentions=recommendations.slice(1);
   const url=absoluteUrl(item.href);
   const structuredData=[
