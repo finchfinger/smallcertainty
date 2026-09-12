@@ -53,9 +53,9 @@ The best publication accounts extend an editorial sensibility rather than merely
         note:"Scott Schuman has spent two decades noticing how people actually wear clothes. The account remains strongest away from the runway, where posture, proportion, age, weather, and the habits of a city matter as much as labels. It is fashion photography with a memory for ordinary life.",
       },
       {
-        productName:"@karelmartens",
-        productHref:"https://www.instagram.com/karelmartens/",
-        note:"Karel Martens turns printing tests, found forms, color studies, and fragments of daily work into a continuing lesson in looking. The account is rigorous without becoming solemn, showing how repetition and accident can keep a graphic practice alive after more than sixty years.",
+        productName:"@davidshrigley",
+        productHref:"https://www.instagram.com/davidshrigley/",
+        note:"David Shrigley’s drawings arrive with the economy of excellent notices and the logic of thoughts overheard at precisely the wrong moment. The account is funny because the voice is exact, not because it chases the machinery of internet humor.",
       },
     ],
   },
