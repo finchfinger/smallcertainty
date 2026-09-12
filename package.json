@@ -8,6 +8,8 @@
     "start": "next start",
     "lint": "tsc --noEmit",
     "validate:catalog-drafts": "node scripts/validateCatalogDrafts.mjs content/catalog-revision/batch-1-home.md content/catalog-revision/batch-1-bedroom.md content/catalog-revision/batch-1-bath.md content/catalog-revision/batch-2-kitchen.md content/catalog-revision/batch-3-office-tech-accessories.md content/catalog-revision/batch-4-garden-body.md content/catalog-revision/batch-5-mens.md content/catalog-revision/batch-6-womens.md content/catalog-revision/batch-7-kids.md content/catalog-revision/batch-8-sport-outdoors.md content/catalog-revision/batch-9-culture-places.md",
+    "rewrite:catalog-openings": "node --env-file=.env.local --import tsx sanity/rewriteCatalogOpenings.ts",
+    "retire:duplicate-catalog-routes": "node --env-file=.env.local --import tsx sanity/retireDuplicateCatalogRoutes.ts",
     "migrate:catalog-batch-1": "node --env-file=.env.local --import tsx sanity/migrateCatalogBatch1.ts",
     "migrate:catalog-batch-2": "node --env-file=.env.local --import tsx sanity/migrateCatalogBatch1.ts --batch=2",
     "migrate:catalog-batch-3": "node --env-file=.env.local --import tsx sanity/migrateCatalogBatch1.ts --batch=3",

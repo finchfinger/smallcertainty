@@ -6,7 +6,7 @@
 
 **Abyss Super Pile**
 
-Abyss Super Pile is the bath towel Small Certainty chooses because it makes abundance useful. It is thick and unusually soft, but the pleasure does not come at the expense of absorption or durability. Many luxury towels feel impressive on a shelf and cumbersome when wet. Super Pile has the density expected of a serious hotel towel, yet its long cotton loops dry the body efficiently and recover their loft through repeated washing.
+Abyss Super Pile makes abundance useful. It is thick and unusually soft, but the pleasure does not come at the expense of absorption or durability. Many luxury towels feel impressive on a shelf and cumbersome when wet. Super Pile has the density expected of a serious hotel towel, yet its long cotton loops dry the body efficiently and recover their loft through repeated washing.
 
 The towel is made in Portugal from 100 percent Egyptian extra-long-staple cotton. Abyss uses considerably more cotton than an ordinary household towel, creating a deep pile with a smooth hand and strong absorbency. Rounded corners and hand-finished piping keep the edges from becoming stiff, while the bath size measures approximately 70 by 140 centimeters. A palette of roughly 40 colors makes white only the beginning rather than the default answer.
 
@@ -22,7 +22,7 @@ Honorable mentions: Tekla Organic Cotton; Frette Unito
 
 **Quiet Town Sun Shower**
 
-Quiet Town's Sun Shower is the shower curtain Small Certainty chooses because it treats a necessary waterproof sheet as part of the room. Its translucent color alters daylight, gives privacy without creating a wall, and brings more life to a bathroom than another white textile liner. The effect is immediate but not frivolous. This is color doing architectural work in a place usually surrendered to plumbing and pale tile.
+Quiet Town's Sun Shower treats a necessary waterproof sheet as part of the room. Its translucent color alters daylight, gives privacy without creating a wall, and brings more life to a bathroom than another white textile liner. The effect is immediate but not frivolous. This is color doing architectural work in a place usually surrendered to plumbing and pale tile.
 
 The curtain is made from heavy 12-gauge EVA, now incorporating 30 percent recycled material. EVA contains no chlorine, PVC, or BPA, and Quiet Town's substantial sheet avoids the clammy tendency of very thin liners. Rounded lower corners soften the outline, while solid brass grommets, finished in nickel or brass, provide durable hanging points. At 72 inches square, it fits a conventional tub and can be used alone.
 
@@ -38,7 +38,7 @@ Honorable mentions: Marimekko Unikko; Coyuchi Organic Cotton
 
 **Speakman Signature Icon Anystream**
 
-The Speakman Signature Icon Anystream is the showerhead Small Certainty chooses because it concentrates on pressure, coverage, and adjustment instead of becoming an overhead lighting fixture. Its compact form belongs to the long American tradition of durable commercial bathroom hardware. The Icon looks almost severe beside fashionable rain heads, but the first shower explains the judgment: water arrives with purpose, and the pattern can be changed without deciphering controls.
+The Speakman Signature Icon Anystream concentrates on pressure, coverage, and adjustment instead of becoming an overhead lighting fixture. Its compact form belongs to the long American tradition of durable commercial bathroom hardware. The Icon looks almost severe beside fashionable rain heads, but the first shower explains the judgment: water arrives with purpose, and the pattern can be changed without deciphering controls.
 
 The solid-brass body contains eight precision jets that divide the flow into 64 spray channels. Rotating the side lever moves continuously between a concentrated needling spray, a broader rain pattern, and a fuller flood setting. Speakman's Anystream mechanism turns through 360 degrees and helps clear mineral buildup as it moves. Versions are offered at several flow rates and in finishes ranging from polished chrome to aged brass.
 
@@ -54,7 +54,7 @@ Honorable mentions: Hansgrohe Raindance Select S; Grohe Rainshower
 
 **Vola HV1**
 
-The Vola HV1 is the bathroom faucet Small Certainty chooses because its simplicity survives contact with actual use. Arne Jacobsen designed it in 1968 from cylinders, circles, and one slim lever, establishing a form that has since become almost generic through imitation. The original remains convincing because the proportions are exact, the operation is immediately clear, and the apparent reduction conceals manufacturing of unusual precision.
+The Vola HV1’s simplicity survives contact with actual use. Arne Jacobsen designed it in 1968 from cylinders, circles, and one slim lever, establishing a form that has since become almost generic through imitation. The original remains convincing because the proportions are exact, the operation is immediately clear, and the apparent reduction conceals manufacturing of unusual precision.
 
 A ceramic-disc cartridge controls the single lever, while a fixed spout ends in a water-saving aerator. The standard body stands 120 millimeters high, with alternate spout, lever, and body lengths available through Vola's modular system. Components are hand-soldered so that no joint interrupts the surface. Brass or stainless-steel construction supports a wide range of hand-applied colors and metallic finishes, many of which can be serviced rather than discarded.
 
@@ -70,7 +70,7 @@ Honorable mentions: Dornbracht Tara; Fantini Nostromo
 
 **Kaldewei Meisterstück Centro Duo Oval**
 
-The Kaldewei Meisterstück Centro Duo Oval is the bathtub Small Certainty chooses because it combines the presence of a freestanding bath with the discipline of an engineered fixture. Its exterior is a calm, continuous oval rather than an ornamental shell, and its interior gives equal consideration to either end. It can anchor a large bathroom, but the design remains about bathing rather than producing a sculptural object that happens to hold water.
+The Kaldewei Meisterstück Centro Duo Oval combines the presence of a freestanding bath with the discipline of an engineered fixture. Its exterior is a calm, continuous oval rather than an ornamental shell, and its interior gives equal consideration to either end. It can anchor a large bathroom, but the design remains about bathing rather than producing a sculptural object that happens to hold water.
 
 Designed with Sottsass Associati, the tub is formed from Kaldewei steel enamel, joining a rigid steel body to a hard, glasslike surface. The molded exterior panel is seamless, and the waste cover and overflow control are enamelled to sit quietly within the composition. Two identical sloping backrests flank a centered waste. Sizes include 170 by 75 and 180 by 80 centimeters, both with a generous interior depth.
 
@@ -86,7 +86,7 @@ Honorable mentions: BetteStarlet; Agape Spoon
 
 **Duravit Starck 1 Washbasin**
 
-The Duravit Starck 1 Washbasin is the bathroom sink Small Certainty chooses because it recovers the elemental authority of the basin. Philippe Starck's 1994 collection looked to buckets, bowls, and old washstands rather than the aerodynamic forms common to sanitary ware. The round ceramic vessel is immediate and familiar, but its disciplined rim and generous depth make the archetype useful in a contemporary bathroom rather than merely picturesque.
+The Duravit Starck 1 Washbasin recovers the elemental authority of the basin. Philippe Starck's 1994 collection looked to buckets, bowls, and old washstands rather than the aerodynamic forms common to sanitary ware. The round ceramic vessel is immediate and familiar, but its disciplined rim and generous depth make the archetype useful in a contemporary bathroom rather than merely picturesque.
 
 Starck 1 was conceived as a complete family of bathroom objects, and the washbasin is strongest when allowed to retain its clear circular outline. Vitreous ceramic provides a hard, nonporous surface, while versions accommodate different installations and faucet arrangements. The best-known configuration sits above the collection's conical barrel vanity, a carefully formed cabinet that turns the old washstand into a compact piece of modern furniture.
 
@@ -102,7 +102,7 @@ Honorable mentions: Agape Ottocento; Laufen Val
 
 **GUBI F.A. 33 Mirror**
 
-The GUBI F.A. 33 is the mirror Small Certainty chooses because its frame contributes character without reducing the usefulness of the reflection. Gio Ponti designed it in 1933 for FontanaArte, the glass and lighting company he founded with Pietro Chiesa. The gently tapered silhouette and clipped upper corners make a rectangular mirror feel composed, but the gesture remains quiet enough for a bathroom, hall, or bedroom.
+The GUBI F.A. 33’s frame contributes character without reducing the usefulness of the reflection. Gio Ponti designed it in 1933 for FontanaArte, the glass and lighting company he founded with Pietro Chiesa. The gently tapered silhouette and clipped upper corners make a rectangular mirror feel composed, but the gesture remains quiet enough for a bathroom, hall, or bedroom.
 
 The mirror is bordered by a narrow frame in polished brass or blackened metal, with a lower edge that curves subtly before rising into the straight sides. GUBI produces it in more than one size, allowing the proportions to work above a basin or as a taller wall mirror. The construction is thin and visually light, relying on the precision of the outline rather than a deep frame or decorative molding.
 

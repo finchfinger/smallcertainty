@@ -6,7 +6,7 @@
 
 **Petit Bateau Iconic T-Shirt**
 
-Petit Bateau’s Iconic T-Shirt is our choice because it treats the white tee as underwear perfected for public view. The close, clean neckline and compact sleeves give it definition, while the body follows rather than reshapes the wearer. It has none of the dropped shoulders, inflated weight, or borrowed workwear language that complicate a simple garment. Beneath a jacket or worn alone, it looks deliberate.
+Petit Bateau’s Iconic T-Shirt treats the white tee as underwear perfected for public view. The close, clean neckline and compact sleeves give it definition, while the body follows rather than reshapes the wearer. It has none of the dropped shoulders, inflated weight, or borrowed workwear language that complicate a simple garment. Beneath a jacket or worn alone, it looks deliberate.
 
 The shirt is cut from fine, ribbed cotton jersey, a fabric Petit Bateau understands through more than a century of making close-to-the-body clothing. The knit stretches naturally, recovers well, and produces a smoother line than ordinary single jersey. Narrow binding stabilizes the crew neck, and restrained seams preserve the lightness. Its construction is modest, but proportion and fabric make that modesty exact.
 
@@ -22,7 +22,7 @@ Honorable mentions: Sunspel Classic Cotton; Leset Margo
 
 **With Nothing Underneath The Boyfriend**
 
-The Boyfriend from With Nothing Underneath is the white shirt we choose because it captures the ease of a borrowed men’s Oxford without requiring the wearer to borrow one. Its shoulder is relaxed, the body is generous, and the hem has enough length to tuck or hang loose. It works with denim, tailoring, or swimwear because the proportions feel intentional rather than simply oversized.
+The Boyfriend from With Nothing Underneath captures the ease of a borrowed men’s Oxford without requiring the wearer to borrow one. Its shoulder is relaxed, the body is generous, and the hem has enough length to tuck or hang loose. It works with denim, tailoring, or swimwear because the proportions feel intentional rather than simply oversized.
 
 The shirt is made from cotton poplin with a firm collar, buttoned cuffs, a curved hem, and a back pleat that creates movement. The cloth has enough density to remain composed while retaining the crisp hand expected of a proper white shirt. Buttons and seams are deliberately quiet. The central achievement is the pattern, which distributes volume across shoulder, sleeve, and body instead of adding width everywhere.
 
@@ -38,7 +38,7 @@ Honorable mentions: Charvet Cotton Poplin; Margaret Howell Cotton Shirt
 
 **Johnstons of Elgin Cashmere Crew Neck**
 
-Johnstons of Elgin’s cashmere crew neck is the sweater we choose because it makes luxury useful through disciplined color, proportion, and manufacture. The neck sits close without constriction, the body layers easily, and the knit has enough substance to fall cleanly rather than cling. It can soften tailored trousers, elevate denim, or disappear beneath a coat, which is more valuable than seasonal novelty.
+Johnstons of Elgin’s cashmere crew neck makes luxury useful through disciplined color, proportion, and manufacture. The neck sits close without constriction, the body layers easily, and the knit has enough substance to fall cleanly rather than cling. It can soften tailored trousers, elevate denim, or disappear beneath a coat, which is more valuable than seasonal novelty.
 
 The company spins and knits fine cashmere in Scotland, controlling processes from raw fiber through finishing. Fully fashioned panels shape the shoulders and armholes without cutting through the knit, while linked seams reduce bulk. Ribbing at neck, cuffs, and hem provides recovery. Repeated washing and milling create softness, but the cloth retains the density needed to resist immediate bagging at elbows and waist.
 
@@ -54,7 +54,7 @@ Honorable mentions: Extreme Cashmere No. 167; John Smedley Poppy
 
 **Smythe Duchess Blazer**
 
-The Smythe Duchess is the blazer we choose because it uses tailoring to create shape without the stiffness of corporate suiting. Its peaked lapels, defined shoulder, and gently nipped waist give jeans and a T-shirt immediate order, while the longer line works naturally with trousers or a dress. The jacket has presence, but the impression comes from cut rather than decorative hardware or conspicuous branding.
+The Smythe Duchess uses tailoring to create shape without the stiffness of corporate suiting. Its peaked lapels, defined shoulder, and gently nipped waist give jeans and a T-shirt immediate order, while the longer line works naturally with trousers or a dress. The jacket has presence, but the impression comes from cut rather than decorative hardware or conspicuous branding.
 
 Smythe builds the Duchess with a single-button front, double vents, functional pockets, and a patterned undercollar that remains private unless deliberately raised. A structured chest and shoulder establish the silhouette, while careful waist suppression prevents the longer body from becoming boxy. Fabric varies by season, but the core wool versions provide drape, resilience, and enough surface restraint to remain useful beyond a single collection.
 
@@ -70,7 +70,7 @@ Honorable mentions: Max Mara Wool Blazer; Margaret Howell
 
 **Max Mara 101801 Icon Coat**
 
-Max Mara’s 101801 is the coat we choose because its generous line makes almost everything beneath it look more composed. Introduced in 1981, the double-breasted shape has broad lapels, kimono sleeves, and enough volume for tailoring or knitwear without becoming shapeless. Camel color turns the construction into a clear silhouette, but the coat’s authority comes from proportion rather than the prestige attached to its label.
+The generous line of Max Mara’s 101801 makes almost everything beneath it look more composed. Introduced in 1981, the double-breasted shape has broad lapels, kimono sleeves, and enough volume for tailoring or knitwear without becoming shapeless. Camel color turns the construction into a clear silhouette, but the coat’s authority comes from proportion rather than the prestige attached to its label.
 
 The cloth blends wool and cashmere in a dense, softly brushed double-face construction. Large panels allow the material to drape continuously across the body, while hand-finished details keep seams and edges supple. The sleeves are cut with room through the upper arm, patch pockets sit within easy reach, and the below-knee length supplies warmth as well as the visual weight required by the oversized form.
 
@@ -86,7 +86,7 @@ Honorable mentions: Mackintosh Humbie; Loro Piana Roadster
 
 **Agolde ’90s Pinch Waist**
 
-Agolde’s ’90s Pinch Waist is the jean we choose because it combines a high, defined waist with a straight leg that looks current without depending on exaggerated width. The rise provides structure, the thigh remains relaxed, and the full-length line works with flats, boots, or sneakers. It gives denim presence while leaving enough neutrality for the rest of the wardrobe to determine the mood.
+Agolde’s ’90s Pinch Waist combines a high, defined waist with a straight leg that looks current without depending on exaggerated width. The rise provides structure, the thigh remains relaxed, and the full-length line works with flats, boots, or sneakers. It gives denim presence while leaving enough neutrality for the rest of the wardrobe to determine the mood.
 
 The pattern pinches slightly at the waistband before releasing through hip and leg, solving the common gap that appears when straight jeans are simply scaled from a rectangular block. Rigid cotton denim supplies the most convincing shape and develops wear naturally, while selected washes include minimal stretch for tolerance. Five-pocket construction, a zip fly, and restrained finishing keep attention on cut rather than manufactured detail.
 
@@ -102,7 +102,7 @@ Honorable mentions: OrSlow 105; Toteme Straight-Leg
 
 **Hanro Cotton Seamless**
 
-Hanro’s Cotton Seamless underwear is our choice because it removes the side seams that most often turn a simple layer into a persistent irritation. The fine cotton sits close, the edges remain discreet beneath clothing, and the cut is neither overtly athletic nor laden with lace. It is underwear designed to be forgotten once dressed, which is a more demanding achievement than visual novelty suggests.
+Hanro’s Cotton Seamless underwear removes the side seams that most often turn a simple layer into a persistent irritation. The fine cotton sits close, the edges remain discreet beneath clothing, and the cut is neither overtly athletic nor laden with lace. It is underwear designed to be forgotten once dressed, which is a more demanding achievement than visual novelty suggests.
 
 The fabric is knitted in the round from mercerized cotton, creating a smooth body without seams at the hips. Mercerization strengthens the fiber, improves color retention, and gives the surface a clean hand. Elastic is applied sparingly at waist and leg to preserve position without a thick band. Several rises and cuts share the same material, allowing preference rather than branding to determine the final choice.
 
@@ -118,7 +118,7 @@ Honorable mentions: Araks Antonia; Uniqlo AIRism Ultra Seamless
 
 **Falke Family**
 
-Falke Family socks are the pair we choose because they handle the ordinary week with unusual competence. Fine cotton feels smooth, the cuff stays up without announcing itself, and the restrained palette works with loafers, boots, or sneakers. They are substantial enough to survive regular shoes and thin enough to avoid changing their fit, occupying the useful middle ground between hosiery and athletic equipment.
+Falke Family socks handle the ordinary week with unusual competence. Fine cotton feels smooth, the cuff stays up without announcing itself, and the restrained palette works with loafers, boots, or sneakers. They are substantial enough to survive regular shoes and thin enough to avoid changing their fit, occupying the useful middle ground between hosiery and athletic equipment.
 
 The knit uses climate-regulating cotton blended with reinforcing fibers at heel, toe, and other points of friction. A fine rib maintains shape through the leg, while Falke’s anatomical left-and-right construction follows each foot more closely than a generic tube. The toe seam is flat, the cuff is broad, and the company offers several lengths. None of these features attracts attention, but together they reduce small daily annoyances.
 
@@ -134,7 +134,7 @@ Honorable mentions: Pantherella Merino; Maria La Rosa
 
 **Tekla Poplin Sleepwear**
 
-Tekla’s poplin sleepwear is the pajama set we choose because it applies the clarity of a good shirt to the hours around sleep. The cut is generous, the stripes and solid colors are disciplined, and the cotton feels crisp rather than cosseting. It is presentable at breakfast, comfortable in bed, and sufficiently unisex in spirit to avoid the lace, slogans, and novelty prints that diminish much sleepwear.
+Tekla’s poplin sleepwear applies the clarity of a good shirt to the hours around sleep. The cut is generous, the stripes and solid colors are disciplined, and the cotton feels crisp rather than cosseting. It is presentable at breakfast, comfortable in bed, and sufficiently unisex in spirit to avoid the lace, slogans, and novelty prints that diminish much sleepwear.
 
 The set is made from organic cotton poplin with a button-front shirt, notched collar, patch pocket, and relaxed trousers. French seams and precise topstitching keep the interior clean, while an elastic waist provides ease without visibly turning the trousers into loungewear. The dense plain weave begins cool and structured, then relaxes through laundering. Generous dimensions let air circulate and prevent the cloth twisting around the body.
 
@@ -150,7 +150,7 @@ Honorable mentions: Desmond & Dempsey; Derek Rose
 
 **Onitsuka Tiger Mexico 66**
 
-The Onitsuka Tiger Mexico 66 is the sneaker we choose because its low, narrow profile brings lightness to trousers, denim, dresses, and shorts. First developed around the 1968 Mexico City games, it looks athletic without resembling contemporary running equipment. The crossed side stripes provide identity, but the shoe remains visually quieter than the thick soles and engineered uppers that now dominate casual footwear.
+The Onitsuka Tiger Mexico 66’s low, narrow profile brings lightness to trousers, denim, dresses, and shorts. First developed around the 1968 Mexico City games, it looks athletic without resembling contemporary running equipment. The crossed side stripes provide identity, but the shoe remains visually quieter than the thick soles and engineered uppers that now dominate casual footwear.
 
 The upper combines soft leather with suede reinforcement at the toe and heel. A thin rubber sole keeps the foot close to the ground, while the heel tab, flat laces, and gently tapered last preserve the original training-shoe character. Construction is straightforward and flexible, with little cushioning to distort the line. The result folds and moves more naturally than a heavily structured sneaker.
 
@@ -166,7 +166,7 @@ Honorable mentions: Novesta Star Master; Moonstar Gym Classic
 
 **Brooks Glycerin 23**
 
-The Brooks Glycerin 23 is the running shoe we choose because comfort arrives without instability, aggressive geometry, or a race-day agenda. Its cushioning protects ordinary mileage, the upper secures the foot without compression, and the transition remains predictable at easy and steady paces. This is a daily trainer for people who want running to become routine rather than a continuous experiment in footwear technology.
+Comfort arrives without instability, aggressive geometry, or a race-day agenda. Its cushioning protects ordinary mileage, the upper secures the foot without compression, and the transition remains predictable at easy and steady paces. This is a daily trainer for people who want running to become routine rather than a continuous experiment in footwear technology.
 
 Brooks uses nitrogen-infused foam through a broad midsole, balancing softness with enough density to control landing. The engineered mesh upper varies its structure around the foot, while padding at tongue and heel reduces pressure. Durable rubber covers the principal contact zones, and the platform offers a conventional heel-to-toe drop. Neutral construction accommodates many gait patterns without imposing corrective elements.
 
@@ -182,7 +182,7 @@ Honorable mentions: ASICS Novablast 6; Saucony Ride
 
 **Lowa Renegade Evo GTX Mid Ws**
 
-The women’s Lowa Renegade Evo GTX Mid is the hiking boot we choose because it provides secure footing and weather protection without the punitive stiffness of traditional mountain boots. The women-specific last holds the heel, leaves sensible toe room, and supports uneven ground under a daypack. It is serious trail equipment, but comfortable enough for damp fields, winter errands, and the long approach before terrain becomes interesting.
+The women’s Lowa Renegade Evo GTX Mid provides secure footing and weather protection without the punitive stiffness of traditional mountain boots. The women-specific last holds the heel, leaves sensible toe room, and supports uneven ground under a daypack. It is serious trail equipment, but comfortable enough for damp fields, winter errands, and the long approach before terrain becomes interesting.
 
 The nubuck upper uses reduced paneling to limit seams and pressure points. A Gore-Tex lining provides waterproof protection, while an injected polyurethane midsole supplies cushioning and lateral structure. The Vibram outsole balances grip with a natural walking roll. Separate lacing zones allow the forefoot and ankle to be adjusted independently, a practical advantage when feet swell or a descent asks for firmer heel retention.
 
@@ -198,7 +198,7 @@ Honorable mentions: Danner Mountain 600; Scarpa Rush TRK GTX
 
 **Darn Tough Hiker Micro Crew**
 
-The Darn Tough Hiker Micro Crew is the hiking sock we choose because it prevents the small failures that can spoil a long walk. Its dense knit stays in place, merino manages heat and moisture, and cushioning protects the sole without crowding a boot. The micro-crew height clears a mid collar while remaining compact enough for daily shoes in colder weather.
+The Darn Tough Hiker Micro Crew prevents the small failures that can spoil a long walk. Its dense knit stays in place, merino manages heat and moisture, and cushioning protects the sole without crowding a boot. The micro-crew height clears a mid collar while remaining compact enough for daily shoes in colder weather.
 
 Fine-gauge merino is blended with nylon for durability and elastane for recovery. Cushioning is concentrated beneath the foot, while heel, toe, and friction zones receive reinforcement. A seamless toe reduces rubbing, and the close ribbed leg resists slipping. Women-specific sizing improves heel placement and reduces excess fabric, making the sock feel shaped rather than merely elasticated around a smaller foot.
 
@@ -214,7 +214,7 @@ Honorable mentions: Smartwool Classic Hike; Falke TK2
 
 **Gucci 1953 Horsebit Loafer**
 
-The Gucci 1953 Horsebit is the loafer we choose because it balances ease, polish, and a single piece of decoration whose identity has outlived fashion cycles. The low vamp and almond toe lengthen the foot without exaggeration, while the brass horsebit gives plain leather enough distinction. It works with tailoring, denim, skirts, or dresses and rarely looks as though it belongs only to one decade.
+The Gucci 1953 Horsebit balances ease, polish, and a single piece of decoration whose identity has outlived fashion cycles. The low vamp and almond toe lengthen the foot without exaggeration, while the brass horsebit gives plain leather enough distinction. It works with tailoring, denim, skirts, or dresses and rarely looks as though it belongs only to one decade.
 
 The shoe is made in Italy with a leather upper, leather lining, and a slim leather sole. A moccasin-style apron shapes the forefoot, while the metal bit crosses the instep on leather keepers. The heel is low and broad enough for regular walking. Soft construction allows the loafer to flex and gradually conform, distinguishing it from rigid dress shoes that merely borrow the silhouette.
 
@@ -230,7 +230,7 @@ Honorable mentions: J.M. Weston 180; G.H. Bass Whitney
 
 **Repetto Cendrillon**
 
-Repetto’s Cendrillon is the ballet flat we choose because its delicacy is the result of construction rather than decorative sweetness. The low-cut vamp, small bow, and fine edge frame the foot with unusual economy, while the flexible sole allows an easy, close-to-ground stride. It works with trousers and dresses precisely because it does not attempt to look like a shortened loafer or simplified sneaker.
+Repetto gives the Cendrillon its delicacy through construction rather than decorative sweetness. The low-cut vamp, small bow, and fine edge frame the foot with unusual economy, while the flexible sole allows an easy, close-to-ground stride. It works with trousers and dresses precisely because it does not attempt to look like a shortened loafer or simplified sneaker.
 
 The shoe is made using Repetto’s stitch-and-return method, derived from dance footwear. The upper and sole are stitched inside out before the shoe is turned, creating soft edges and exceptional flexibility. Supple leather or patent forms the upper, cotton lines the interior, and an adjustable cord runs around the opening. A thin leather sole preserves the characteristic lightness.
 
@@ -246,7 +246,7 @@ Honorable mentions: Chanel Ballet Flat; Mansur Gavriel Dream Ballerina
 
 **Birkenstock Zermatt**
 
-The Birkenstock Zermatt is the slipper we choose because it gives indoor footwear actual structure without losing domestic ease. Its broad wool-felt upper is warm and visually calm, while the contoured cork footbed supports rather than merely cushions. It carries a morning from bedroom to kitchen, desk, mailbox, and back, making it more useful than a padded sock and less precious than a formal house shoe.
+The Birkenstock Zermatt gives indoor footwear actual structure without losing domestic ease. Its broad wool-felt upper is warm and visually calm, while the contoured cork footbed supports rather than merely cushions. It carries a morning from bedroom to kitchen, desk, mailbox, and back, making it more useful than a padded sock and less precious than a formal house shoe.
 
 Wool felt forms the upper with minimal seams, a single rivet, and a generous opening. Inside, the removable footbed supports the arch, cups the heel, and leaves space for toes. A latex-dipped outsole adds grip and limited protection while preserving flexibility. Because the footbed can be replaced, the slipper need not be discarded when the surface eventually compresses or becomes tired.
 
@@ -262,7 +262,7 @@ Honorable mentions: Haflinger GZ; Mahabis Classic
 
 **Stutterheim Mosebacke**
 
-Stutterheim’s Mosebacke is the raincoat we choose because its A-line shape provides real coverage while looking intentional after the weather clears. The hood frames the face, the hem protects the upper leg, and the volume accommodates knitwear without clinging. It avoids the toggles, contrast zips, and sporting graphics that make many waterproof coats feel out of place away from a trail.
+Stutterheim gives the Mosebacke an A-line shape that provides real coverage while looking intentional after the weather clears. The hood frames the face, the hem protects the upper leg, and the volume accommodates knitwear without clinging. It avoids the toggles, contrast zips, and sporting graphics that make many waterproof coats feel out of place away from a trail.
 
 The coat is cut from rubberized cotton-polyester cloth with welded seams that prevent water entering through stitching. Snap fasteners close the front, drawstrings adjust the hood, and welt pockets shelter hands and essentials. Raglan sleeves allow movement, while the swing shape creates room across hips and seat. The fabric has sufficient weight to fall cleanly rather than flap like an emergency shell.
 
@@ -278,7 +278,7 @@ Honorable mentions: Mackintosh Humbie; Rains Curve
 
 **Patagonia Down Sweater Hoody**
 
-Patagonia’s Down Sweater Hoody is the puffer jacket we choose because it balances warmth, low weight, repairability, and a mature understanding of material consequence. It layers beneath a shell, packs into its own pocket, and remains substantial enough for ordinary winter use. The silhouette is technical but restrained, avoiding both expedition bulk and the glossy exaggeration of luxury versions.
+Patagonia’s Down Sweater Hoody balances warmth, low weight, repairability, and a mature understanding of material consequence. It layers beneath a shell, packs into its own pocket, and remains substantial enough for ordinary winter use. The silhouette is technical but restrained, avoiding both expedition bulk and the glossy exaggeration of luxury versions.
 
 The recycled nylon ripstop shell contains responsibly sourced down held in quilted channels. A shaped hood, drawcord hem, elastic cuffs, and internal drop pockets control warmth without excessive hardware. Reinforcement appears where abrasion is likely, and the included repair patch acknowledges that thin shell fabric can be damaged. Patagonia’s repair services extend that honest engineering beyond the first owner or season.
 
@@ -294,7 +294,7 @@ Honorable mentions: Crescent Down Works Montagne; Nanga Aurora Tex
 
 **Eres Cassiopée**
 
-The Eres Cassiopée is the swimsuit we choose because its asymmetrical line creates distinction without print, padding, or decorative hardware. A single wide strap sweeps across the shoulder, the body remains clean, and the leg is cut high enough for length without becoming extreme. It is a swimsuit that looks resolved at the pool, beneath a shirt, or worn as a bodysuit away from water.
+The Eres Cassiopée’s asymmetrical line creates distinction without print, padding, or decorative hardware. A single wide strap sweeps across the shoulder, the body remains clean, and the leg is cut high enough for length without becoming extreme. It is a swimsuit that looks resolved at the pool, beneath a shirt, or worn as a bodysuit away from water.
 
 Eres uses its dense Peau Douce fabric, a blend engineered to stretch, support, and recover without rigid internal structure. The material smooths through precise patterning rather than molded cups or boning. Clean edges and controlled seaming preserve the graphic shape, while the one-shoulder construction distributes tension carefully. Color becomes architectural because there are few other details competing for attention.
 
@@ -312,7 +312,7 @@ Honorable mentions: Hunza G Square Neck; Solid & Striped Anne-Marie
 
 **Cartier Tank Must**
 
-The Cartier Tank Must is the watch we choose because its rectangular case makes time feel architectural rather than technical. The proportions are compact, the Roman numerals are unmistakable, and the blue hands provide exactly enough color. It works with denim, tailoring, evening clothes, or a plain white shirt without changing character. Few watches carry such identity while remaining so little concerned with occupying space.
+The Cartier Tank Must’s rectangular case makes time feel architectural rather than technical. The proportions are compact, the Roman numerals are unmistakable, and the blue hands provide exactly enough color. It works with denim, tailoring, evening clothes, or a plain white shirt without changing character. Few watches carry such identity while remaining so little concerned with occupying space.
 
 The design descends from Louis Cartier’s 1917 Tank, translating parallel brancards and a rectangular dial into a form that follows the wrist. The Must pairs a steel case with a beaded crown set with blue synthetic spinel, mineral crystal, and either quartz or mechanical movement depending on version. A leather strap preserves the clean geometry, while the chemin-de-fer minute track keeps the dial legible.
 
@@ -328,7 +328,7 @@ Honorable mentions: Swatch Skin; Hermès Heure H
 
 **Oliver Peoples O’Malley Sun**
 
-The Oliver Peoples O’Malley Sun is the sunglasses frame we choose because it offers character without the visual weight of a large fashion frame. Its rounded lenses, keyhole bridge, and fine acetate rims bring definition to the face while remaining calm. Originally inspired by Los Angeles eyewear from the 1950s, it feels literate rather than nostalgic and works across tailoring, sportswear, and summer clothes.
+The Oliver Peoples O’Malley Sun offers character without the visual weight of a large fashion frame. Its rounded lenses, keyhole bridge, and fine acetate rims bring definition to the face while remaining calm. Originally inspired by Los Angeles eyewear from the 1950s, it feels literate rather than nostalgic and works across tailoring, sportswear, and summer clothes.
 
 The frame is made in Japan from polished acetate with embedded wire cores, a sculpted bridge, and precisely fitted hinges. Functional pins and subtle temple details reveal construction at close range without reading as logos. High-quality lenses provide ultraviolet protection and clear optics, while several sizes and colors allow the same geometry to meet different faces. The restrained thickness keeps the frame light.
 
@@ -344,7 +344,7 @@ Honorable mentions: Ray-Ban Original Wayfarer; Persol 649
 
 **Smythson Panama**
 
-The Smythson Panama is the wallet we choose because its cross-grain leather brings durability and color to an object that should remain compact. The design is orderly rather than over-equipped, with space for essential cards, notes, and little else. It slips into a small handbag or coat pocket without creating a second piece of luggage, and its refinement is visible mainly to the owner.
+The Smythson Panama’s cross-grain leather brings durability and color to an object that should remain compact. The design is orderly rather than over-equipped, with space for essential cards, notes, and little else. It slips into a small handbag or coat pocket without creating a second piece of luggage, and its refinement is visible mainly to the owner.
 
 Smythson developed Panama leather in the early twentieth century for lightweight travel goods. The embossed calf resists scratches, holds color, and maintains enough firmness for thin construction. Depending on format, precisely cut card slots, note compartments, and a small coin section are lined and edge-finished without excessive padding. Hardware and branding remain restrained, allowing material and proportion to define the object.
 
@@ -360,7 +360,7 @@ Honorable mentions: Comme des Garçons Classic Zip; Il Bussetto
 
 **Anderson’s Leather Belt**
 
-Anderson’s leather belt is the one we choose because it brings excellent Italian making to a wardrobe tool that should not become a logo. The buckle is modest, the leather has enough substance to hold shape, and the proportions work with denim, trousers, or a dress. It provides a clean stopping point at the waist without asking every shoe and bag to match exactly.
+Anderson’s leather belt brings excellent Italian making to a wardrobe tool that should not become a logo. The buckle is modest, the leather has enough substance to hold shape, and the proportions work with denim, trousers, or a dress. It provides a clean stopping point at the waist without asking every shoe and bag to match exactly.
 
 Made in Parma, the belt uses carefully cut leather, neatly finished edges, a solid metal buckle, and close stitching where construction requires it. Anderson’s experience with woven belts appears in the attention to flexibility and curve, allowing the strap to follow the body rather than stand away from it. Hole spacing provides practical adjustment, while the tapered tip passes easily through standard belt loops.
 
@@ -376,7 +376,7 @@ Honorable mentions: Loewe Pebble; A.P.C. Grace
 
 **Hermès Kelly 28**
 
-The Hermès Kelly 28 is the handbag we choose because its disciplined trapezoid turns a portable container into an enduring piece of architecture. At 28 centimeters, it holds daily essentials without allowing them to become cargo, while the top handle and detachable strap permit formal or practical use. The design is famous, but its continued force comes from proportion, closure, and the authority of a single clear outline.
+The Hermès Kelly 28’s disciplined trapezoid turns a portable container into an enduring piece of architecture. At 28 centimeters, it holds daily essentials without allowing them to become cargo, while the top handle and detachable strap permit formal or practical use. The design is famous, but its continued force comes from proportion, closure, and the authority of a single clear outline.
 
 The bag is assembled from carefully selected leather around a structured body, with a reinforced base, protective feet, turned handle, and flap secured by straps and a rotary clasp. Saddle stitching is completed by hand, allowing damaged seams to be repaired rather than discarded. Interior pockets organize small objects, while edge painting and precisely aligned hardware reveal the labor required to make rigid geometry from yielding hide.
 
@@ -392,7 +392,7 @@ Honorable mentions: Loewe Puzzle; Bottega Veneta Andiamo
 
 **Hermès Carré 90**
 
-The Hermès Carré 90 is the scarf we choose because ninety centimeters of printed silk can supply color, pattern, warmth, and ceremony without taking permanent space in a wardrobe. Folded at the neck, tied to a bag, worn over hair, or framed as an image, it changes function through handling. The square is consistent; the enormous visual range comes from artists and the wearer.
+Ninety centimeters of printed silk can supply color, pattern, warmth, and ceremony without taking permanent space in a wardrobe. Folded at the neck, tied to a bag, worn over hair, or framed as an image, it changes function through handling. The square is consistent; the enormous visual range comes from artists and the wearer.
 
 Each carré begins as an illustration translated into separate color screens, with complex designs requiring many passes of dye. Heavy silk twill gives the cloth enough body to hold a knot and enough fluidity to drape. Edges are rolled and stitched by hand toward the front, producing a rounded border. The 90-centimeter format is large enough to display the composition without becoming a shawl.
 
@@ -408,7 +408,7 @@ Honorable mentions: Begg x Co Wispy; Johnstons of Elgin
 
 **Dents Hairsheep Cashmere-Lined Gloves**
 
-Dents’ hairsheep gloves with cashmere lining are the pair we choose because they preserve dexterity while supplying genuine winter warmth. The leather sits close, fingertips remain useful, and the wrist slips neatly beneath a coat sleeve. They are refined enough for tailoring and practical enough for daily transport, avoiding both the bulk of outdoor gloves and the fragility of purely decorative ones.
+Dents’ hairsheep gloves with cashmere lining preserve dexterity while supplying genuine winter warmth. The leather sits close, fingertips remain useful, and the wrist slips neatly beneath a coat sleeve. They are refined enough for tailoring and practical enough for daily transport, avoiding both the bulk of outdoor gloves and the fragility of purely decorative ones.
 
 Hairsheep leather is prized for being thin, supple, and unusually strong. Dents cuts the pieces with allowance for natural stretch, then shapes fingers with quirks that improve movement. Three points articulate the back of the hand, while a fine cashmere lining insulates without distorting the silhouette. Close seams and a simple wrist opening keep construction visible but not showy.
 
@@ -424,7 +424,7 @@ Honorable mentions: Hestra Kathryn; Sermoneta
 
 **Le Bonnet Lambswool Beanie**
 
-Le Bonnet’s lambswool beanie is the hat we choose because its color and compact ribbed form improve winter clothing without looking like technical equipment. The cuff frames the face, the crown has enough room without collapsing into a long tail, and the knit sits securely over the ears. It is simple enough for daily repetition, yet the palette prevents practical dressing from becoming uniformly dark.
+Le Bonnet uses color and a compact ribbed form to improve winter clothing without looking like technical equipment. The cuff frames the face, the crown has enough room without collapsing into a long tail, and the knit sits securely over the ears. It is simple enough for daily repetition, yet the palette prevents practical dressing from becoming uniformly dark.
 
 The hat is knitted in Scotland from responsibly sourced lambswool, using a dense rib that stretches around the head and recovers after wear. A turned cuff doubles the material where warmth matters most, while minimal seaming preserves the clean cylinder. Lambswool provides loft and resilience at a lower weight than coarse wool, giving the surface a soft, lightly brushed character without cashmere’s delicacy.
 

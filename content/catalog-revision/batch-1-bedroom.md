@@ -6,7 +6,7 @@
 
 **Nelson Thin Edge Bed**
 
-The Nelson Thin Edge Bed is the frame Small Certainty chooses because it gives a bed architectural order without making the bedroom feel furnished around a monument. George Nelson designed it in 1954 with the lightness associated with his best work: a slim perimeter, elevated platform, and carefully judged headboard. It looks finished from across the room, yet leaves enough visual space for bedding, tables, and the habits of daily life.
+The Nelson Thin Edge Bed gives a bed architectural order without making the bedroom feel furnished around a monument. George Nelson designed it in 1954 with the lightness associated with his best work: a slim perimeter, elevated platform, and carefully judged headboard. It looks finished from across the room, yet leaves enough visual space for bedding, tables, and the habits of daily life.
 
 The current Herman Miller edition uses a solid walnut or white ash frame, ash slats, and slender wood legs capped in stainless steel. The optional headboard is available with or without woven cane, adding support without becoming an upholstered wall. Its platform has also been updated for contemporary memory-foam mattresses. The result preserves Nelson's precise profile while accepting the way people actually buy and use mattresses now.
 
@@ -22,7 +22,7 @@ Honorable mentions: Zeitraum Mo; Thuma Classic
 
 **Vispring Herald Superb**
 
-The Vispring Herald Superb is the mattress Small Certainty chooses because it pursues comfort through materials and construction rather than a theatrical stack of proprietary foams. It is deeply traditional, but not nostalgic. The appeal lies in a responsive pocket-spring core, breathable natural fillings, and the ability to select an appropriate tension. It feels generous without producing the trapped, slow-moving sensation common to very thick foam mattresses.
+The Vispring Herald Superb pursues comfort through materials and construction rather than a theatrical stack of proprietary foams. It is deeply traditional, but not nostalgic. The appeal lies in a responsive pocket-spring core, breathable natural fillings, and the ability to select an appropriate tension. It feels generous without producing the trapped, slow-moving sensation common to very thick foam mattresses.
 
 Its single layer of hand-nested calico pocket springs is arranged at a density of 1,326 springs in the 150-by-200-centimeter size. Above and below sit wool, cotton, and horsehair, secured by hand tufting with felt washers. Two rows of hand side-stitching stabilize the borders, while vents help the interior breathe. Soft, medium, firm, and extra-firm tensions allow the construction to meet different bodies without changing its essential character.
 
@@ -38,7 +38,7 @@ Honorable mentions: Hastens Maranga; Saatva Classic
 
 **Saatva Latex Pillow**
 
-The Saatva Latex Pillow is the pillow Small Certainty chooses because it resolves the familiar conflict between support and softness without resorting to a dense slab of foam. The head settles into a light outer layer, while a shredded natural-latex core prevents the pillow from collapsing through the night. It feels immediately comfortable, but its more important virtue is that it continues to hold a useful shape after the first few minutes.
+The Saatva Latex Pillow resolves the familiar conflict between support and softness without resorting to a dense slab of foam. The head settles into a light outer layer, while a shredded natural-latex core prevents the pillow from collapsing through the night. It feels immediately comfortable, but its more important virtue is that it continues to hold a useful shape after the first few minutes.
 
 The construction is straightforward and separable. An organic cotton cover surrounds a removable microdenier fill layer, which in turn contains the shredded latex core. Saatva offers a standard loft of roughly four to five inches and a high loft of six to seven inches. The first suits many stomach and back sleepers, while the latter gives side sleepers more space between shoulder and head.
 
@@ -70,7 +70,7 @@ Honorable mentions: Sferra Grande Hotel; Tekla Percale
 
 **St Geneve Embassy Down Duvet**
 
-The St Geneve Embassy is the duvet Small Certainty chooses because it delivers warmth with remarkably little weight. Many duvets create comfort by becoming bulky, then trap heat unevenly as the filling migrates. The Embassy uses exceptionally lofty Polish white goose down and a light German batiste shell, producing an insulating layer that settles over the body rather than pressing upon it. The sensation is calm, dry, and distinctly unencumbered.
+The St Geneve Embassy delivers warmth with remarkably little weight. Many duvets create comfort by becoming bulky, then trap heat unevenly as the filling migrates. The Embassy uses exceptionally lofty Polish white goose down and a light German batiste shell, producing an insulating layer that settles over the body rather than pressing upon it. The sensation is calm, dry, and distinctly unencumbered.
 
 Its down is rated at 1,000 loft, allowing a modest amount of filling to hold a large volume of warm air. The 340-thread-count batiste combines cotton with Tencel for strength, breathability, and low weight. St Geneve's sealed, valved baffle-box construction keeps the down distributed while limiting cold seams. Several weights are offered, so the correct choice depends on bedroom temperature rather than a vague preference for maximum fill.
 
@@ -102,7 +102,7 @@ Honorable mentions: Kartell Componibili; Zeitraum Mellow
 
 **Artemide Tizio**
 
-The Artemide Tizio is the reading lamp Small Certainty chooses because adjustment is not an added feature but the entire architecture of the object. Richard Sapper's 1972 design can send a concentrated pool of light over a book, shift toward a desk, or withdraw when no longer needed, all with one hand. Its reach is considerable, yet the base occupies far less space than the sweep of the lamp suggests.
+Adjustment is not an added feature but the entire architecture of the object. Richard Sapper's 1972 design can send a concentrated pool of light over a book, shift toward a desk, or withdraw when no longer needed, all with one hand. Its reach is considerable, yet the base occupies far less space than the sweep of the lamp suggests.
 
 Two pairs of counterweighted arms pivot around small joints and remain balanced without springs or exposed cables. The conducting rods themselves carry low-voltage current from the transformer in the base to the lamp head, preserving the crisp geometry. The head rotates to direct light precisely, and contemporary Artemide versions use LED sources while retaining the mechanical intelligence and recognizable black structure of the original.
 
@@ -118,7 +118,7 @@ Honorable mentions: Anglepoise Type 75; Flos Tab
 
 **Braun BC12**
 
-The Braun BC12 is the alarm clock Small Certainty chooses because it performs the bedside job without recruiting a phone, a subscription, or a glowing control panel. The dial is immediately readable, the case is small enough for a crowded table, and the alarm increases in volume rather than beginning with a shock. It is a modest instrument, which is precisely the correct ambition for the first object encountered each morning.
+The Braun BC12 performs the bedside job without recruiting a phone, a subscription, or a glowing control panel. The dial is immediately readable, the case is small enough for a crowded table, and the alarm increases in volume rather than beginning with a shock. It is a modest instrument, which is precisely the correct ambition for the first object encountered each morning.
 
 The analog face uses clear hour and minute markings, luminous-tipped hands, and Braun's familiar yellow second hand. A quiet quartz movement limits the audible ticking that can make a small clock intolerable at night. Pressing the broad control integrated into the top and base activates a five-second light or delays the alarm for five minutes. One AA battery powers the clock, so no cable claims the nearest outlet.
 

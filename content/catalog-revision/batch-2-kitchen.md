@@ -278,7 +278,7 @@ Honorable mentions: Alessi 9090; Giannini Giannina
 
 **Alessi 9093**
 
-Michael Graves’s 9093 kettle is our choice because it returns pleasure to an appliance that modern kitchens have made increasingly anonymous. Its conical steel body performs the ordinary work of boiling water, while the small bird whistle turns completion into an unmistakable event. The wit is controlled by rigorous geometry, so the kettle remains useful after the postmodern joke has become familiar.
+Michael Graves’s 9093 kettle returns pleasure to an appliance that modern kitchens have made increasingly anonymous. Its conical steel body performs the ordinary work of boiling water, while the small bird whistle turns completion into an unmistakable event. The wit is controlled by rigorous geometry, so the kettle remains useful after the postmodern joke has become familiar.
 
 Introduced by Alessi in 1985, the kettle is formed from polished 18/10 stainless steel with a broad magnetic base. A colored polyamide handle arches clear of the body, and the removable bird sits in the spout. Steam activates a two-note whistle rather than an electronic alarm. The shape provides generous capacity, a stable footprint, and an object legible from across the room.
 
@@ -294,7 +294,7 @@ Honorable mentions: Hario Buono; Dualit Classic
 
 **Brown Betty Original**
 
-The original Brown Betty is the teapot we choose because its excellence comes from accumulated practical decisions rather than styling. The round body gives leaves room to circulate, the material holds heat, and the dark glaze tolerates years of tannin and handling. It is inexpensive, recognizable, and still made in Stoke-on-Trent from the local clay that established the type.
+The original Brown Betty’s excellence comes from accumulated practical decisions rather than styling. The round body gives leaves room to circulate, the material holds heat, and the dark glaze tolerates years of tannin and handling. It is inexpensive, recognizable, and still made in Stoke-on-Trent from the local clay that established the type.
 
 Etruria Marl clay is fired into dense red earthenware, then covered with a Rockingham glaze whose manganese gives the pot its deep brown surface. The belly is not nostalgic excess. It encourages convection as hot water rises and cooler water falls through the leaves. A carefully formed spout pours cleanly, while the substantial handle keeps the hand away from the hot body.
 
@@ -390,7 +390,7 @@ Honorable mentions: Bragard Grand Chef; Maison Empereur
 
 **Simplehuman 45L Rectangular Step Can**
 
-Simplehuman’s 45-liter rectangular step can is the trash can we choose because it manages an unavoidable kitchen object with unusual discipline. It fits against a wall, opens without a hand, closes quietly, and holds enough for a household without becoming industrial. Its appearance is deliberately neutral. The useful design work happens at the pedal, hinge, rim, and liner, where lesser bins create daily irritation.
+Simplehuman’s 45-liter rectangular step can manages an unavoidable kitchen object with unusual discipline. It fits against a wall, opens without a hand, closes quietly, and holds enough for a household without becoming industrial. Its appearance is deliberately neutral. The useful design work happens at the pedal, hinge, rim, and liner, where lesser bins create daily irritation.
 
 A broad steel pedal operates a damped lid rated for repeated use, while an internal hinge lets the can sit close to the wall. The removable liner rim lifts for changing bags, then closes over their edges to hide them. The rectangular interior uses floor space efficiently, and the 45-liter capacity suits common kitchen volumes. Stainless versions resist fingerprints better than ordinary polished metal.
 

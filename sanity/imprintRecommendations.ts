@@ -12,7 +12,7 @@ export const imprintRecommendations:ImprintRecommendationSet[]=[
       {
         productName:"hello@smallcertainty.com",
         productHref:"mailto:hello@smallcertainty.com",
-        note:`hello@smallcertainty.com is the contact method we choose because it gives every kind of correspondence enough room to become useful. A correction, recommendation, proposal, rights question, or thoughtful disagreement can arrive through the same clear door. Email is neither novel nor intimate by default, but it remains the most dependable way to reach an editorial project without asking the sender to join a platform or perform in public.
+        note:`A publication should have one clear door, and ours is hello@smallcertainty.com. A correction, recommendation, proposal, rights question, or thoughtful disagreement can arrive there with enough room to become useful. Email is neither novel nor intimate by default, but it remains the most dependable way to reach an editorial project without asking the sender to join a platform or perform in public.
 
 The address is deliberately plain. “Hello” welcomes a broad range of messages without pretending there is a department behind every subject. The Small Certainty domain makes the destination unambiguous, while a concise subject line provides all the routing most notes require. Attachments, links, references, and a proper written record travel together, which makes the exchange easier to understand later than a chain of hurried notifications.
 
@@ -39,7 +39,7 @@ A good contact method should reduce ceremony without reducing seriousness. This 
       {
         productName:"@smallcertainty",
         productHref:"https://www.instagram.com/smallcertainty/",
-        note:`@smallcertainty is the Instagram account we choose because it gives the catalog a useful visual margin without turning the project into a stream of advertisements. Some judgments begin with a texture, proportion, package, shopfront, or room that needs to be seen before it can be explained. The account collects those observations and connects them to the longer arguments and recommendations on the site.
+        note:`Some judgments begin with a texture, proportion, package, shopfront, or room that needs to be seen before it can be explained. @smallcertainty gives the catalog that visual margin without turning the project into a stream of advertisements. The account collects observations made in the world and connects them to the longer arguments and recommendations on the site.
 
 The format suits comparisons, close details, short field reports, and objects whose behavior can be understood in a few frames. Photography remains direct, captions carry actual information, and the feed can move between a chair, a street, a label, and a hotel without pretending they are the same subject. Stories provide a lighter working layer for provisional finds, while permanent posts retain the things worth finding again.
 

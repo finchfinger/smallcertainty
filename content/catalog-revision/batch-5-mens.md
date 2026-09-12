@@ -6,7 +6,7 @@
 
 **Sunspel Classic Cotton T-Shirt**
 
-Sunspel’s Classic Cotton T-Shirt is the one we choose because it understands that a plain T-shirt succeeds through proportion, fabric, and restraint rather than novelty. The cut is neat without clinging, the neckline remains composed, and the lightweight jersey sits comfortably beneath a shirt or jacket. It works alone in summer without borrowing authority from a logo, exaggerated weight, or nostalgic workwear story.
+Sunspel’s Classic Cotton T-Shirt understands that a plain T-shirt succeeds through proportion, fabric, and restraint rather than novelty. The cut is neat without clinging, the neckline remains composed, and the lightweight jersey sits comfortably beneath a shirt or jacket. It works alone in summer without borrowing authority from a logo, exaggerated weight, or nostalgic workwear story.
 
 Long-staple Supima cotton is spun into a fine jersey that feels smooth while retaining enough body to hang cleanly. Side seams preserve shape, the ribbed crew neck is narrow and stable, and the sleeves finish at a useful point on the upper arm. Construction is deliberately quiet. What matters is the consistency of the knit, the accuracy of the pattern, and the absence of bulk.
 
@@ -22,7 +22,7 @@ Honorable mentions: Lady White Co. Our T-Shirt; Merz b. Schwanen 215
 
 **Drake’s Oxford Shirt**
 
-Drake’s Oxford shirt is our choice because it preserves the relaxed usefulness of the type while giving it enough refinement for a tie and tailored jacket. The collar rolls rather than lies flat, the cloth has texture without stiffness, and the body is cut to move rather than display a narrow waist. It belongs with denim, flannel trousers, or a suit whose owner is not frightened of ease.
+Drake’s Oxford shirt preserves the relaxed usefulness of the type while giving it enough refinement for a tie and tailored jacket. The collar rolls rather than lies flat, the cloth has texture without stiffness, and the body is cut to move rather than display a narrow waist. It belongs with denim, flannel trousers, or a suit whose owner is not frightened of ease.
 
 The cotton Oxford cloth uses a basket weave that allows air through and gains softness with washing. A substantial button-down collar is shaped to curve around a tie knot or sit open without collapsing. Mother-of-pearl buttons, a split yoke, single-needle seams, and a locker loop supply traditional details, but the important work lies in collar geometry and a balanced, slightly generous pattern.
 
@@ -38,7 +38,7 @@ Honorable mentions: Kamakura Vintage Ivy; Gitman Vintage
 
 **William Lockie Leven Lambswool Crew**
 
-The William Lockie Leven is the crewneck sweater we choose because it offers warmth, color, and durable Scottish knitwear without turning heritage into spectacle. Its saddle shoulders sit naturally, the body leaves room for a shirt, and the lambswool has enough substance to hold shape. Worn over an Oxford or beneath a coat, it supplies texture while remaining a straightforward piece of clothing.
+The William Lockie Leven offers warmth, color, and durable Scottish knitwear without turning heritage into spectacle. Its saddle shoulders sit naturally, the body leaves room for a shirt, and the lambswool has enough substance to hold shape. Worn over an Oxford or beneath a coat, it supplies texture while remaining a straightforward piece of clothing.
 
 Lockie knits the sweater in Hawick from pure lambswool, using fully fashioned construction to shape the panels rather than cutting them from cloth. Ribbing at neck, cuffs, and hem controls the silhouette, while linked seams reduce bulk. The wool’s loft traps air and provides warmth at a moderate weight. A range is generous, but the heathery colors reveal the fiber most convincingly.
 
@@ -54,7 +54,7 @@ Honorable mentions: John Smedley Marcus; Howlin’ Birth of the Cool
 
 **Sunspel Riviera Polo**
 
-The Sunspel Riviera is the polo we choose because it avoids both the stiffness of golf clothing and the exaggerated trim of fashion versions. Its open, clean collar frames the neck, the body is close but not compressed, and the textured cotton remains comfortable in heat. The shirt can sit beneath an unstructured jacket or above swim shorts without pretending those settings require separate wardrobes.
+The Sunspel Riviera avoids both the stiffness of golf clothing and the exaggerated trim of fashion versions. Its open, clean collar frames the neck, the body is close but not compressed, and the textured cotton remains comfortable in heat. The shirt can sit beneath an unstructured jacket or above swim shorts without pretending those settings require separate wardrobes.
 
 Sunspel developed the cellular cotton mesh in the mid-twentieth century for warm climates. The open knit circulates air while retaining enough weight to fall rather than cling. A two-button placket, self-fabric collar, side vents, and neatly finished sleeves keep the construction spare. The modern Riviera was cut for Daniel Craig’s Bond, an association less useful than the fabric’s proven response to summer.
 
@@ -70,7 +70,7 @@ Honorable mentions: John Smedley Adrian; Fedeli
 
 **Drake’s Games Blazer**
 
-The Drake’s Games Blazer is the jacket we choose because it restores the blazer’s usefulness after decades of stiff office tailoring and shapeless casual substitutes. It has enough shoulder, lapel, and length to frame the body, yet its soft construction and practical pockets invite regular wear. It belongs over denim, chinos, cords, or flannel rather than waiting for a meeting formal enough to justify it.
+The Drake’s Games Blazer restores the blazer’s usefulness after decades of stiff office tailoring and shapeless casual substitutes. It has enough shoulder, lapel, and length to frame the body, yet its soft construction and practical pockets invite regular wear. It belongs over denim, chinos, cords, or flannel rather than waiting for a meeting formal enough to justify it.
 
 The pattern combines a natural shoulder with a full chest, three-roll-two buttoning, patch pockets, and a single rear vent. Depending on season, fabrics range from sturdy cotton drill and linen to tweed and wool flannel. Internal construction is deliberately light, allowing the jacket to move more like workwear while preserving the balance and collar of tailoring. Brass or horn buttons alter the degree of formality.
 
@@ -86,7 +86,7 @@ Honorable mentions: Ring Jacket Model 3; Boglioli K-Jacket
 
 **OrSlow 105 Standard Fit**
 
-OrSlow’s 105 is the jean we choose because it returns the five-pocket standard to useful proportions. The rise is comfortable, the leg is straight without being wide, and the Japanese denim has character without demanding a lecture about reproduction. It works with sneakers, boots, shirts, and jackets because the silhouette is neither aggressively contemporary nor trapped in a single archival year.
+OrSlow’s 105 returns the five-pocket standard to useful proportions. The rise is comfortable, the leg is straight without being wide, and the Japanese denim has character without demanding a lecture about reproduction. It works with sneakers, boots, shirts, and jackets because the silhouette is neither aggressively contemporary nor trapped in a single archival year.
 
 The 13.5-ounce selvedge denim is woven in Japan with an irregular surface and dyed so repeated wear produces personal rather than factory-applied fading. Construction includes a button fly, copper rivets, chain-stitched hems, and reinforced pockets. The pattern leaves room through seat and thigh before falling cleanly to the hem. OrSlow adjusts details over time while preserving the recognizable standard fit.
 
@@ -102,7 +102,7 @@ Honorable mentions: Resolute 710; Full Count 1101
 
 **Bill’s Khakis M2**
 
-Bill’s Khakis M2 is the chino we choose because it retains the comfort and authority of proper military trousers without becoming oversized nostalgia. The rise reaches the waist, the thigh permits movement, and the leg tapers only enough to remain orderly. In cotton twill, that fuller architecture looks deliberate with loafers, boots, or canvas shoes and avoids the strained pockets of fashionably narrow alternatives.
+Bill’s Khakis M2 retains the comfort and authority of proper military trousers without becoming oversized nostalgia. The rise reaches the waist, the thigh permits movement, and the leg tapers only enough to remain orderly. In cotton twill, that fuller architecture looks deliberate with loafers, boots, or canvas shoes and avoids the strained pockets of fashionably narrow alternatives.
 
 The M2 is cut from substantial cotton twill with a flat front, slanted side pockets, welted rear pockets, and a split waistband that permits alteration. Belt loops are sturdy and the pocket bags are made for use. The cloth begins crisp, then softens and fades along honest lines. Construction is straightforward enough that a tailor can adjust waist, hem, or taper without dismantling a technical garment.
 
@@ -118,7 +118,7 @@ Honorable mentions: Incotex; Buzz Rickson Original-Spec
 
 **Sunspel Superfine Cotton Boxer Brief**
 
-Sunspel’s Superfine Cotton Boxer Brief is the underwear we choose because it provides support without compression and softness without losing shape by midday. The cut sits close, the waistband remains discreet, and the lightweight fabric disappears beneath trousers. It is a costly version of an invisible garment, but comfort is experienced for more hours than almost any visible purchase and deserves exacting judgment.
+Sunspel’s Superfine Cotton Boxer Brief provides support without compression and softness without losing shape by midday. The cut sits close, the waistband remains discreet, and the lightweight fabric disappears beneath trousers. It is a costly version of an invisible garment, but comfort is experienced for more hours than almost any visible purchase and deserves exacting judgment.
 
 Long-staple cotton is knitted into a fine, smooth jersey with enough stretch from the construction and elastane to recover after wear. Flat seams reduce friction, the shaped front supports without elaborate panels, and the leg length prevents bunching while remaining clear of most shorts. The waistband is soft against skin and proportioned to hold rather than advertise a name.
 
@@ -134,7 +134,7 @@ Honorable mentions: Hanro Cotton Sporty; CDLP Boxer Brief
 
 **Pantherella Laburnum Merino**
 
-The Pantherella Laburnum is the sock we choose because it occupies the useful territory between a thin dress sock and a thick outdoor one. Fine merino regulates temperature, the ribbed leg stays orderly, and the restrained colors work with tailoring, denim, or chinos. It feels refined without becoming fragile hosiery, making it the pair most likely to serve through an ordinary week.
+The Pantherella Laburnum occupies the useful territory between a thin dress sock and a thick outdoor one. Fine merino regulates temperature, the ribbed leg stays orderly, and the restrained colors work with tailoring, denim, or chinos. It feels refined without becoming fragile hosiery, making it the pair most likely to serve through an ordinary week.
 
 Pantherella knits the sock in Leicester from fine-gauge merino wool blended with nylon for strength. The Laburnum’s rib construction provides elasticity without a bulky cuff, while a hand-linked toe creates a nearly flat seam. Heel and toe are reinforced where wear concentrates. The medium length reaches high enough that seated trousers do not expose bare calf.
 
@@ -150,7 +150,7 @@ Honorable mentions: Falke Airport; Bresciani Merino
 
 **Derek Rose Basel Pajamas**
 
-Derek Rose’s Basel pajamas are the sleepwear we choose because they provide the coverage of traditional pajamas in a fabric that behaves more like a favorite T-shirt. The set is soft, breathable, and sufficiently composed for breakfast or answering a hotel-room door. It recognizes that night clothes should move, wash, and regulate temperature before they participate in any fantasy of gentlemanly leisure.
+Derek Rose’s Basel pajamas provide the coverage of traditional pajamas in a fabric that behaves more like a favorite T-shirt. The set is soft, breathable, and sufficiently composed for breakfast or answering a hotel-room door. It recognizes that night clothes should move, wash, and regulate temperature before they participate in any fantasy of gentlemanly leisure.
 
 The Basel jersey is made from micromodal blended with stretch fiber, producing a smooth knit that drapes without clinging. The jacket uses a notched collar, button front, and chest pocket, while the trousers have an elastic waist and practical fly. Flat, precise seams and relaxed patterning reduce pressure during sleep. The fabric’s fine surface gives the familiar form a lighter modern character.
 
@@ -166,7 +166,7 @@ Honorable mentions: Sunspel Cotton Pajamas; Tekla Poplin Sleepwear
 
 **Novesta Star Master**
 
-The Novesta Star Master is the sneaker we choose because it remains exactly what a canvas shoe ought to be: simple, washable, inexpensive, and free of borrowed athletic technology. Its low profile works with chinos, denim, shorts, or a casual suit, while the slightly broad toe and substantial sole prevent it from looking insubstantial. The design has character, but it never asks to become the center of an outfit.
+The Novesta Star Master remains exactly what a canvas shoe ought to be: simple, washable, inexpensive, and free of borrowed athletic technology. Its low profile works with chinos, denim, shorts, or a casual suit, while the slightly broad toe and substantial sole prevent it from looking insubstantial. The design has character, but it never asks to become the center of an outfit.
 
 Novesta makes the shoe in Slovakia using a vulcanized natural-rubber sole, cotton canvas upper, metal eyelets, and a removable insole. The sole is pressed onto the upper rather than glued in the usual manner, leaving the small irregularities that distinguish the construction. A textured foxing strip gives the shoe definition, while the unlined upper keeps weight and complication low. There is very little here to disguise.
 
@@ -182,7 +182,7 @@ Honorable mentions: Onitsuka Tiger Mexico 66; Moonstar Gym Classic
 
 **Nike Pegasus 42**
 
-The Nike Pegasus 42 is the running shoe we choose because it serves the greatest number of miles without demanding a specialized gait, race calendar, or theory of foam. It is a dependable daily trainer with enough cushioning for recovery runs, enough response for steady efforts, and a familiar fit that works for many feet. The latest version improves comfort without turning a useful shoe into an engineering demonstration.
+The Nike Pegasus 42 serves the greatest number of miles without demanding a specialized gait, race calendar, or theory of foam. It is a dependable daily trainer with enough cushioning for recovery runs, enough response for steady efforts, and a familiar fit that works for many feet. The latest version improves comfort without turning a useful shoe into an engineering demonstration.
 
 Nike combines ReactX foam with dual Air Zoom units beneath the forefoot and heel, producing a ride that is cushioned but not unstable. The engineered mesh upper increases ventilation, while padding around the tongue and collar secures the foot without hard edges. A durable rubber outsole covers the principal impact zones. The geometry remains conventional, which makes transitions predictable and the shoe suitable for walking or travel as well as running.
 
@@ -198,7 +198,7 @@ Honorable mentions: ASICS Novablast 6; Saucony Ride 19
 
 **Lowa Renegade Evo GTX Mid**
 
-The Lowa Renegade Evo GTX Mid is the hiking boot we choose because it provides real support and weather protection without the weight and stiffness of traditional mountain footwear. It is substantial enough for rocky trails and a loaded daypack, yet civilized enough for long approaches, damp fields, and winter travel. The fit is secure rather than punitive, making it a boot people are likely to wear before conditions become dramatic.
+The Lowa Renegade Evo GTX Mid provides real support and weather protection without the weight and stiffness of traditional mountain footwear. It is substantial enough for rocky trails and a loaded daypack, yet civilized enough for long approaches, damp fields, and winter travel. The fit is secure rather than punitive, making it a boot people are likely to wear before conditions become dramatic.
 
 The nubuck upper is divided into fewer panels than its predecessor, reducing seams and potential pressure points. A Gore-Tex lining manages wet ground, while Lowa’s injected polyurethane midsole supplies lasting structure and cushioning. The Vibram outsole balances grip with reasonable rolling movement, and the two-zone lacing system allows the forefoot and ankle to be adjusted separately. A stabilizing frame controls lateral movement without a rigid shank.
 
@@ -214,7 +214,7 @@ Honorable mentions: Danner Mountain Light II; Scarpa Rush TRK GTX
 
 **Darn Tough Hiker Micro Crew**
 
-The Darn Tough Hiker Micro Crew is the hiking sock we choose because it solves the small problems that become large after several hours on foot. It stays in place, manages moisture, cushions without filling the boot, and survives repeated washing. The height is sufficient for a mid boot but less cumbersome than a traditional calf sock, making it useful for daily wear when the weather turns cold.
+The Darn Tough Hiker Micro Crew solves the small problems that become large after several hours on foot. It stays in place, manages moisture, cushions without filling the boot, and survives repeated washing. The height is sufficient for a mid boot but less cumbersome than a traditional calf sock, making it useful for daily wear when the weather turns cold.
 
 Its fine-gauge knit blends merino wool with nylon and elastane. Merino moderates temperature and odor, nylon reinforces the heel, toe, and high-wear zones, and elastic holds the fabric close enough to prevent folds. Cushioning is concentrated beneath the foot rather than spread indiscriminately. The seamless toe reduces rubbing, while the dense knit gives the sock a cleaner fit than loosely looped outdoor alternatives.
 
@@ -230,7 +230,7 @@ Honorable mentions: Smartwool Classic Hike; Falke TK2
 
 **Blundstone Original 500**
 
-The Blundstone Original 500 is the boot we choose because it handles rain, errands, travel, gardens, and untidy work without turning any of them into a costume. The elastic-sided shape is recognizable but unobtrusive, the rounded toe leaves useful room, and the pull-on construction removes the daily ceremony of laces. It is a practical boot that crosses settings precisely because it does not pretend to be formal.
+The Blundstone Original 500 handles rain, errands, travel, gardens, and untidy work without turning any of them into a costume. The elastic-sided shape is recognizable but unobtrusive, the rounded toe leaves useful room, and the pull-on construction removes the daily ceremony of laces. It is a practical boot that crosses settings precisely because it does not pretend to be formal.
 
 The 500 uses a single-layer leather upper, elastic side panels, front and rear pull tabs, and a directly molded polyurethane sole. There are few seams to admit water or fail under flex. The outsole is oil-, acid-, and slip-resistant, while the removable footbed provides modest cushioning. The form derives from the Chelsea boot but its broad last and workwear construction make elegance secondary to durability.
 
@@ -246,7 +246,7 @@ Honorable mentions: Alden Indy 403; R.M. Williams Comfort Craftsman
 
 **Crockett & Jones Hallam**
 
-The Crockett & Jones Hallam is the dress shoe we choose because it is formal enough for a dark suit without becoming ceremonial or conspicuous. The straight-cap Oxford has a clean, elongated line, a restrained toe, and none of the decorative enthusiasm that dates lesser shoes. In black calf it covers serious occasions; in dark brown it moves easily between tailoring and more relaxed wool trousers.
+The Crockett & Jones Hallam is formal enough for a dark suit without becoming ceremonial or conspicuous. The straight-cap Oxford has a clean, elongated line, a restrained toe, and none of the decorative enthusiasm that dates lesser shoes. In black calf it covers serious occasions; in dark brown it moves easily between tailoring and more relaxed wool trousers.
 
 The Hallam is built in Northampton on the 348 last, whose chiseled toe gives definition without extreme length. Calfskin uppers are closed-laced over a leather lining, and Goodyear-welted construction joins the upper, insole, welt, and sole in a form that can be repaired. Stitching is close and controlled, the cap proportion is balanced, and the heel is shaped rather than merely attached.
 
@@ -262,7 +262,7 @@ Honorable mentions: Edward Green Chelsea; Church’s Consul
 
 **Birkenstock Zermatt**
 
-The Birkenstock Zermatt is the slipper we choose because it treats indoor footwear as something more useful than a padded sock and less precious than a house shoe. The broad felt upper is warm without looking fussy, while the familiar cork footbed gives actual support. It can carry a morning from bedroom to kitchen, desk, mailbox, and back without requiring a change of shoes.
+The Birkenstock Zermatt treats indoor footwear as something more useful than a padded sock and less precious than a house shoe. The broad felt upper is warm without looking fussy, while the familiar cork footbed gives actual support. It can carry a morning from bedroom to kitchen, desk, mailbox, and back without requiring a change of shoes.
 
 The upper is made from wool felt with a single rivet and a generous opening. Inside, a removable contoured footbed supports the arch, cups the heel, and leaves room for toes to spread. The latex-dipped outsole adds grip and limited protection while preserving flexibility. Construction is minimal and legible, and replaceable footbeds extend the useful life beyond that of foam slippers that compress permanently.
 
@@ -278,7 +278,7 @@ Honorable mentions: Haflinger GZ; Giesswein Vent
 
 **Mackintosh Dunkeld**
 
-The Mackintosh Dunkeld is the raincoat we choose because it performs its purpose with a silhouette that remains appropriate when the rain stops. Its straight, knee-length cut covers a jacket, the concealed fastening keeps the front calm, and the small collar sits neatly whether raised or flat. It is urban protection stripped of outdoor graphics, excess hardware, and the rustle of technical shells.
+The Mackintosh Dunkeld performs its purpose with a silhouette that remains appropriate when the rain stops. Its straight, knee-length cut covers a jacket, the concealed fastening keeps the front calm, and the small collar sits neatly whether raised or flat. It is urban protection stripped of outdoor graphics, excess hardware, and the rustle of technical shells.
 
 Mackintosh constructs the coat from bonded cotton, joining layers with rubber to create a waterproof cloth whose lineage reaches the company’s nineteenth-century process. Seams are taped by hand to prevent water entering through needle holes. Raglan sleeves allow movement over tailoring, while underarm eyelets provide limited ventilation. Welt pockets, a throat latch, and a simple interior complete a garment whose engineering is largely hidden.
 
@@ -294,7 +294,7 @@ Honorable mentions: Stutterheim Stockholm; Patagonia Torrentshell
 
 **Crescent Down Works Classico Down Parka**
 
-The Crescent Down Works Classico Down Parka is the insulated jacket we choose because it combines serious warmth with the relaxed proportions of traditional American outdoor clothing. It is neither a glossy urban status object nor an ultralight exercise in minimum weight. The generous hood, plain front, and substantial loft make it convincing in cold weather, while the soft construction improves as the shell records use.
+The Crescent Down Works Classico Down Parka combines serious warmth with the relaxed proportions of traditional American outdoor clothing. It is neither a glossy urban status object nor an ultralight exercise in minimum weight. The generous hood, plain front, and substantial loft make it convincing in cold weather, while the soft construction improves as the shell records use.
 
 Made in Seattle, the parka uses a durable nylon shell and high-quality goose down arranged in broad baffles. A two-way zipper, insulated hand pockets, elasticized cuffs, and adjustable hood address the places where heat usually escapes. The cut leaves room for knitwear without becoming spherical. Unlike bonded technical garments, its construction is straightforward enough to understand, maintain, and, in many cases, repair.
 
@@ -310,7 +310,7 @@ Honorable mentions: Nanga Aurora Tex; Patagonia Down Sweater
 
 **Orlebar Brown Bulldog**
 
-The Orlebar Brown Bulldog is the swimsuit we choose because it is cut as a proper pair of shorts rather than an elasticized tube. The tailored waistband, clean front, and moderate length look composed at lunch without becoming formal on the beach. It solves the familiar problem of moving between swimming and the rest of a summer day without carrying a change of clothes.
+The Orlebar Brown Bulldog is cut as a proper pair of shorts rather than an elasticized tube. The tailored waistband, clean front, and moderate length look composed at lunch without becoming formal on the beach. It solves the familiar problem of moving between swimming and the rest of a summer day without carrying a change of clothes.
 
 The quick-drying woven fabric is shaped with side adjusters instead of a gathered waist, allowing a precise fit and an uncluttered silhouette. A snap and zip fly, mesh lining, side pockets, and a secure rear pocket provide the functions expected of ordinary shorts. The six-inch inseam sits between abbreviated swim briefs and long board shorts, while reinforced stress points support repeated saltwater use.
 
@@ -328,7 +328,7 @@ Honorable mentions: Vilebrequin Moorea; Patagonia Baggies
 
 **Swatch Once Again**
 
-The Swatch Once Again is the watch we choose because it tells the time clearly, costs little enough to wear without anxiety, and declines the mythology that now surrounds mechanical watches. Its black case, white dial, day-date window, and red seconds hand are legible at a glance. The design is familiar without being anonymous, and cheerful without treating the wrist as advertising space.
+The Swatch Once Again tells the time clearly, costs little enough to wear without anxiety, and declines the mythology that now surrounds mechanical watches. Its black case, white dial, day-date window, and red seconds hand are legible at a glance. The design is familiar without being anonymous, and cheerful without treating the wrist as advertising space.
 
 The 34-millimeter plastic case contains an accurate quartz movement beneath an acrylic crystal. Printed Arabic numerals, minute markers, and simple baton hands do all the visual work. A flexible black strap continues the monochrome case rather than imitating leather or metal. The battery is replaceable through a coin-operated hatch, a small piece of practical design that avoids unnecessary servicing and keeps ownership uncomplicated.
 
@@ -344,7 +344,7 @@ Honorable mentions: Braun AW10; Casio G-Shock DW-5600
 
 **Persol 649**
 
-The Persol 649 is the sunglasses frame we choose because its character comes from proportion and construction rather than an oversized logo. Originally designed for Turin tram drivers, the keyhole bridge, gently sloping brow, and rounded lenses suit a remarkable range of faces. It is recognizable without becoming costume, and substantial enough to provide presence while retaining the ease expected of an everyday summer object.
+The Persol 649’s character comes from proportion and construction rather than an oversized logo. Originally designed for Turin tram drivers, the keyhole bridge, gently sloping brow, and rounded lenses suit a remarkable range of faces. It is recognizable without becoming costume, and substantial enough to provide presence while retaining the ease expected of an everyday summer object.
 
 The acetate frame is cut and finished in Italy, with Persol’s arrow hinge providing a small graphic signature that also reinforces the temple. The Meflecto system places flexible metal cylinders in the arms, allowing them to adapt around the head rather than pressing at one point. Glass lenses offer excellent optical clarity, and the frame’s thickness gives the hinges and lens rims useful material to work with.
 
@@ -360,7 +360,7 @@ Honorable mentions: Ray-Ban Original Wayfarer; Oliver Peoples O’Malley
 
 **Ettinger Sterling Billfold**
 
-The Ettinger Sterling Billfold is the wallet we choose because it brings color, order, and excellent leatherwork to an object best kept slim. Its exterior is discreet, while the contrasting interior provides pleasure visible mainly to its owner. The format holds cards and notes without the bulk of coins, zippers, trackers, or tactical fabric, preserving the simple virtue of a wallet that sits comfortably in a jacket.
+The Ettinger Sterling Billfold brings color, order, and excellent leatherwork to an object best kept slim. Its exterior is discreet, while the contrasting interior provides pleasure visible mainly to its owner. The format holds cards and notes without the bulk of coins, zippers, trackers, or tactical fabric, preserving the simple virtue of a wallet that sits comfortably in a jacket.
 
 Ettinger makes the billfold in England from smooth calf leather outside and softer, brightly colored leather within. Precisely turned edges, fine stitching, eight card slots, receipt pockets, and a divided note compartment organize the contents without excessive layers. The leather is thin because good hides and controlled construction allow it, not because durability has been sacrificed. A small embossed mark replaces conspicuous hardware.
 
@@ -376,7 +376,7 @@ Honorable mentions: Il Bussetto Bi-Fold; Bellroy Slim Sleeve
 
 **Anderson’s Woven Leather Belt**
 
-Anderson’s woven leather belt is the one we choose because it adjusts with greater precision and looks more relaxed than a strip of formal calf. The braided construction allows the buckle to fasten wherever needed, useful across changing trousers and seasonal waistlines. It works with denim, chinos, linen, or soft tailoring, adding texture without introducing a large buckle, visible branding, or artificial distressing.
+Anderson’s woven leather belt adjusts with greater precision and looks more relaxed than a strip of formal calf. The braided construction allows the buckle to fasten wherever needed, useful across changing trousers and seasonal waistlines. It works with denim, chinos, linen, or soft tailoring, adding texture without introducing a large buckle, visible branding, or artificial distressing.
 
 Made in Parma, the belt is woven from narrow leather strands around a flexible core and finished with a leather tip, keeper, and solid metal buckle. The braid requires consistent tension so the pattern remains even around curves and under load. Because there are no punched holes, wear is distributed across the weave rather than concentrated at one setting. The result bends naturally with the body.
 
@@ -392,7 +392,7 @@ Honorable mentions: Kreis Leather; Tanner Goods
 
 **Drake’s Grenadine Tie**
 
-Drake’s grenadine tie is the one we choose because its open weave gives a plain color enough depth to remain interesting without pattern. It makes a dark suit less severe, brings order to tweed or flannel, and knots with a compact, convincing shape. For anyone who wears ties selectively rather than daily, navy grenadine is the useful first choice and quite possibly the last required.
+The open weave of Drake’s grenadine tie gives a plain color enough depth to remain interesting without pattern. It makes a dark suit less severe, brings order to tweed or flannel, and knots with a compact, convincing shape. For anyone who wears ties selectively rather than daily, navy grenadine is the useful first choice and quite possibly the last required.
 
 Grenadine silk is woven on traditional wooden looms in northern Italy, producing a gauzy structure that is then cut, slipped, and finished by hand in London. Drake’s uses a light interlining that supports the fabric without suppressing its texture. Hand-rolled blades and a flexible slip stitch allow the tie to recover after knotting. The standard width balances contemporary and traditional lapels without pursuing either extreme.
 
@@ -408,7 +408,7 @@ Honorable mentions: Charvet Grenadine; Hermès Silk Twill
 
 **Dents Shaftesbury**
 
-Dents Shaftesbury gloves are the pair we choose because they preserve dexterity and a clean line while providing genuine winter warmth. The shape is close without looking dainty, the leather has a soft matte finish, and the wrist ends neatly beneath a coat sleeve. They belong equally with wool tailoring and practical outerwear, avoiding the bulk of ski gloves and the theatrical polish of dressier alternatives.
+Dents Shaftesbury gloves preserve dexterity and a clean line while providing genuine winter warmth. The shape is close without looking dainty, the leather has a soft matte finish, and the wrist ends neatly beneath a coat sleeve. They belong equally with wool tailoring and practical outerwear, avoiding the bulk of ski gloves and the theatrical polish of dressier alternatives.
 
 The exterior is cut from hairsheep leather, valued for being thin, strong, and supple. Inside, a cashmere lining adds insulation without requiring a thick profile. Three hand-sewn points articulate the back, while quirks between the fingers improve movement and fit. Dents’ traditional table-cutting method accounts for the leather’s stretch before pieces are sewn, producing a glove that settles around the hand rather than merely covering it.
 
@@ -424,7 +424,7 @@ Honorable mentions: Hestra Geoffrey; Merola
 
 **Begg x Co Arran**
 
-The Begg x Co Arran is the scarf we choose because it offers real warmth and color in a form that remains light enough to wear indoors. Its brushed cashmere has depth without a furry novelty finish, and the generous length can be wrapped once, twice, or left loose beneath a coat. It turns a practical strip of cloth into the easiest considered decision in winter dressing.
+The Begg x Co Arran offers real warmth and color in a form that remains light enough to wear indoors. Its brushed cashmere has depth without a furry novelty finish, and the generous length can be wrapped once, twice, or left loose beneath a coat. It turns a practical strip of cloth into the easiest considered decision in winter dressing.
 
 Woven and finished in Ayr, the scarf uses fine cashmere yarn and undergoes repeated washing, milling, and brushing with natural teasels. That finishing raises a soft, even surface while preserving the woven structure beneath it. The dimensions provide coverage without blanket-like width, and short fringed ends keep attention on the color and texture. There is no printed pattern or conspicuous mark to date it.
 
@@ -440,7 +440,7 @@ Honorable mentions: Drake’s Wool-Silk; Johnstons of Elgin
 
 **Andersen-Andersen Beanie**
 
-The Andersen-Andersen Beanie is the hat we choose because it provides dense warmth in a shape that is neither slouchy nor aggressively athletic. The ribbed knit holds close, the turned cuff can be adjusted, and the lack of logos lets the material define the object. It suits a wool coat, work jacket, or rain shell without asking the wearer to adopt a separate outdoor identity.
+The Andersen-Andersen Beanie provides dense warmth in a shape that is neither slouchy nor aggressively athletic. The ribbed knit holds close, the turned cuff can be adjusted, and the lack of logos lets the material define the object. It suits a wool coat, work jacket, or rain shell without asking the wearer to adopt a separate outdoor identity.
 
 The Danish company knits it from pure new wool using a firm rib structure derived from maritime sweaters. The same attention given to symmetrical, hard-wearing garments appears at this smaller scale: the crown is shaped cleanly, the cuff has enough body to protect the ears, and the yarn retains natural resilience. The knit is substantial rather than fluffy, trapping warmth while resisting immediate deformation.
 
@@ -456,7 +456,7 @@ Honorable mentions: Rototo Watch Cap; Inis Meáin Merino Hat
 
 **Ebbets Field Flannels Ballcap**
 
-An Ebbets Field Flannels ballcap is the cap we choose because it recovers the handsome proportions of mid-century baseball headwear without the plastic stiffness and corporate scale of modern merchandise. The wool crown sits naturally, the short visor frames rather than hides the face, and the embroidered insignia offers history without requiring allegiance to a current franchise or its marketing department.
+An Ebbets Field Flannels ballcap recovers the handsome proportions of mid-century baseball headwear without the plastic stiffness and corporate scale of modern merchandise. The wool crown sits naturally, the short visor frames rather than hides the face, and the embroidered insignia offers history without requiring allegiance to a current franchise or its marketing department.
 
 The caps are assembled in the United States from wool broadcloth, with satin under-visors, leather sweatbands, and felt lettering based on archival teams. Most use a structured six-panel crown and an adjustable leather strap, though exact construction varies across models. The dense wool holds color and shape, while the materials age through creasing and softening rather than the delamination common to foam-backed caps.
 

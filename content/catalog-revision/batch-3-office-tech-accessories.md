@@ -6,7 +6,7 @@
 
 **Nelson Swag Leg Desk**
 
-The Nelson Swag Leg Desk is the desk we choose because it gives serious work a compact, hospitable setting. George Nelson designed it in 1958 for a newly mobile domestic life, and its scale remains unusually apt for an apartment, study, or bedroom. It is visually light, yet it provides enough surface, storage, and order to feel like furniture rather than a temporary workstation.
+The Nelson Swag Leg Desk gives serious work a compact, hospitable setting. George Nelson designed it in 1958 for a newly mobile domestic life, and its scale remains unusually apt for an apartment, study, or bedroom. It is visually light, yet it provides enough surface, storage, and order to feel like furniture rather than a temporary workstation.
 
 Its name comes from the method used to form the polished steel legs. Straight tubes are pressure-formed into graceful tapers, then joined by stretchers beneath a walnut work surface. Small drawers organize stationery, while molded dividers create open bays at the back. A cable opening acknowledges equipment without allowing cords to dictate the design. Every feature is visible and readily understood.
 
@@ -54,7 +54,7 @@ Honorable mentions: Artemide Tizio; Flos Kelvin
 
 **Midori MD A5**
 
-The Midori MD A5 is the notebook we choose because it removes almost every distraction between a thought and the page. There is no heavy cover, elastic closure, pocket architecture, or motivational apparatus. The proportions are generous enough for sustained writing yet small enough to carry, and the paper behaves beautifully with pencil, ballpoint, rollerball, and fountain pen. It is stationery edited to essentials.
+The Midori MD A5 removes almost every distraction between a thought and the page. There is no heavy cover, elastic closure, pocket architecture, or motivational apparatus. The proportions are generous enough for sustained writing yet small enough to carry, and the paper behaves beautifully with pencil, ballpoint, rollerball, and fountain pen. It is stationery edited to essentials.
 
 The book is thread-sewn so it opens flat, with 176 cream-colored pages marked by a restrained grid, lines, or no ruling. A gauze strip protects the exposed spine, and the soft paraffin paper wrapper can remain or be replaced by a reusable cover. Subtle center marks help divide a page without imposing a layout. The paper resists feathering and handles ink with measured absorbency.
 
@@ -118,7 +118,7 @@ Honorable mentions: Kai 5210; Ernest Wright General Purpose
 
 **Shinwa Stainless Steel 150mm Ruler**
 
-The Shinwa 150mm stainless-steel ruler is the ruler we choose because it brings workshop accuracy to the length of a pencil case. It is thin, rigid, and precisely marked, with none of the cloudy plastic, worn printing, or decorative complication that makes a simple measurement uncertain. Six inches is enough for most desk tasks and short enough to remain where it is needed.
+The Shinwa 150mm stainless-steel ruler brings workshop accuracy to the length of a pencil case. It is thin, rigid, and precisely marked, with none of the cloudy plastic, worn printing, or decorative complication that makes a simple measurement uncertain. Six inches is enough for most desk tasks and short enough to remain where it is needed.
 
 Etched metric graduations begin at the physical edge, allowing direct measurement from a surface or inside a recess. The satin stainless finish controls glare, and alternating markings help the eye locate intervals quickly. One end carries a hanging hole, while the squared edges guide a knife or pencil. The tool’s slight flexibility is useful without allowing it to behave like a disposable strip.
 
@@ -152,7 +152,7 @@ Honorable mentions: MacBook Pro 14-inch; Framework Laptop 13
 
 **Apple Studio Display**
 
-The Studio Display is the monitor we choose for a Mac-centered desk because it resolves the details that specifications tables routinely miss. Text is exceptionally crisp, color is consistent, brightness is ample, and the aluminum enclosure looks finished from every side. Its price is high for a 27-inch screen, yet the complete experience of resolution, scaling, sound, camera, microphones, and wake behavior remains unusually coherent.
+The Studio Display resolves the details that specifications tables routinely miss. Text is exceptionally crisp, color is consistent, brightness is ample, and the aluminum enclosure looks finished from every side. Its price is high for a 27-inch screen, yet the complete experience of resolution, scaling, sound, camera, microphones, and wake behavior remains unusually coherent.
 
 The 5K panel places 5120 by 2880 pixels across 27 inches, allowing macOS to render an effective 2560 by 1440 workspace at twice the detail. A Thunderbolt connection carries image, data, and laptop charging through one cable. Three downstream USB-C ports serve accessories. Six speakers provide credible desktop sound, and the integrated camera and microphones keep routine calls from requiring more equipment.
 
@@ -168,7 +168,7 @@ Honorable mentions: Eizo FlexScan; Dell UltraSharp
 
 **HHKB Professional Hybrid Type-S**
 
-The HHKB Professional Hybrid Type-S is the keyboard we choose for people who spend their days writing, editing, or coding. Its compact layout removes the numeric pad, function row, and navigation cluster, keeping the mouse close and the hands centered. The arrangement takes time to learn, but the reward is a quiet, exceptionally consistent tool whose limited footprint creates more useful desk space.
+Writers, editors, and coders benefit most from the HHKB Professional Hybrid Type-S. Its compact layout removes the numeric pad, function row, and navigation cluster, keeping the mouse close and the hands centered. The arrangement takes time to learn, but the reward is a quiet, exceptionally consistent tool whose limited footprint creates more useful desk space.
 
 Electrostatic capacitive Topre switches combine a conical spring with a rubber dome, producing a tactile break without a hard mechanical click. The Type-S version dampens both downstroke and return. Sculpted PBT keycaps resist shine, Bluetooth supports multiple devices, and USB-C provides a wired connection. DIP switches alter several modifier behaviors, while the Control key occupies the practical position left of A.
 
@@ -200,7 +200,7 @@ Honorable mentions: Logitech MX Master 3S; Razer Pro Click
 
 **Sony WH-1000XM6**
 
-The Sony WH-1000XM6 is the pair of travel headphones we choose because it manages the entire practical assignment better than any single-purpose rival. Noise cancellation is excellent, the tuning is adaptable, calls are clear, and the folding design returns after its predecessor’s awkward omission. The headphones do not pretend to be heirloom audio equipment. They are sophisticated tools for making trains, aircraft, offices, and hotel rooms calmer.
+The Sony WH-1000XM6 manages the entire practical assignment better than any single-purpose rival. Noise cancellation is excellent, the tuning is adaptable, calls are clear, and the folding design returns after its predecessor’s awkward omission. The headphones do not pretend to be heirloom audio equipment. They are sophisticated tools for making trains, aircraft, offices, and hotel rooms calmer.
 
 Sony combines multiple microphones with a dedicated noise-canceling processor that adjusts to sound and fit. Large dynamic drivers provide full-range playback, while the app offers equalization, ambient control, multipoint pairing, and high-resolution wireless options. Physical buttons handle power and cancellation, and the right earcup accepts touch gestures. A wired connection remains available when batteries or airline systems intervene.
 
@@ -232,7 +232,7 @@ Honorable mentions: Bang & Olufsen Beosound A1; Audio Pro Addon T3
 
 **Ricoh GR IIIx**
 
-The Ricoh GR IIIx is the camera we choose for carrying every day because it produces serious files without asking its owner to carry a camera system. Its 40mm-equivalent lens sees a little more selectively than a phone while remaining broad enough for streets, interiors, portraits, and ordinary life. The plain black body slips into a coat pocket and attracts little attention when raised.
+The Ricoh GR IIIx produces serious files without asking its owner to carry a camera system. Its 40mm-equivalent lens sees a little more selectively than a phone while remaining broad enough for streets, interiors, portraits, and ordinary life. The plain black body slips into a coat pocket and attracts little attention when raised.
 
 An APS-C sensor sits behind a fixed 26.1mm f/2.8 lens designed as one optical system. In-body stabilization helps in low light, a built-in neutral-density filter permits wider apertures, and snap focus sets a known distance for immediate shooting. The controls place aperture, compensation, and custom functions under the right hand. There is no viewfinder, interchangeable lens mount, or decorative imitation of an older camera.
 
@@ -248,7 +248,7 @@ Honorable mentions: Leica Q3; Fujifilm X100VI
 
 **Technics SL-1200GR2**
 
-The Technics SL-1200GR2 is the turntable we choose because it combines the tactile clarity of the classic 1200 with engineering intended for attentive home listening. It starts immediately, holds speed with authority, and isolates the record from much of the vibration that undermines lesser decks. The appearance carries cultural history, but the recommendation rests on reliability, adjustability, and a mechanism that makes records easy to use.
+The Technics SL-1200GR2 combines the tactile clarity of the classic 1200 with engineering intended for attentive home listening. It starts immediately, holds speed with authority, and isolates the record from much of the vibration that undermines lesser decks. The appearance carries cultural history, but the recommendation rests on reliability, adjustability, and a mechanism that makes records easy to use.
 
 Its coreless direct-drive motor eliminates the belt and the cogging associated with older motor designs. Delta-sigma drive control refines the motor signal, while a two-layer platter of die-cast aluminum and dampening rubber supplies rotational mass. The S-shaped tonearm provides adjustable tracking force, height, and anti-skate. Detachable headshells make cartridge changes straightforward, and the pitch control can be bypassed for fixed accuracy.
 
@@ -264,7 +264,7 @@ Honorable mentions: Rega Planar 3 RS Edition; Pro-Ject Debut PRO
 
 **Tivoli Audio Model One**
 
-The Tivoli Audio Model One is the radio we choose because it makes broadcasting feel immediate again. Henry Kloss gave it one large tuning dial, one volume control, and a compact wooden cabinet that belongs comfortably on a kitchen shelf or bedside table. The object does not need an account, software update, or screen. Turn it on, find a station, and listen.
+The Tivoli Audio Model One makes broadcasting feel immediate again. Henry Kloss gave it one large tuning dial, one volume control, and a compact wooden cabinet that belongs comfortably on a kitchen shelf or bedside table. The object does not need an account, software update, or screen. Turn it on, find a station, and listen.
 
 An analog tuner uses a five-to-one ratio that makes fine adjustment unusually easy, aided by a small amber indicator. A single full-range driver faces forward from a ported cabinet, producing a warm, intelligible sound that flatters voices and works well at modest volume. The rear panel adds auxiliary input, headphone output, recording output, and connections for external antenna and power.
 
@@ -330,7 +330,7 @@ Honorable mentions: Longchamp Le Pliage; Baggu Standard
 
 **Porter-Yoshida Tanker 2Way Briefcase**
 
-The Porter-Yoshida Tanker 2Way Briefcase is the work bag we choose because it avoids both corporate stiffness and tactical excess. It carries a laptop, papers, charger, and daily miscellany in a form that remains light and adaptable. The detachable shoulder strap allows a crowded commute, while the short handles restore a composed profile on arrival. It looks better used than protected.
+The Porter-Yoshida Tanker 2Way Briefcase avoids both corporate stiffness and tactical excess. It carries a laptop, papers, charger, and daily miscellany in a form that remains light and adaptable. The detachable shoulder strap allows a crowded commute, while the short handles restore a composed profile on arrival. It looks better used than protected.
 
 The same three-layer nylon developed for the Tanker collection supplies a padded shell and soft orange interior. Broad zippers open the main compartment fully, exterior pockets separate small necessities, and metal fittings provide deliberate points of weight. The rectangular body keeps documents orderly without a rigid frame. Stitching, binding, and reinforcing pieces are treated as construction rather than decoration.
 
@@ -346,7 +346,7 @@ Honorable mentions: Filson Original Briefcase; Frank Clegg Zip-Top Briefcase
 
 **Chapman Tusting Weekender**
 
-The Chapman Tusting Weekender is the travel bag we choose because it brings order to a short journey without the rigid choreography of wheeled luggage. Its soft rectangular body is generous but not enormous, the handles feel dependable, and the materials have the quiet confidence of proper saddlery. It belongs equally on a train rack, in a car, or at the foot of a hotel bed.
+The Chapman Tusting Weekender brings order to a short journey without the rigid choreography of wheeled luggage. Its soft rectangular body is generous but not enormous, the handles feel dependable, and the materials have the quiet confidence of proper saddlery. It belongs equally on a train rack, in a car, or at the foot of a hotel bed.
 
 Waxed canvas and full-grain leather provide the structure, with a broad zip opening and reinforced handles. The uncomplicated interior accepts folded clothes, shoes in a separate bag, and the few objects needed for two or three nights. Metal fittings can be serviced, the shoulder strap removes, and the materials respond to wear with patina rather than surface failure.
 
@@ -394,7 +394,7 @@ Honorable mentions: Craighill Wilson Keyring; Il Bussetto Key Holder
 
 **Kamawanu Tenugui**
 
-Kamawanu’s tenugui is the handkerchief we choose because it is more useful than the name suggests. The long, light cotton cloth can dry hands, wrap an object, protect a neck, serve at a table, or become an improvised bag. Its printed patterns provide character without reducing the object to decoration, and its compactness makes carrying one easy.
+Kamawanu’s tenugui is more useful than the name suggests. The long, light cotton cloth can dry hands, wrap an object, protect a neck, serve at a table, or become an improvised bag. Its printed patterns provide character without reducing the object to decoration, and its compactness makes carrying one easy. It earns its place through repeated usefulness.
 
 Traditional chusen dyeing applies color through the cloth rather than printing only its surface, leaving both faces equally convincing. The cotton is thin, absorbent, and quick to dry. Unhemmed short edges are intentional: they reduce trapped moisture and allow the cloth to dry cleanly. Initial fraying settles after loose threads are trimmed rather than pulled.
 

@@ -6,7 +6,7 @@
 
 **Cassina Maralunga**
 
-The Maralunga is the sofa Small Certainty would choose because it settles an argument most upholstered furniture avoids. A sofa should look composed, then become genuinely accommodating when someone sits down. Vico Magistretti’s 1973 design has the broad arms and generous cushions of a serious domestic sofa, but its outline remains controlled. It is formal enough for an architectural interior and relaxed enough for an ordinary evening.
+The Maralunga settles an argument most upholstered furniture avoids. A sofa should look composed, then become genuinely accommodating when someone sits down. Vico Magistretti’s 1973 design has the broad arms and generous cushions of a serious domestic sofa, but its outline remains controlled. It is formal enough for an architectural interior and relaxed enough for an ordinary evening.
 
 Its decisive detail is concealed inside the back cushions. A chain mechanism, adapted from the logic of a bicycle chain, lets each headrest rise independently from a low horizontal position to a supportive upright one. The movement changes both posture and silhouette without motors, remotes, or visible hardware. A steel frame provides the underlying structure, while shaped polyurethane foam and either fabric or leather upholstery supply the softness.
 
@@ -86,7 +86,7 @@ Honorable mentions: Vitra Guéridon Bas; Artek Table 90B
 
 **Vitsœ 606 Universal Shelving System**
 
-The 606 Universal Shelving System is the bookshelf Small Certainty chooses because it refuses to decide the shape of a room forever. Dieter Rams designed it in 1960 as a kit of parts rather than a finished composition. One bay can hold a few books today, expand into a library later, accept a desk or cabinet, and move to another wall when life changes. Its restraint is useful, not merely visual.
+The 606 Universal Shelving System refuses to decide the shape of a room forever. Dieter Rams designed it in 1960 as a kit of parts rather than a finished composition. One bay can hold a few books today, expand into a library later, accept a desk or cabinet, and move to another wall when life changes. Its restraint is useful, not merely visual.
 
 The system begins with aluminum E-Tracks that accept shelves, cabinets, and work surfaces at closely spaced intervals. They can attach directly to a sound wall, connect to compressed floor-to-ceiling posts, or form a freestanding structure. Components lift and relocate without dismantling the entire installation. Vitsœ remains the sole licensed manufacturer and deliberately limits the palette, preserving compatibility between new parts and systems bought decades earlier.
 
@@ -118,7 +118,7 @@ Honorable mentions: Vitra Butterfly Stool; Magis Déjà-vu Stool
 
 **Vitra Eames Hang-It-All**
 
-The Hang-It-All is the coat rack Small Certainty chooses because it turns an untidy obligation into a clear invitation. Charles and Ray Eames designed it in 1953 to encourage children to put away their belongings, but the object avoids both nursery sweetness and institutional severity. Its colored spheres make a useful rhythm on the wall, while the open arrangement offers bags, hats, scarves, and coats an obvious place to land.
+The Hang-It-All turns an untidy obligation into a clear invitation. Charles and Ray Eames designed it in 1953 to encourage children to put away their belongings, but the object avoids both nursery sweetness and institutional severity. Its colored spheres make a useful rhythm on the wall, while the open arrangement offers bags, hats, scarves, and coats an obvious place to land.
 
 A coated steel-wire frame projects solid wooden balls at different heights and depths. The spheres are large enough not to punish knitted fabric or leave the sharp impressions of a narrow hook. Vitra produces versions in painted ash or beech, natural walnut, and several color combinations. The construction is visually candid: a light wire lattice carries the load, and the wooden ends enlarge each contact point.
 
@@ -134,7 +134,7 @@ Honorable mentions: Artek Kiila; Schönbuch Sticks
 
 **Kasthall Goose Eye Icon**
 
-Goose Eye Icon is the rug Small Certainty chooses because it brings pattern into a room without turning the floor into a graphic announcement. Gunilla Lagerhem Ullberg enlarged and clarified a traditional Swedish goose-eye motif for Kasthall, giving a familiar woven structure enough scale to register across contemporary furniture. The pattern creates movement, but its repeated geometry remains calm when the rest of the room is occupied.
+Goose Eye Icon brings pattern into a room without turning the floor into a graphic announcement. Gunilla Lagerhem Ullberg enlarged and clarified a traditional Swedish goose-eye motif for Kasthall, giving a familiar woven structure enough scale to register across contemporary furniture. The pattern creates movement, but its repeated geometry remains calm when the rest of the room is occupied.
 
 Kasthall weaves each rug to order at its mill in Kinna, Sweden. Wool forms the visible weft while linen provides the warp, producing a relatively flat surface of approximately five millimeters rather than a deep pile. The construction is dense, reversible in spirit if not specification, and available in custom widths and lengths. Subtle variation in the yarn prevents the pattern from becoming mechanically flat.
 
@@ -150,7 +150,7 @@ Honorable mentions: Nanimarquina Tres; Märta Måås-Fjetterström
 
 **Flos Arco**
 
-Arco is the floor lamp Small Certainty chooses because it puts overhead light where a ceiling connection does not exist. Achille and Pier Giacomo Castiglioni designed it in 1962 after observing ordinary streetlights: a heavy base stays out of the way while a long arm carries illumination to the place it is needed. The result is dramatic, but the drama follows a precise domestic problem.
+Arco puts overhead light where a ceiling connection does not exist. Achille and Pier Giacomo Castiglioni designed it in 1962 after observing ordinary streetlights: a heavy base stays out of the way while a long arm carries illumination to the place it is needed. The result is dramatic, but the drama follows a precise domestic problem.
 
 A block of white Carrara marble anchors the lamp’s telescoping satin stainless-steel stem. At the far end, a polished aluminum reflector can swivel and adjust in height. The marble is not a decorative luxury applied to a simple stand; its mass counters the reach of the arc. A hole through the block allows two people to insert a broom handle and move the roughly 63-kilogram base without specialized equipment.
 
@@ -166,7 +166,7 @@ Honorable mentions: Vitra Akari 10A; Santa & Cole TMM
 
 **Oluce Atollo 233**
 
-The Atollo 233 is the table lamp Small Certainty chooses because it gives light and presence without borrowing the familiar anatomy of base, stem, and shade. Vico Magistretti’s 1977 design is assembled from a cylinder, a cone, and a hemisphere, three elementary volumes that appear almost inevitable once placed together. It can command a sideboard or large bedside table while remaining calm enough to live beside books and ordinary objects.
+The Atollo 233 gives light and presence without borrowing the familiar anatomy of base, stem, and shade. Vico Magistretti’s 1977 design is assembled from a cylinder, a cone, and a hemisphere, three elementary volumes that appear almost inevitable once placed together. It can command a sideboard or large bedside table while remaining calm enough to live beside books and ordinary objects.
 
 The 233 is the largest metal version, standing 70 centimeters high with a 50-centimeter shade. Lacquered aluminum forms the structure, two E27 sources provide direct light, and an integrated dimmer controls intensity. The dome conceals the bulbs and seems to float over the conical neck. White, black, bronze, and gold finishes alter the atmosphere, but not the complete geometry that earned a Compasso d’Oro in 1979.
 
@@ -182,7 +182,7 @@ Honorable mentions: Flos Snoopy; Louis Poulsen PH 3/2
 
 **Røros Tweed Mikkel**
 
-The Mikkel is the throw blanket Small Certainty chooses because it brings color and pattern to a room while remaining first and foremost a very good piece of wool. Designed by Kristine Five Melvær for Røros Tweed, its geometry connects Bauhaus order with Norwegian weaving traditions. The motif is lively enough to improve a plain sofa, but disciplined enough not to turn the room into a seasonal display.
+The Mikkel brings color and pattern to a room while remaining first and foremost a very good piece of wool. Designed by Kristine Five Melvær for Røros Tweed, its geometry connects Bauhaus order with Norwegian weaving traditions. The motif is lively enough to improve a plain sofa, but disciplined enough not to turn the room into a seasonal display.
 
 It is woven in Norway from 100 percent Norwegian lambswool and measures approximately 135 by 200 centimeters, large enough to cover one person properly or lie across the end of a bed. The pattern uses several colors within repeated blocks, so the blanket reads differently when folded, draped, or fully opened. The wool supplies warmth without the dead weight of a thick synthetic fleece, and the finished edges keep the textile precise.
 
@@ -198,7 +198,7 @@ Honorable mentions: Klippan Gotland; Artek Siena
 
 **Braun BC17**
 
-The Braun BC17 is the wall clock Small Certainty chooses because it communicates the time before it communicates taste. Its 30-centimeter dial is large enough to read across a room, with black hands, exact minute marks, and a restrained case that does not compete with the wall. The yellow tip on the second hand supplies the only graphic interruption, helping movement register without turning the clock into decoration.
+The Braun BC17 communicates the time before it communicates taste. Its 30-centimeter dial is large enough to read across a room, with black hands, exact minute marks, and a restrained case that does not compete with the wall. The yellow tip on the second hand supplies the only graphic interruption, helping movement register without turning the clock into decoration.
 
 The mechanism uses a silent sweeping second hand rather than an audible tick. A semi-tempered glass lens protects the face, the quartz movement runs from one AA battery, and the case projects only 45 millimeters. These are modest specifications, but together they matter. The dial remains legible, reflections are controlled by sensible placement, and time passes without adding a repetitive sound to a bedroom, office, or kitchen.
 
@@ -214,7 +214,7 @@ Honorable mentions: Arne Jacobsen Bankers; Vitra Ball Clock
 
 **Iittala Aalto Vase**
 
-The Aalto Vase is the vase Small Certainty chooses because it improves flowers without dictating an arrangement. Alvar Aalto’s irregular outline creates several natural positions for stems, allowing a loose supermarket bunch, a few branches, or a single generous bloom to find its own structure. Empty, the object remains convincing, but it never seems resentful when asked to do the ordinary work of holding water and cut flowers.
+The Aalto Vase improves flowers without dictating an arrangement. Alvar Aalto’s irregular outline creates several natural positions for stems, allowing a loose supermarket bunch, a few branches, or a single generous bloom to find its own structure. Empty, the object remains convincing, but it never seems resentful when asked to do the ordinary work of holding water and cut flowers.
 
 Aalto developed the form for the 1936 Karhula-Iittala glass competition, and the collection entered international view the following year. Each vase is still mouth-blown at Iittala’s Finnish factory, then hand-cut and polished through a multi-stage process. The familiar 160-millimeter size has enough width for everyday arrangements without requiring an extravagant quantity of flowers. Small differences in the glass are evidence of manufacture rather than defects in geometry.
 
@@ -230,7 +230,7 @@ Honorable mentions: Georg Jensen Koppel; Vitra Nuage
 
 **SEBO Felix Premium**
 
-The SEBO Felix Premium is the vacuum cleaner Small Certainty chooses because it treats cleaning as maintenance rather than spectacle. It combines the direct handling of an upright with the floor adaptability, filtration, and repair logic of a serious canister machine. There are cordless vacuums that look lighter and bagless models that make dirt more visible. The Felix concentrates instead on removing it reliably, containing it, and remaining serviceable.
+The SEBO Felix Premium treats cleaning as maintenance rather than spectacle. It combines the direct handling of an upright with the floor adaptability, filtration, and repair logic of a serious canister machine. There are cordless vacuums that look lighter and bagless models that make dirt more visible. The Felix concentrates instead on removing it reliably, containing it, and remaining serviceable.
 
 Its 12-inch ET-1 electric power head provides four manual height settings, a switchable brush roller, obstruction protection, and tool-free roller removal. Swap to the included parquet brush for hard floors, reduce suction at the handle for upholstery, or pull out the integrated hose for edges and furniture. A three-layer bag, pre-motor filter, and S-class exhaust filter form a sealed three-stage system. The neck turns through 180 degrees for unusually precise steering.
 

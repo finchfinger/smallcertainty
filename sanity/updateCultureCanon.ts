@@ -18,7 +18,7 @@ type Row={label:string;winner:Pick;mentions:[Pick,Pick]};
 const rows:Row[]=[
   {
     label:"Best Magazine",
-    winner:{name:"BRUTUS",url:"https://magazineworld.jp/brutus/",note:`BRUTUS is the magazine we choose because each issue treats a subject as a world to enter rather than a content category to service. Since 1980, the Japanese title has moved through food, cities, music, architecture, dogs, and domestic life with equal seriousness. Its curiosity is broad but never vague, and the physical magazine makes editorial judgment visible before a word is translated.
+    winner:{name:"BRUTUS",url:"https://magazineworld.jp/brutus/",note:`A copy of BRUTUS can make an entire subject feel newly available. Since 1980, the Japanese magazine has moved through food, cities, music, architecture, dogs, and domestic life with equal seriousness, treating each theme as a world to enter rather than a content category to service. Its curiosity is broad but never vague, and the physical magazine makes editorial judgment visible before a word is translated.
 
 Published by Magazine House, BRUTUS builds thematic issues through commissioned photography, illustration, maps, interviews, lists, and dense typographic sequences. Covers change character according to the subject rather than obeying a rigid template, while the interiors sustain rhythm across short notices and long features. Japanese text may limit some readers, but captions, images, and information design communicate a remarkable amount through structure alone.
 
@@ -32,7 +32,7 @@ Many magazines preserve a house style by repeating the same five subjects and vo
   },
   {
     label:"Best Newspaper",
-    winner:{name:"Financial Times",url:"https://www.ft.com/",note:`The Financial Times is the newspaper we choose because it connects money, politics, business, culture, and power with unusual international range. Its salmon paper is memorable, but the distinction is editorial: reporting assumes that events cross borders and that companies matter beyond their products. The daily edition provides hierarchy to a noisy world, while the weekend paper makes room for books, travel, food, and private life.
+    winner:{name:"Financial Times",url:"https://www.ft.com/",note:`The salmon paper is the least important reason to read the Financial Times. Its real distinction is the way it connects money, politics, business, culture, and power across borders, while understanding that companies matter beyond their products. The daily edition provides hierarchy to a noisy world, and the weekend paper makes room for books, travel, food, and private life without losing its intelligence.
 
 Correspondents report from a genuinely global network, supported by specialist desks that understand markets, policy, industry, and institutions. The print paper uses compact typography, clear sectioning, restrained graphics, and data visualization that clarifies rather than decorates. Digital subscriptions add archives, alerts, newsletters, and the Lex column. Opinion is labeled, news remains reported, and corrections are treated as part of the publication rather than an embarrassment.
 
@@ -46,7 +46,7 @@ A newspaper cannot remove uncertainty, but it can make relationships legible and
   },
   {
     label:"Best Cookbook",
-    winner:{name:"Essentials of Classic Italian Cooking, Marcella Hazan",url:"https://www.penguinrandomhouse.com/books/77501/essentials-of-classic-italian-cooking-by-marcella-hazan/",note:`Marcella Hazan’s Essentials of Classic Italian Cooking is the cookbook we choose because it teaches judgment rather than merely supplying dinners. Its recipes are direct, its regional distinctions matter, and its instructions explain what heat, fat, time, and sequence do to ingredients. The book has no interest in novelty plating or culinary autobiography. It wants the reader to understand why a sauce becomes itself.
+    winner:{name:"Essentials of Classic Italian Cooking, Marcella Hazan",url:"https://www.penguinrandomhouse.com/books/77501/essentials-of-classic-italian-cooking-by-marcella-hazan/",note:`Marcella Hazan teaches the cook to notice what the pan is doing. Essentials of Classic Italian Cooking supplies dinners, certainly, but its greater subject is judgment: why heat, fat, time, and sequence change an ingredient, and why regional distinctions matter. The recipes are direct, with no appetite for novelty plating or culinary autobiography. Hazan wants the reader to understand how a sauce becomes itself.
 
 The volume combines Hazan’s two foundational books into a broad course covering pasta, risotto, soups, vegetables, fish, meat, breads, and desserts. Recipes such as tomato sauce with onion and butter demonstrate how few ingredients can produce depth when proportion and cooking are exact. Headnotes provide cultural and technical context, while the index and chapter structure make the heavy book function as a working reference.
 
@@ -60,7 +60,7 @@ Cookbooks often promise ease by concealing the decisions that make food good. Ha
   },
   {
     label:"Best Novel",
-    winner:{name:"Moby-Dick, Herman Melville",url:"https://www.penguinrandomhouse.com/books/113152/moby-dick-by-herman-melville/",note:`Moby-Dick is the novel we choose because it contains more of the world than a book about a whaling voyage has any right to hold. It is an adventure, a workplace novel, a comedy, a metaphysical argument, and a study of disastrous leadership. Melville turns one ship into a complete society, then sends it after an idea that has acquired the dangerous weight of fact.
+    winner:{name:"Moby-Dick, Herman Melville",url:"https://www.penguinrandomhouse.com/books/113152/moby-dick-by-herman-melville/",note:`No other whaling voyage carries quite so much of the world aboard. Moby-Dick is an adventure, a workplace novel, a comedy, a metaphysical argument, and a study of disastrous leadership, often within the same chapter. Herman Melville turns one ship into a complete society, then sends it after an idea that has acquired the dangerous weight of fact.
 
 The structure is famously unruly. Narrative chapters give way to sermons, stage directions, measurements, classifications, histories, and close technical accounts of ships and whales. This is not digression laid around the story; it is the method by which the story becomes enormous. Ishmael’s restless intelligence supplies breadth, while Ahab’s narrowing obsession creates the pressure that draws every voice and piece of knowledge toward the same end.
 
@@ -74,7 +74,7 @@ Many novels become smaller once their machinery is understood. Moby-Dick becomes
   },
   {
     label:"Best Nonfiction Book",
-    winner:{name:"The Power Broker, Robert Caro",url:"https://www.penguinrandomhouse.com/books/24312/the-power-broker-pulitzer-prize-winner-by-robert-a-caro/",note:`The Power Broker is the nonfiction book we choose because Robert Caro makes political power visible in concrete, contracts, parks, tolls, ruined neighborhoods, and hours lost on a bus. His subject is Robert Moses, but the larger achievement is an anatomy of how authority escapes public language and embeds itself in systems that appear merely administrative. Few books change how a city can be read so completely.
+    winner:{name:"The Power Broker, Robert Caro",url:"https://www.penguinrandomhouse.com/books/24312/the-power-broker-pulitzer-prize-winner-by-robert-a-caro/",note:`Robert Caro makes power visible in concrete, contracts, parks, tolls, ruined neighborhoods, and hours lost on a bus. The Power Broker takes Robert Moses as its subject, but its larger achievement is an anatomy of how authority escapes public language and embeds itself in systems that appear merely administrative. Few books alter the way a city can be read so completely.
 
 Caro follows Moses from idealistic reformer to unelected master builder, tracing the public authorities, bond agreements, patronage networks, and command of information that made his position durable. The reporting is exhaustive, yet the engineering and finance never float free of consequence. A bridge clearance, highway route, or swimming-pool location is shown as a decision about whose time, land, mobility, and political voice will count.
 
@@ -88,7 +88,7 @@ The book endures because it explains that power is not simply held by charismati
   },
   {
     label:"Best Film",
-    winner:{name:"Tokyo Story, Yasujirō Ozu",url:"https://www.criterion.com/films/284-tokyo-story",note:`Tokyo Story is the film we choose because Yasujirō Ozu turns an ordinary family visit into an exact account of time, obligation, and the quiet injuries produced by decent people. An older couple travels from Onomichi to see their grown children in Tokyo. Almost nothing conventionally dramatic happens, yet every meal, delay, polite sentence, and rearranged room reveals how affection survives alongside impatience.
+    winner:{name:"Tokyo Story, Yasujirō Ozu",url:"https://www.criterion.com/films/284-tokyo-story",note:`An older couple takes the train from Onomichi to visit their grown children in Tokyo, and Yasujirō Ozu finds a whole moral world in the arrangements that follow. Almost nothing conventionally dramatic happens in Tokyo Story, yet every meal, delay, polite sentence, and borrowed room becomes an exact measure of time, obligation, and the quiet injuries produced by decent people.
 
 Ozu places the camera low and usually still, cutting between carefully ordered interiors, streets, railway lines, and transitional views that allow the world to continue beyond the family. Performances remain restrained, particularly Chieko Higashiyama, Chishū Ryū, and Setsuko Hara. The compositions are rigorous without feeling embalmed. Repetition supplies rhythm, while small changes in posture and tone carry emotional information another film might force into speeches.
 
@@ -102,7 +102,7 @@ Tokyo Story endures because it recognizes family life as a structure built from 
   },
   {
     label:"Best Album",
-    winner:{name:"Trans-Europe Express, Kraftwerk",url:"https://www.youtube.com/playlist?list=OLAK5uy_nB2fBOEglyYoq8lcZQpeK3QYFd-EEa9Vo",note:`Trans-Europe Express is the album we choose because Kraftwerk made modern movement sound elegant, mechanical, and faintly melancholy. Released in 1977, it imagines Europe through railway rhythm, tailored presentation, multilingual identity, and machines that extend rather than erase human intention. Its future is neither utopian nor menacing. It is a civilized network of cities, compartments, signals, memory, and disciplined forward motion.
+    winner:{name:"Trans-Europe Express, Kraftwerk",url:"https://www.youtube.com/playlist?list=OLAK5uy_nB2fBOEglyYoq8lcZQpeK3QYFd-EEa9Vo",note:`The rhythm of a train becomes a model for modern life on Trans-Europe Express. Released in 1977, Kraftwerk’s album makes movement sound elegant, mechanical, and faintly melancholy, imagining Europe through tailored presentation, multilingual identity, and machines that extend rather than erase human intention. Its future is neither utopian nor menacing. It is a civilized network of cities, compartments, signals, memory, and disciplined forward motion.
 
 The record’s economy is exact. Sequenced electronics, clipped percussion, vocoder, synthesizer, and spare vocals establish motifs that accumulate force through repetition. Europe Endless opens the landscape, The Hall of Mirrors examines image and self-consciousness, and the title sequence converts a train’s motion into an extended pulse. Franz Schubert provides a brief romantic afterimage before Endless Endless dissolves language into rhythm and voice.
 
@@ -116,7 +116,7 @@ Electronic music did not begin here, but much that followed learned from the alb
   },
   {
     label:"Best Song",
-    winner:{name:"The River, Bruce Springsteen",url:"https://brucespringsteen.net/track/the-river/",note:`The River is the song we choose because Bruce Springsteen compresses a marriage, a recession, a pregnancy, a job, and the erosion of possibility into five restrained minutes. It begins as recollection and ends as a question the narrator cannot answer. The details are plain enough to feel overheard, but their arrangement gives one working life the scale of an American argument.
+    winner:{name:"The River, Bruce Springsteen",url:"https://brucespringsteen.net/track/the-river/",note:`A marriage, a recession, a pregnancy, a job, and the erosion of possibility fit inside five restrained minutes of The River. Bruce Springsteen begins with recollection and ends with a question the narrator cannot answer. The details are plain enough to feel overheard, but their arrangement gives one working life the scale of an American argument.
 
 The recording resists the triumphal force associated with Springsteen’s band. Harmonica opens an empty space, acoustic guitar maintains the pulse, and the arrangement enters without rescuing the story. The melody rises around the river itself, turning a real place of courtship and escape into memory, evidence, and accusation. Springsteen sings directly, allowing the breaks and hard consonants in the language to provide drama.
 
@@ -130,7 +130,7 @@ Many narrative songs depend on a twist or a line designed to announce importance
   },
   {
     label:"Best Podcast",
-    winner:{name:"99% Invisible",url:"https://99percentinvisible.org/",note:`99% Invisible is the podcast we choose because it makes the designed world audible without pretending every bollard, typeface, building code, or piece of infrastructure is secretly glamorous. Roman Mars and the production team begin with a specific object or system, then follow it into history, policy, behavior, and unintended consequence. Curiosity supplies momentum, while editing prevents enthusiasm from becoming clutter.
+    winner:{name:"99% Invisible",url:"https://99percentinvisible.org/",note:`Bollards, typefaces, building codes, and pieces of infrastructure rarely volunteer their stories. 99% Invisible makes the designed world audible without pretending that every overlooked object is secretly glamorous. Roman Mars and the production team begin with a specific thing or system, then follow it into history, policy, behavior, and unintended consequence. Curiosity supplies momentum, while editing prevents enthusiasm from becoming clutter.
 
 Episodes use reported interviews, archival tape, field recordings, narration, and carefully placed music to explain subjects that often have no obvious sound. The program is particularly good at scale, moving from a handle or sign to the institution that determined its form. Its long archive covers architecture, cities, technology, clothing, disability, standards, memorials, and maintenance without forcing those subjects into one decorative idea of design.
 
@@ -144,7 +144,7 @@ The show endures because it treats design as a public condition rather than a sh
   },
   {
     label:"Best Television Series",
-    winner:{name:"Tinker Tailor Soldier Spy",url:"https://genome.ch.bbc.co.uk/search/0/20?adv=1&media=tv&order=asc&q=%40title+%22Tinker%2C+Tailor%2C+Soldier%2C+Spy%22",note:`Tinker Tailor Soldier Spy is the television series we choose because it trusts rooms, faces, paperwork, and silence to carry the weight of espionage. The BBC adaptation of John le Carré’s novel follows George Smiley as he searches for a Soviet mole inside British intelligence. Instead of making secrecy glamorous, it shows an institution shaped by class, memory, professional vanity, and exhausted loyalty.
+    winner:{name:"Tinker Tailor Soldier Spy",url:"https://genome.ch.bbc.co.uk/search/0/20?adv=1&media=tv&order=asc&q=%40title+%22Tinker%2C+Tailor%2C+Soldier%2C+Spy%22",note:`Espionage in Tinker Tailor Soldier Spy resides in rooms, faces, paperwork, and silence. The BBC adaptation of John le Carré’s novel follows George Smiley as he searches for a Soviet mole inside British intelligence, trusting the viewer to watch closely. Instead of making secrecy glamorous, it shows an institution shaped by class, memory, professional vanity, and exhausted loyalty.
 
 Alec Guinness gives Smiley extraordinary presence through restraint. A change of glasses, a pause before answering, or the careful arrangement of a chair can redirect a scene. The production builds suspense from interviews, files, corridors, safe houses, and recollections whose details do not immediately align. Arthur Hopcraft’s script clarifies a complicated structure without flattening it, while the patient direction gives every supporting performance room to register.
 
@@ -158,7 +158,7 @@ Prestige television often signals seriousness through expense, violence, and vis
   },
   {
     label:"Best Radio Station",
-    winner:{name:"FIP",url:"https://www.radiofrance.fr/fip",note:`FIP is the radio station we choose because it can accompany a room for hours without becoming anonymous. Founded in Paris in 1971 and now part of Radio France, it moves through jazz, chanson, soul, electronic music, classical work, film scores, rock, and music from across the world with remarkable composure. The sequence feels surprising, but never assembled to advertise surprise itself.
+    winner:{name:"FIP",url:"https://www.radiofrance.fr/fip",note:`Leave FIP playing for an afternoon and the room gradually acquires a better sense of rhythm. Founded in Paris in 1971 and now part of Radio France, the station moves through jazz, chanson, soul, electronic music, classical work, film scores, rock, and music from across the world with remarkable composure. The sequence feels surprising, but never assembled to advertise surprise itself.
 
 Its intelligence lies in programming and transition. Tracks are allowed to finish, voices intervene sparingly, and news appears within a structure that protects the station’s musical continuity. Human selectors create associations that an optimization system would struggle to justify and would probably flatten through repetition. Digital genre streams offer useful alternatives, but the main live channel provides the stronger proposition: one editorial flow whose identity emerges over time.
 

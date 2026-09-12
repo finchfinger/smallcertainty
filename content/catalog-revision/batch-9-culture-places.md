@@ -6,7 +6,7 @@
 
 **BRUTUS**
 
-BRUTUS is the magazine we choose because each issue treats a subject as a world to enter rather than a content category to service. Since 1980, the Japanese title has moved through food, cities, music, architecture, dogs, and domestic life with equal seriousness. Its curiosity is broad but never vague, and the physical magazine makes editorial judgment visible before a word is translated.
+Each issue treats a subject as a world to enter rather than a content category to service. Since 1980, the Japanese title has moved through food, cities, music, architecture, dogs, and domestic life with equal seriousness. Its curiosity is broad but never vague, and the physical magazine makes editorial judgment visible before a word is translated.
 
 Published by Magazine House, BRUTUS builds thematic issues through commissioned photography, illustration, maps, interviews, lists, and dense typographic sequences. Covers change character according to the subject rather than obeying a rigid template, while the interiors sustain rhythm across short notices and long features. Japanese text may limit some readers, but captions, images, and information design communicate a remarkable amount through structure alone.
 
@@ -22,7 +22,7 @@ Honorable mentions: The World of Interiors; Apartamento
 
 **Financial Times**
 
-The Financial Times is the newspaper we choose because it connects money, politics, business, culture, and power with unusual international range. Its salmon paper is memorable, but the distinction is editorial: reporting assumes that events cross borders and that companies matter beyond their products. The daily edition provides hierarchy to a noisy world, while the weekend paper makes room for books, travel, food, and private life.
+The Financial Times connects money, politics, business, culture, and power with unusual international range. Its salmon paper is memorable, but the distinction is editorial: reporting assumes that events cross borders and that companies matter beyond their products. The daily edition provides hierarchy to a noisy world, while the weekend paper makes room for books, travel, food, and private life.
 
 Correspondents report from a genuinely global network, supported by specialist desks that understand markets, policy, industry, and institutions. The print paper uses compact typography, clear sectioning, restrained graphics, and data visualization that clarifies rather than decorates. Digital subscriptions add archives, alerts, newsletters, and the Lex column. Opinion is labeled, news remains reported, and corrections are treated as part of the publication rather than an embarrassment.
 
@@ -38,7 +38,7 @@ Honorable mentions: Neue Zürcher Zeitung; Le Monde
 
 **Essentials of Classic Italian Cooking**
 
-Marcella Hazan’s Essentials of Classic Italian Cooking is the cookbook we choose because it teaches judgment rather than merely supplying dinners. Its recipes are direct, its regional distinctions matter, and its instructions explain what heat, fat, time, and sequence do to ingredients. The book has no interest in novelty plating or culinary autobiography. It wants the reader to understand why a sauce becomes itself.
+Marcella Hazan’s Essentials of Classic Italian Cooking teaches judgment rather than merely supplying dinners. Its recipes are direct, its regional distinctions matter, and its instructions explain what heat, fat, time, and sequence do to ingredients. The book has no interest in novelty plating or culinary autobiography. It wants the reader to understand why a sauce becomes itself.
 
 The volume combines Hazan’s two foundational books into a broad course covering pasta, risotto, soups, vegetables, fish, meat, breads, and desserts. Recipes such as tomato sauce with onion and butter demonstrate how few ingredients can produce depth when proportion and cooking are exact. Headnotes provide cultural and technical context, while the index and chapter structure make the heavy book function as a working reference.
 
@@ -56,7 +56,7 @@ Honorable mentions: Mastering the Art of French Cooking; The River Cafe Cookbook
 
 **Ett Hem, Stockholm**
 
-Ett Hem is the hotel we choose because it behaves like an exceptionally well-run house rather than a procession of branded hospitality gestures. Set in a 1910 Arts and Crafts townhouse in Stockholm, it offers rooms, libraries, sitting spaces, a garden, and a kitchen guests are encouraged to inhabit. Service is attentive but rarely theatrical, making comfort feel discovered rather than delivered on schedule.
+Ett Hem behaves like an exceptionally well-run house rather than a procession of branded hospitality gestures. Set in a 1910 Arts and Crafts townhouse in Stockholm, it offers rooms, libraries, sitting spaces, a garden, and a kitchen guests are encouraged to inhabit. Service is attentive but rarely theatrical, making comfort feel discovered rather than delivered on schedule.
 
 Designer Ilse Crawford worked with owner Jeanette Mix to preserve the building’s domestic scale while adding contemporary furniture, warm lighting, tactile textiles, and art that rewards repeated looking. Bedrooms vary with the architecture, bathrooms use stone and brass without becoming showrooms, and public rooms flow around fireplaces and tables. Later additions expand capacity while maintaining the sense that each object belongs to a particular room.
 
@@ -72,7 +72,7 @@ Honorable mentions: Hotel Il Pellicano, Porto Ercole; Aman Tokyo
 
 **Asador Etxebarri, Atxondo**
 
-Asador Etxebarri is the restaurant we choose because chef Victor Arguinzoniz uses fire not as theater but as a precise cooking medium. In a Basque village beneath Mount Anboto, the kitchen applies different woods, embers, heights, and timings to vegetables, seafood, meat, and even milk. The meal is technically extraordinary, yet ingredients remain recognizable and the room never needs to imitate spectacle.
+Chef Victor Arguinzoniz uses fire not as theater but as a precise cooking medium. In a Basque village beneath Mount Anboto, the kitchen applies different woods, embers, heights, and timings to vegetables, seafood, meat, and even milk. The meal is technically extraordinary, yet ingredients remain recognizable and the room never needs to imitate spectacle.
 
 Arguinzoniz designed adjustable grills and tools that allow delicate items to encounter smoke and heat without being consumed by them. Local produce, house-made chorizo, prawns, fish, and aged beef arrive in a sequence shaped by season and supply. The dining room occupies a restrained stone building overlooking the valley, while service explains enough to orient the guest and lets aroma, texture, and temperature complete the account.
 
@@ -88,7 +88,7 @@ Honorable mentions: Elkano, Getaria; Le Bernardin, New York
 
 **Bar Benfiddich, Tokyo**
 
-Bar Benfiddich is the bar we choose because Hiroyasu Kayama approaches drinks as a conversation between agriculture, history, and immediate improvisation. Hidden in a Tokyo office building, the room is dark, compact, and centered on a working bar crowded with bottles, herbs, tools, and ingredients from Kayama’s family farm. There is no conventional menu, but there is close attention to what a guest might enjoy.
+Hiroyasu Kayama approaches drinks as a conversation between agriculture, history, and immediate improvisation. Hidden in a Tokyo office building, the room is dark, compact, and centered on a working bar crowded with bottles, herbs, tools, and ingredients from Kayama’s family farm. There is no conventional menu, but there is close attention to what a guest might enjoy.
 
 Kayama distills, infuses, grinds, and mixes ingredients with techniques drawn from apothecaries as much as contemporary cocktail bars. Absinthe, amaro, tea, fruit, roots, and spices appear according to season and question. Antique glassware and deliberate handwork slow the exchange without turning it into choreography. Drinks are complex but remain drinkable, and their stories emerge from the process rather than being printed as concepts.
 
@@ -104,7 +104,7 @@ Honorable mentions: Bar Leone, Hong Kong; Connaught Bar, London
 
 **Café de l’Ambre, Tokyo**
 
-Café de l’Ambre is the café we choose because it has spent decades narrowing its attention to coffee itself. Opened in Ginza in 1948, the small room serves carefully aged beans, dark roasts, and drinks prepared with a patience at odds with the speed surrounding it. The atmosphere is serious but not sterile, and the equipment bears the polish of constant work rather than nostalgic staging.
+Café de l’Ambre has spent decades narrowing its attention to coffee itself. Opened in Ginza in 1948, the small room serves carefully aged beans, dark roasts, and drinks prepared with a patience at odds with the speed surrounding it. The atmosphere is serious but not sterile, and the equipment bears the polish of constant work rather than nostalgic staging.
 
 Beans are selected, stored, roasted, ground, and brewed according to their individual condition. Cloth filters, copper kettles, hand pouring, and precise temperature control produce cups with remarkable clarity and depth despite the dark roasting associated with kissaten. The menu includes straight coffees and composed drinks such as Queen Amber. Wood, smoke-darkened surfaces, and a long counter place preparation at the center of the room.
 
@@ -120,7 +120,7 @@ Honorable mentions: Café Sperl, Vienna; Koffee Mameya Kakeru, Tokyo
 
 **Hart Bageri, Copenhagen**
 
-Hart Bageri is the bakery we choose because it joins the precision of modern fermentation with the immediate pleasure of a neighborhood shop. Founded by baker Richard Hart in Copenhagen, it makes bread with character, pastries with disciplined richness, and savory food worth arriving for before lunch. The shops feel contemporary without turning flour sacks and stainless steel into a lifestyle display.
+Hart Bageri joins the precision of modern fermentation with the immediate pleasure of a neighborhood shop. Founded by baker Richard Hart in Copenhagen, it makes bread with character, pastries with disciplined richness, and savory food worth arriving for before lunch. The shops feel contemporary without turning flour sacks and stainless steel into a lifestyle display.
 
 Sourdough loaves develop deep crust, open but useful crumb, and enough acidity to remain lively with butter, cheese, or soup. Laminated pastries show careful layering without becoming brittle sculpture, while cardamom buns, cookies, and changing specials make room for appetite alongside technique. Milling, grain selection, fermentation, and high heat are treated as linked decisions rather than talking points attached after baking.
 
@@ -136,7 +136,7 @@ Honorable mentions: Poilâne, Paris; Sullivan Street Bakery, New York
 
 **Daunt Books Marylebone, London**
 
-Daunt Books Marylebone is the bookshop we choose because its celebrated Edwardian gallery supports, rather than substitutes for, intelligent bookselling. Daylight enters through the long skylight, oak balconies rise above the central floor, and travel books are arranged by country alongside history, fiction, memoir, and politics. The organization allows a destination to become a subject rather than a shelf of guidebooks.
+Daunt Books Marylebone’s celebrated Edwardian gallery supports, rather than substitutes for, intelligent bookselling. Daylight enters through the long skylight, oak balconies rise above the central floor, and travel books are arranged by country alongside history, fiction, memoir, and politics. The organization allows a destination to become a subject rather than a shelf of guidebooks.
 
 Opened as an antiquarian bookseller and completed in 1912, the building uses long sight lines, restrained timber shelving, and a mezzanine reached by narrow stairs. Daunt’s current selection combines new literary fiction, nonfiction, children’s books, travel writing, and editions chosen with clear taste. Tables are edited enough to guide discovery without becoming piles of whatever publishing is currently promoting most heavily.
 
@@ -152,7 +152,7 @@ Honorable mentions: Tsutaya Books Daikanyama, Tokyo; Libreria Bocca, Milan
 
 **Disk Union, Tokyo**
 
-Disk Union is the record store we choose because it treats recorded music as several overlapping cultures rather than one retail category. Across its Tokyo branches, entire buildings and floors specialize in jazz, classical, rock, punk, soul, electronic music, and Japanese releases. The density can be intimidating, but the classification is exact enough that browsing becomes education rather than simply searching for an item already known.
+Disk Union treats recorded music as several overlapping cultures rather than one retail category. Across its Tokyo branches, entire buildings and floors specialize in jazz, classical, rock, punk, soul, electronic music, and Japanese releases. The density can be intimidating, but the classification is exact enough that browsing becomes education rather than simply searching for an item already known.
 
 New vinyl, used pressings, CDs, box sets, books, and equipment sit within tightly labeled sections divided by genre, artist, format, country, and condition. Handwritten notes and specialist selections reveal the staff behind the system. Used records are graded carefully, rare objects receive context, and ordinary affordable releases remain abundant. Different branches preserve distinct identities rather than duplicating one central inventory across convenient locations.
 
@@ -168,7 +168,7 @@ Honorable mentions: Rough Trade East, London; Amoeba Music, Los Angeles
 
 **Isetan Shinjuku, Tokyo**
 
-Isetan Shinjuku is the department store we choose because it still makes the breadth of retail feel like a civic pleasure rather than an exhausted real-estate format. Fashion, food, beauty, homewares, and craft are edited with unusual confidence, while each floor retains enough identity to reward wandering. The main building is large but legible, and service is precise without turning every encounter into luxury theater.
+Isetan Shinjuku still makes the breadth of retail feel like a civic pleasure rather than an exhausted real-estate format. Fashion, food, beauty, homewares, and craft are edited with unusual confidence, while each floor retains enough identity to reward wandering. The main building is large but legible, and service is precise without turning every encounter into luxury theater.
 
 Departments mix international houses with Japanese designers, seasonal exhibitions, pop-ups, and specialist concessions selected to create useful contrast. Display changes constantly, but circulation, lighting, typography, and staff knowledge keep the experience coherent. The basement food halls are a city in miniature, moving from produce and prepared dishes to sweets, tea, wine, and immaculate gifts. Packaging becomes part of service rather than an afterthought.
 
@@ -184,7 +184,7 @@ Honorable mentions: Mitsukoshi Nihombashi, Tokyo; KaDeWe, Berlin
 
 **Pathé Tuschinski, Amsterdam**
 
-Pathé Tuschinski is the cinema we choose because it makes watching a film feel public and ceremonial without allowing architecture to overpower the screen. Opened in 1921 by Abraham Tuschinski, the building combines Art Deco, Amsterdam School, and theatrical fantasy in a sequence of foyers, stairs, murals, lamps, and carpets. The main auditorium restores anticipation before the lights fall.
+Pathé Tuschinski makes watching a film feel public and ceremonial without allowing architecture to overpower the screen. Opened in 1921 by Abraham Tuschinski, the building combines Art Deco, Amsterdam School, and theatrical fantasy in a sequence of foyers, stairs, murals, lamps, and carpets. The main auditorium restores anticipation before the lights fall.
 
 Designed by Hijman Louis de Jong with contributions from numerous artists and craftspeople, the cinema layers carved wood, stained glass, glazed tile, painted ornament, and custom lettering. Restoration has preserved the principal interiors while introducing contemporary projection, sound, seating, and accessibility. The building contains several screens, but Grote Zaal provides the full architectural experience, including its stage, balcony, organ, and rich proscenium.
 
@@ -200,7 +200,7 @@ Honorable mentions: Metrograph, New York; Cinéma du Panthéon, Paris
 
 **Marché d’Aligre, Paris**
 
-Marché d’Aligre is the market we choose because it combines daily food, neighborhood argument, immigrant commerce, and accidental discovery within a few dense streets of the twelfth arrondissement. Produce stalls fill rue d’Aligre, permanent traders occupy the covered Marché Beauvau, and secondhand sellers spread across place d’Aligre. The result is useful before it is picturesque, which is why it remains worth visiting.
+Marché d’Aligre combines daily food, neighborhood argument, immigrant commerce, and accidental discovery within a few dense streets of the twelfth arrondissement. Produce stalls fill rue d’Aligre, permanent traders occupy the covered Marché Beauvau, and secondhand sellers spread across place d’Aligre. The result is useful before it is picturesque, which is why it remains worth visiting.
 
 Fruit and vegetables arrive in volume and at varied prices, while fishmongers, butchers, cheese sellers, spice shops, bakeries, cafés, and North African grocers extend the market beyond its official boundaries. The covered hall provides structure and specialist continuity; the outdoor stalls contribute speed, season, and competitive noise. Flea-market tables add tools, records, crockery, clothes, and objects whose value depends on looking rather than branding.
 
@@ -216,7 +216,7 @@ Honorable mentions: Nishiki Market, Kyoto; Borough Market, London
 
 **Louisiana Museum of Modern Art, Humlebæk**
 
-Louisiana is the museum we choose because art, architecture, landscape, and the movement between them remain inseparable. Set above the Øresund north of Copenhagen, the museum extends through low brick-and-timber wings, sculpture gardens, courtyards, and changing views of water. Its scale supports major exhibitions without turning the visitor into circulation data, and the intervals between galleries make attention renewable.
+Art, architecture, landscape, and the movement between them remain inseparable. Set above the Øresund north of Copenhagen, the museum extends through low brick-and-timber wings, sculpture gardens, courtyards, and changing views of water. Its scale supports major exhibitions without turning the visitor into circulation data, and the intervals between galleries make attention renewable.
 
 Architects Vilhelm Wohlert and Jørgen Bo developed the museum incrementally from 1958, connecting an existing villa through glazed corridors and human-scaled rooms. The collection emphasizes postwar and contemporary art, including sculpture placed in direct relation to land and sky. Temporary exhibitions, a strong children’s wing, concert hall, library, café, and design shop broaden use while preserving the primacy of looking.
 
@@ -232,7 +232,7 @@ Honorable mentions: Fondation Beyeler, Riehen; The Menil Collection, Houston
 
 **Oodi, Helsinki**
 
-Oodi is the public library we choose because it expands the idea of free civic space without weakening the central place of books. Opposite Finland’s parliament, the building contains reading rooms, children’s areas, studios, workshops, meeting spaces, games, kitchens, and a cinema beneath one sweeping roof. People may study, make, meet, repair, print, or simply remain indoors without being required to buy anything.
+Oodi expands the idea of free civic space without weakening the central place of books. Opposite Finland’s parliament, the building contains reading rooms, children’s areas, studios, workshops, meeting spaces, games, kitchens, and a cinema beneath one sweeping roof. People may study, make, meet, repair, print, or simply remain indoors without being required to buy anything.
 
 ALA Architects organized the building into three distinct levels. An active ground floor continues the city through entrances, events, and services; a middle floor contains enclosed rooms and tools; the upper Book Heaven opens beneath an undulating white ceiling with trees, shelves, and broad views. A timber-clad bridge spans much of the ground level, allowing large public rooms with surprisingly few columns.
 
@@ -248,7 +248,7 @@ Honorable mentions: Stockholm Public Library; NYPL Schwarzman Building
 
 **Central Park, New York**
 
-Central Park is the city park we choose because it does not provide escape from New York so much as another, necessary version of it. Frederick Law Olmsted and Calvert Vaux composed meadows, woods, water, paths, bridges, and drives into an artificial landscape whose variety feels inexhaustible. Millions share it without experiencing the same park, and each season reorganizes how the city meets there.
+Central Park does not provide escape from New York so much as another, necessary version of it. Frederick Law Olmsted and Calvert Vaux composed meadows, woods, water, paths, bridges, and drives into an artificial landscape whose variety feels inexhaustible. Millions share it without experiencing the same park, and each season reorganizes how the city meets there.
 
 The 1858 Greensward Plan separated transverse traffic and modes of movement while using topography, planting, stonework, and carefully controlled vistas to conceal much of the surrounding grid. The Mall leads ceremonially, the Ramble confuses productively, the Reservoir opens the horizon, and Sheep Meadow supplies democratic emptiness. Playgrounds, ball fields, zoo, theater, memorials, and quieter northern landscapes support uses far beyond scenic walking.
 
@@ -264,7 +264,7 @@ Honorable mentions: Englischer Garten, Munich; Yoyogi Park, Tokyo
 
 **Cala Goloritzé, Sardinia**
 
-Cala Goloritzé is the beach we choose because arrival must be earned and the landscape remains stronger than the services usually attached to beauty. A steep path descends through limestone and Mediterranean scrub to a small crescent of pale stones, clear blue water, a natural arch, and the Aguglia pinnacle. There are no beach clubs to mediate the encounter, only shade, water, rock, and time.
+Arrival must be earned and the landscape remains stronger than the services usually attached to beauty. A steep path descends through limestone and Mediterranean scrub to a small crescent of pale stones, clear blue water, a natural arch, and the Aguglia pinnacle. There are no beach clubs to mediate the encounter, only shade, water, rock, and time.
 
 The cove was formed by a landslide on Sardinia’s Gulf of Orosei and became a protected natural monument. Springs beneath the sea cool the water and contribute to its startling clarity. Boats must remain offshore, preserving the swimming area and quiet near land. The hiking route begins on the Golgo plateau, dropping substantially through exposed terrain before the harder return ascent.
 
@@ -280,7 +280,7 @@ Honorable mentions: Plage de Saleccia, Corsica; Fteri Beach, Kefalonia
 
 **Daikanyama, Tokyo**
 
-Daikanyama is the neighborhood we choose because it demonstrates how a large city can sustain quiet streets, independent commerce, ambitious architecture, and ordinary residential life within walking distance of major transport. Low buildings, small gardens, slopes, cafés, fashion shops, studios, and bookshops produce interest without a single monumental attraction. It rewards wandering because the point is the relationship between places rather than one destination.
+Daikanyama demonstrates how a large city can sustain quiet streets, independent commerce, ambitious architecture, and ordinary residential life within walking distance of major transport. Low buildings, small gardens, slopes, cafés, fashion shops, studios, and bookshops produce interest without a single monumental attraction. It rewards wandering because the point is the relationship between places rather than one destination.
 
 The neighborhood developed across a varied street pattern between Shibuya, Ebisu, and Nakameguro. Fumihiko Maki’s Hillside Terrace established a model of incremental, mixed-use architecture attentive to pedestrian space, while KDa, Tsutaya Books, and converted houses continue the dialogue at different scales. Retail is edited and often expensive, but side streets retain apartments, schools, clinics, and the infrastructure of daily life.
 
@@ -296,7 +296,7 @@ Honorable mentions: Brera, Milan; Frederiksberg, Copenhagen
 
 **Zürich Hauptbahnhof**
 
-Zürich Hauptbahnhof is the train station we choose because it converts extraordinary transport complexity into an experience that remains legible, central, and deeply connected to the city. Intercity, international, regional, suburban, tram, and local services converge across surface and underground platforms, yet transfers usually feel like movement through one institution rather than a sequence of terminals. The station works first and impresses through that work.
+Zürich Hauptbahnhof converts extraordinary transport complexity into an experience that remains legible, central, and deeply connected to the city. Intercity, international, regional, suburban, tram, and local services converge across surface and underground platforms, yet transfers usually feel like movement through one institution rather than a sequence of terminals. The station works first and impresses through that work.
 
 The monumental 1871 train hall and stone frontage establish civic scale, while later underground levels, passageways, retail streets, and platforms extend capacity beneath the city. Clear signage, synchronized timetables, frequent departures, and visible information allow the architecture to support Swiss rail operations rather than compete with them. The broad main hall hosts markets and events without obstructing its fundamental role as an urban room.
 
