@@ -12,23 +12,23 @@ export const imprintRecommendations:ImprintRecommendationSet[]=[
       {
         productName:"hello@smallcertainty.com",
         productHref:"mailto:hello@smallcertainty.com",
-        note:`A publication should have one clear door, and ours is hello@smallcertainty.com. A correction, recommendation, proposal, rights question, or thoughtful disagreement can arrive there with enough room to become useful. Email is neither novel nor intimate by default, but it remains the most dependable way to reach an editorial project without asking the sender to join a platform or perform in public.
+        note:`Email hello@smallcertainty.com with recommendations, corrections, questions, and useful disagreements. If there is an object, place, publication, or service that belongs in the catalog, send its name, a link, and a brief explanation of what makes it unusually good. We are interested in specific experience, not votes or enthusiasm measured by volume.
 
-The address is deliberately plain. “Hello” welcomes a broad range of messages without pretending there is a department behind every subject. The Small Certainty domain makes the destination unambiguous, while a concise subject line provides all the routing most notes require. Attachments, links, references, and a proper written record travel together, which makes the exchange easier to understand later than a chain of hurried notifications.
+Corrections are especially welcome. Include the page in question, describe what is wrong, and provide a reliable source when one is available. Product links change, companies close, specifications drift, and even confident editors make mistakes. A clear note helps us repair the catalog quickly and properly.
 
-Email is not instantaneous, and that is useful. Messages can be read with attention, answered in order, and kept when they contain something worth returning to. Send one complete note rather than several fragments, identify any deadline, and include the relevant URL when reporting a correction. Large unsolicited files and generic publicity blasts are less persuasive than a short explanation of why something belongs here.
+Writers, photographers, designers, shops, manufacturers, and press offices may also use the address for pitches, image permissions, partnerships, review material, and rights inquiries. Tell us what you are proposing, why it suits Small Certainty, and whether there is a deadline. Please link to large files rather than attaching them without warning.
 
-A good contact method should reduce ceremony without reducing seriousness. This address does that. It is open enough for a reader and specific enough for a collaborator, with none of the ambiguity of a comment thread or disappearing message. Write plainly, provide context, and expect a human reply when one is warranted. For Small Certainty, the inbox remains the proper front desk.`,
+A short, complete email is ideal. There is no special submission form, hidden department, or preferred introduction. Write plainly, provide enough context to make the message useful, and send it to hello@smallcertainty.com. It reaches the people who edit the site.`,
       },
       {
-        productName:"Instagram DM",
-        productHref:"https://www.instagram.com/smallcertainty/",
-        note:"The side door for visual evidence. Send the odd shopfront, the convincing chair or the hotel lamp that has quietly solved a problem; anything that would lose its point if translated too quickly into prose.",
+        productName:"craig@craigslist.org",
+        productHref:"https://www.craigslist.org/about/craig_newmark",
+        note:"Craig Newmark’s address has the pleasing literalness of Craigslist itself: a first name attached to the thing he made, with no reception desk in between. It belongs to an earlier, more direct internet.",
       },
       {
-        productName:"X Reply",
-        productHref:"https://x.com/smallcertainty",
-        note:"Best reserved for a quick correction, a useful link or a compact public disagreement. If the entire case fits into a few lines, there is no need to build it a conference room.",
+        productName:"woz@woz.org",
+        productHref:"https://woz.org/",
+        note:"A nickname before and after the at sign is difficult to improve upon. The address is compact, unmistakable, and personal in the particular way that only an early internet identity can be.",
       },
     ],
   },
