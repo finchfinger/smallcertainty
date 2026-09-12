@@ -196,11 +196,11 @@ input[type="search"]::-webkit-search-cancel-button { -webkit-appearance:none; ap
   background-size:calc(100% - 24px) var(--journal-link-rule);
 }
 .best-detail-action:focus-visible {
-  background-size:calc(100% - 24px) var(--journal-link-rule-hover);
+  background-size:0 0;
 }
 @media (hover:hover) and (pointer:fine) {
   .best-detail-action:hover {
-    background-size:calc(100% - 24px) var(--journal-link-rule-hover);
+    background-size:0 0;
   }
 }
 @media (min-width:1024px) {
