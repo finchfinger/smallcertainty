@@ -66,35 +66,37 @@ export function DetailPageShell({ item,searchItems,activeNav="Catalog",counterSt
   return <>
     <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(structuredData)}}/>
     <Header activeNav={activeNav} searchItems={searchItems}/>
-    <main className="page-grid page-pad w-full pb-28 pt-12 lg:pt-20">
-      <article className="col-span-full text-[14px] leading-[20px] tracking-[-0.01em] lg:col-start-3 lg:col-end-11">
-        <h1 className="font-normal">{item.label}</h1>
+    <main className="page-grid page-pad w-full pb-28 pt-12 lg:pt-16">
+      <article className="col-span-full border-t border-ink pt-4 text-[14px] leading-[20px] tracking-[-0.01em] lg:grid lg:grid-cols-12 lg:gap-x-6">
+        <h1 className="font-normal lg:col-span-2">{item.label}</h1>
 
-        {best&&<>
-          <h2 className="mt-10 font-normal">{best.productName}{best.brand?` from ${best.brand}`:""}</h2>
+        <div className="mt-8 lg:col-span-8 lg:col-start-3 lg:mt-0">
+          {best&&<>
+            <h2 className="font-normal">{best.productName}{best.brand?` from ${best.brand}`:""}</h2>
 
-          <div className="font-simon-mono mt-4 max-w-[900px] space-y-5">
-            {noteParagraphs(best.note||item.intro||fallbackNote).map((paragraph,index)=><p key={index}>{paragraph}</p>)}
-          </div>
+            <div className="font-simon-mono mt-5 max-w-[900px] space-y-5">
+              {noteParagraphs(best.note||item.intro||fallbackNote).map((paragraph,index)=><p key={index}>{paragraph}</p>)}
+            </div>
 
-          <div className="mt-6 flex flex-wrap items-center gap-3">
-            {best.productHref&&<ActionLink href={best.productHref} target="_blank" rel="noreferrer" variant="outline" className="!h-11">Visit site</ActionLink>}
-            <ShareButton category={item.label} title={best.productName} path={item.href} triggerVariant="text"/>
-          </div>
-        </>}
+            <div className="mt-10 flex flex-wrap items-center gap-6">
+              {best.productHref&&<ActionLink href={best.productHref} target="_blank" rel="noreferrer" variant="text" className="journal-text-link !h-auto !rounded-none !px-0 pb-1 hover:!bg-transparent focus-visible:!bg-transparent">Visit site</ActionLink>}
+              <ShareButton category={item.label} title={best.productName} path={item.href} triggerVariant="text" triggerClassName="journal-text-link !h-auto !rounded-none !px-0 pb-1 hover:!bg-transparent focus-visible:!bg-transparent"/>
+            </div>
+          </>}
 
-        {honorableMentions.length>0&&<section className="mt-20" aria-labelledby="honorable-mentions-title">
-          <h2 id="honorable-mentions-title" className="mb-5 font-normal">Honorable Mentions</h2>
-          <ul className="border-t border-ink">
-            {honorableMentions.map(recommendation=><li key={`${recommendation.rank}-${recommendation.productName}`} className="border-b border-ink">
-              {recommendation.productHref
-                ?<Link href={recommendation.productHref} target="_blank" rel="noreferrer" className="best-page-link -mx-3 grid min-h-[52px] items-center rounded-md px-3 py-3 focus-visible:bg-black/[.04] focus-visible:outline-none">
-                  <span>{recommendation.productName}{recommendation.brand?` from ${recommendation.brand}`:""}</span>
-                </Link>
-                :<div className="grid min-h-[52px] items-center py-3">{recommendation.productName}{recommendation.brand?` from ${recommendation.brand}`:""}</div>}
-            </li>)}
-          </ul>
-        </section>}
+          {honorableMentions.length>0&&<section className="mt-20" aria-labelledby="honorable-mentions-title">
+            <h2 id="honorable-mentions-title" className="mb-5 font-normal">Honorable Mentions</h2>
+            <ul className="border-t border-ink">
+              {honorableMentions.map(recommendation=><li key={`${recommendation.rank}-${recommendation.productName}`} className="border-b border-ink">
+                {recommendation.productHref
+                  ?<Link href={recommendation.productHref} target="_blank" rel="noreferrer" className="best-page-link -mx-3 grid min-h-[52px] items-center rounded-md px-3 py-3 focus-visible:bg-black/[.04] focus-visible:outline-none">
+                    <span>{recommendation.productName}{recommendation.brand?` from ${recommendation.brand}`:""}</span>
+                  </Link>
+                  :<div className="grid min-h-[52px] items-center py-3">{recommendation.productName}{recommendation.brand?` from ${recommendation.brand}`:""}</div>}
+              </li>)}
+            </ul>
+          </section>}
+        </div>
       </article>
     </main>
   </>;

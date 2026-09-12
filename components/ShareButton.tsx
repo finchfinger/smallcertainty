@@ -8,9 +8,10 @@ type ShareButtonProps = {
   title:string;
   path:string;
   triggerVariant?:"default"|"ghost"|"outline"|"text";
+  triggerClassName?:string;
 };
 
-export function ShareButton({ category,title,path,triggerVariant="ghost" }:ShareButtonProps){
+export function ShareButton({ category,title,path,triggerVariant="ghost",triggerClassName="" }:ShareButtonProps){
   const [open,setOpen]=useState(false);
   const [status,setStatus]=useState("");
   const [submitting,setSubmitting]=useState(false);
@@ -94,7 +95,7 @@ export function ShareButton({ category,title,path,triggerVariant="ghost" }:Share
   }
 
   return <>
-    <ActionButton ref={triggerRef} variant={triggerVariant} aria-haspopup="dialog" aria-expanded={open} aria-controls={open?titleId:undefined} aria-label={`Share ${title}`} onClick={()=>setOpen(true)}>Share</ActionButton>
+    <ActionButton ref={triggerRef} variant={triggerVariant} className={triggerClassName} aria-haspopup="dialog" aria-expanded={open} aria-controls={open?titleId:undefined} aria-label={`Share ${title}`} onClick={()=>setOpen(true)}>Share</ActionButton>
     {open&&<div className="fixed inset-0 z-[100] overflow-y-auto bg-black/20 px-5 pb-10 pt-[7vh] sm:px-8" onMouseDown={event=>{if(event.target===event.currentTarget) close();}}>
       <section ref={dialogRef} role="dialog" aria-modal="true" aria-labelledby={titleId} onKeyDown={handleDialogKeyDown} className="mx-auto w-full max-w-[680px] rounded-[24px] bg-paper p-6 shadow-[0_18px_60px_rgba(0,0,0,0.14)] sm:p-8">
         <div>
