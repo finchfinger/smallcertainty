@@ -2,7 +2,6 @@ import {Header} from "./Header";
 import {ActionLink} from "./ActionButton";
 import {MaterialIcon} from "./MaterialIcon";
 import type {SearchItem} from "./SearchOverlay";
-import {ShareButton} from "./ShareButton";
 import {ResponsiveSectionLabel} from "./ResponsiveSectionLabel";
 import {absoluteUrl} from "@/lib/seo";
 import type {CatalogItemData,RecommendationData} from "./types";
@@ -51,7 +50,6 @@ export function RankedDetailPageShell({item,searchItems,activeNav="Profile"}:Ran
               <p className="listing-reading-column font-simon-mono col-span-2 max-w-[900px] text-[14px] leading-[20px] tracking-[-0.01em] min-[700px]:col-span-7 min-[700px]:col-start-4">{note}</p>
               <div className="listing-reading-column -ml-3 -mt-2 col-span-2 flex flex-wrap items-center gap-0 min-[700px]:col-span-7 min-[700px]:col-start-4">
                 {recommendation.productHref&&<ActionLink href={recommendation.productHref} target="_blank" rel="noreferrer" variant="text">Visit site</ActionLink>}
-                <ShareButton category={item.label} title={recommendation.productName} path={item.href} triggerVariant="text"/>
               </div>
             </li>;
           })}

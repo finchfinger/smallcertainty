@@ -2,7 +2,6 @@ import { Header } from "./Header";
 import Link from "next/link";
 import {ActionLink} from "./ActionButton";
 import type { SearchItem } from "./SearchOverlay";
-import {ShareButton} from "./ShareButton";
 import { absoluteUrl,siteName } from "@/lib/seo";
 import type { CatalogItemData,RecommendationData } from "./types";
 
@@ -78,9 +77,8 @@ export function DetailPageShell({ item,searchItems,activeNav="Catalog",counterSt
               {noteParagraphs(best.note||item.intro||fallbackNote).map((paragraph,index)=><p key={index}>{paragraph}</p>)}
             </div>
 
-            <div className="mt-10 flex flex-wrap items-center gap-6">
+            <div className="mt-10 flex flex-wrap items-center">
               {best.productHref&&<ActionLink href={best.productHref} target="_blank" rel="noreferrer" variant="text" className="journal-text-link best-detail-action -mx-3 !rounded-md">Visit site</ActionLink>}
-              <ShareButton category={item.label} title={best.productName} path={item.href} triggerVariant="text" triggerClassName="journal-text-link best-detail-action -mx-3 !rounded-md"/>
             </div>
           </>}
 
