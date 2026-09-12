@@ -79,7 +79,7 @@ export function DetailPageShell({ item,searchItems,activeNav="Catalog",counterSt
             </div>
 
             <div className="mt-10 flex flex-wrap items-center">
-              {best.productHref&&<ActionLink href={best.productHref} {...(!isEmailAction?{target:"_blank",rel:"noreferrer"}:{})} variant="text" className="-mx-3 !rounded-md"><span className="inline-block" style={{borderBottom:"1px solid currentColor"}}>{isEmailAction?"Send a message":"Visit site"}</span></ActionLink>}
+              {best.productHref&&<ActionLink href={best.productHref} {...(!isEmailAction?{target:"_blank",rel:"noreferrer"}:{})} variant="text" className="best-detail-action -mx-3 !rounded-md">{isEmailAction?"Send a message":"Visit site"}</ActionLink>}
             </div>
           </>}
 
