@@ -116,7 +116,7 @@ Electronic music did not begin here, but much that followed learned from the alb
   },
   {
     label:"Best Song",
-    winner:{name:"The River, Bruce Springsteen",url:"https://brucespringsteen.net/track/the-river/",note:`A marriage, a recession, a pregnancy, a job, and the erosion of possibility fit inside five restrained minutes of The River. Bruce Springsteen begins with recollection and ends with a question the narrator cannot answer. The details are plain enough to feel overheard, but their arrangement gives one working life the scale of an American argument.
+    winner:{name:"The River by Bruce Springsteen",url:"https://brucespringsteen.net/track/the-river/",note:`A marriage, a recession, a pregnancy, a job, and the erosion of possibility fit inside five restrained minutes of The River. Bruce Springsteen begins with recollection and ends with a question the narrator cannot answer. The details are plain enough to feel overheard, but their arrangement gives one working life the scale of an American argument.
 
 The recording resists the triumphal force associated with Springsteen’s band. Harmonica opens an empty space, acoustic guitar maintains the pulse, and the arrangement enters without rescuing the story. The melody rises around the river itself, turning a real place of courtship and escape into memory, evidence, and accusation. Springsteen sings directly, allowing the breaks and hard consonants in the language to provide drama.
 
