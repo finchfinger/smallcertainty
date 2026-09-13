@@ -1,4 +1,5 @@
 import Link from "next/link";
+import {productDisplayName} from "@/lib/productDisplayName";
 import type { CatalogItemData } from "./types";
 
 export type CatalogRowProps = CatalogItemData & { flushTop?:boolean; textClassName?:string; monoClassName?:string; rowHeight?:52; hoverInset?:0|8|12|16; tone?:"default"|"inverted"; showStatus?:boolean };
@@ -31,7 +32,7 @@ export function CatalogRow({ label,productName,brand,href,status,external=false,
     :"sm:col-span-6";
   const statusLabel=status==="new"?"New":status==="updated"?"Updated":null;
   const statusColor=status==="new"?"text-[#ff2b2b]":"text-[#ff27ff]";
-  const displayProduct=brand?`${productName} from ${brand}`:productName;
+  const displayProduct=productDisplayName(productName,brand);
   const opensNewWindow=external&&!href.startsWith("mailto:");
   const body=<>
     <span className={`pointer-events-none relative z-10 flex min-w-0 items-center font-normal leading-[20px] tracking-[-0.01em] transition-colors duration-150 ${groupHoverText} ${labelColumnClass} sm:h-full ${textClassName} ${monoClassName}`}><span className={labelClass}>{label}</span></span>

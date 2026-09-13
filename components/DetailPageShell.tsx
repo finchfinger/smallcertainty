@@ -4,6 +4,7 @@ import {ActionLink} from "./ActionButton";
 import type { SearchItem } from "./SearchOverlay";
 import { absoluteUrl,siteName } from "@/lib/seo";
 import type { CatalogItemData,RecommendationData } from "./types";
+import {productDisplayName} from "@/lib/productDisplayName";
 
 type DetailPageShellProps = {
   item:CatalogItemData & { sectionTitle?:string };
@@ -72,7 +73,7 @@ export function DetailPageShell({ item,searchItems,activeNav="Catalog",counterSt
 
         <div className="mt-8 lg:col-span-8 lg:col-start-3 lg:mt-0">
           {best&&<>
-            <h2 className="font-normal">{best.productName}{best.brand?` from ${best.brand}`:""}</h2>
+            <h2 className="font-normal">{productDisplayName(best.productName,best.brand)}</h2>
 
             <div className="font-simon-mono mt-5 max-w-[900px] space-y-5">
               {noteParagraphs(best.note||item.intro||fallbackNote).map((paragraph,index)=><p key={index}>{paragraph}</p>)}
@@ -89,9 +90,9 @@ export function DetailPageShell({ item,searchItems,activeNav="Catalog",counterSt
               {honorableMentions.map(recommendation=><li key={`${recommendation.rank}-${recommendation.productName}`} className="border-b border-ink">
                 {recommendation.productHref
                   ?<Link href={recommendation.productHref} target="_blank" rel="noreferrer" className="best-page-link -mx-3 grid min-h-[52px] items-center rounded-md px-3 py-3 focus-visible:bg-black/[.04] focus-visible:outline-none">
-                    <span>{recommendation.productName}{recommendation.brand?` from ${recommendation.brand}`:""}</span>
+                    <span>{productDisplayName(recommendation.productName,recommendation.brand)}</span>
                   </Link>
-                  :<div className="grid min-h-[52px] items-center py-3">{recommendation.productName}{recommendation.brand?` from ${recommendation.brand}`:""}</div>}
+                  :<div className="grid min-h-[52px] items-center py-3">{productDisplayName(recommendation.productName,recommendation.brand)}</div>}
               </li>)}
             </ul>
           </section>}
