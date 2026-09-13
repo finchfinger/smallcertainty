@@ -55,7 +55,9 @@ export function catalogItemDescription(item:CatalogItemData) {
 
 export function catalogItemMetadata(item:CatalogItemData,path=item.href):Metadata {
   const description=truncateDescription(item.seo?.metaDescription||catalogItemDescription(item));
-  const title=item.seo?.seoTitle||item.label;
+  const audience=item.sectionTitle?.startsWith("Men’s")?"Men’s":item.sectionTitle?.startsWith("Women’s")?"Women’s":undefined;
+  const defaultTitle=audience&&item.label.startsWith("Best ")?`Best ${audience} ${item.label.slice(5)}`:item.label;
+  const title=item.seo?.seoTitle||defaultTitle;
   const socialTitle=item.seo?.ogTitle||title;
   const socialDescription=truncateDescription(item.seo?.ogDescription||description,200);
   const url=absoluteUrl(path);

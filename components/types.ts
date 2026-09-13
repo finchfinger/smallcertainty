@@ -9,6 +9,7 @@ export type RecommendationData = {
 
 export type CatalogItemData = {
   label:string;
+  sectionTitle?:string;
   productName:string;
   brand?:string;
   href:string;
