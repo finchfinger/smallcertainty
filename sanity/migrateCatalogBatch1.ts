@@ -210,8 +210,19 @@ const sectionSlug=(title:string)=>({"GARDEN & YARD":"garden","MEN’S CLOTHING":
 const sectionTitle=(title:string)=>({"GARDEN & YARD":"Garden","MEN’S CLOTHING":"Men’s Clothing","MEN’S ACCESSORIES":"Men’s Accessories","WOMEN’S CLOTHING":"Women’s Clothing","WOMEN’S ACCESSORIES":"Women’s Accessories",KIDS:"Children","SPORT & OUTDOORS":"Sport",PLACES:"Places"}[title]||title[0]+title.slice(1).toLowerCase());
 const sectionOrder:Record<string,number>=batch===9?{CULTURE:16,PLACES:17}:batch===8?{"SPORT & OUTDOORS":14}:batch===7?{KIDS:15}:batch===6?{"WOMEN’S CLOTHING":10,"WOMEN’S ACCESSORIES":11}:batch===5?{"MEN’S CLOTHING":8,"MEN’S ACCESSORIES":9}:batch===4?{"GARDEN & YARD":7,BODY:13}:batch===3?{OFFICE:5,TECH:6,ACCESSORIES:12}:batch===2?{KITCHEN:4}:{HOME:1,BEDROOM:2,BATH:3};
 
+const honorableMentionUrl=(name:string)=>{
+  const separator=name.lastIndexOf(" in ");
+  if(separator<0) return honorableMentionUrls[name];
+  const place=name.slice(0,separator);
+  const location=name.slice(separator+4);
+  return honorableMentionUrls[name]
+    ||honorableMentionUrls[`${place}, ${location}`]
+    ||honorableMentionUrls[`${place} ${location}`]
+    ||honorableMentionUrls[place];
+};
+
 async function main(){
-  const missing=[...new Set(drafts.flatMap(d=>d.mentions))].filter(name=>!honorableMentionUrls[name]);
+  const missing=[...new Set(drafts.flatMap(d=>d.mentions))].filter(name=>!honorableMentionUrl(name));
   if(missing.length) throw new Error(`Missing honorable-mention URLs: ${missing.join(", ")}`);
 
   const current=await client.fetch<Array<{_id:string;label:string;slug:string;section:string}>>(
@@ -228,6 +239,7 @@ async function main(){
     const slug=sectionSlug(section);
     console.log(`${sectionBySlug.has(slug)?"update":"create"} section ${section} (${slug})`);
   }
+  const migratedItemIds=new Set<string>();
   for(const draft of drafts){
     const slug=slugify(draft.label);
     const existing=bySlug.get(slug)||bySlug.get(aliases[slug]);
@@ -252,7 +264,8 @@ async function main(){
     const oldSlug=aliases[slug];
     const item=bySlug.get(slug)||bySlug.get(oldSlug);
     const itemId=item?._id||(batch>=5?`catalog-item-${sectionSlug(draft.section)}-${slug}`:`catalog-item-${slug}`);
-    const products=[{name:draft.winner,url:draft.winnerUrl,description:draft.description},...draft.mentions.map(name=>({name,url:honorableMentionUrls[name],description:undefined}))];
+    migratedItemIds.add(itemId);
+    const products=[{name:draft.winner,url:draft.winnerUrl,description:draft.description},...draft.mentions.map(name=>({name,url:honorableMentionUrl(name),description:undefined}))];
     products.forEach(product=>{
       const productId=`product-${slugify(product.name)}`;
       const data={name:product.name,slug:{_type:"slug",current:slugify(product.name)},outboundUrl:product.url,published:true,...(product.description?{description:product.description}:{})};
@@ -266,12 +279,11 @@ async function main(){
   }
 
   if(batch>=5){
-    const targetIds=new Set(drafts.map(draft=>`catalog-item-${sectionSlug(draft.section)}-${slugify(draft.label)}`));
     const legacy=await client.fetch<Array<{_id:string;label:string}>>(
       `*[_type=="catalogItem"&&published==true&&section->slug.current in $sectionSlugs]{_id,label}`,
       {sectionSlugs:[...new Set(drafts.map(draft=>sectionSlug(draft.section)))]},
     );
-    const retired=legacy.filter(item=>!targetIds.has(item._id));
+    const retired=legacy.filter(item=>!migratedItemIds.has(item._id));
     retired.forEach(item=>{tx=tx.patch(item._id,patch=>patch.set({published:false}));});
     console.log(`Retiring ${retired.length} legacy rows to prevent duplicates.`);
   }

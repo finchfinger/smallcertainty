@@ -54,7 +54,7 @@ Honorable mentions: Mastering the Art of French Cooking; The River Cafe Cookbook
 
 ### Best Hotel
 
-**Ett Hem, Stockholm**
+**Ett Hem in Stockholm**
 
 Ett Hem behaves like an exceptionally well-run house rather than a procession of branded hospitality gestures. Set in a 1910 Arts and Crafts townhouse in Stockholm, it offers rooms, libraries, sitting spaces, a garden, and a kitchen guests are encouraged to inhabit. Service is attentive but rarely theatrical, making comfort feel discovered rather than delivered on schedule.
 
@@ -66,11 +66,11 @@ Hotels often pursue consistency until place disappears. Ett Hem offers a stronge
 
 [Visit site](https://www.etthem.se/)
 
-Honorable mentions: Hotel Il Pellicano, Porto Ercole; Aman Tokyo
+Honorable mentions: Hotel Il Pellicano in Porto Ercole; Aman in Tokyo
 
 ### Best Restaurant
 
-**Asador Etxebarri, Atxondo**
+**Asador Etxebarri in Atxondo**
 
 Chef Victor Arguinzoniz uses fire not as theater but as a precise cooking medium. In a Basque village beneath Mount Anboto, the kitchen applies different woods, embers, heights, and timings to vegetables, seafood, meat, and even milk. The meal is technically extraordinary, yet ingredients remain recognizable and the room never needs to imitate spectacle.
 
@@ -82,11 +82,11 @@ Restaurants endure when method serves appetite and place rather than becoming a 
 
 [Visit site](https://asadoretxebarri.com/)
 
-Honorable mentions: Elkano, Getaria; Le Bernardin, New York
+Honorable mentions: Elkano in Getaria; Le Bernardin in New York
 
 ### Best Bar
 
-**Bar Benfiddich, Tokyo**
+**Bar Benfiddich in Tokyo**
 
 Hiroyasu Kayama approaches drinks as a conversation between agriculture, history, and immediate improvisation. Hidden in a Tokyo office building, the room is dark, compact, and centered on a working bar crowded with bottles, herbs, tools, and ingredients from Kayama’s family farm. There is no conventional menu, but there is close attention to what a guest might enjoy.
 
@@ -98,11 +98,11 @@ Cocktail culture often repeats historical recipes or presents laboratory techniq
 
 [Visit site](https://www.instagram.com/barbenfiddich/)
 
-Honorable mentions: Bar Leone, Hong Kong; Connaught Bar, London
+Honorable mentions: Bar Leone in Hong Kong; Connaught Bar in London
 
 ### Best Café
 
-**Café de l’Ambre, Tokyo**
+**Café de l’Ambre in Tokyo**
 
 Café de l’Ambre has spent decades narrowing its attention to coffee itself. Opened in Ginza in 1948, the small room serves carefully aged beans, dark roasts, and drinks prepared with a patience at odds with the speed surrounding it. The atmosphere is serious but not sterile, and the equipment bears the polish of constant work rather than nostalgic staging.
 
@@ -114,11 +114,11 @@ Great cafés create a public interior around a particular way of spending time. 
 
 [Visit site](https://www.instagram.com/cafedelambre/)
 
-Honorable mentions: Café Sperl, Vienna; Koffee Mameya Kakeru, Tokyo
+Honorable mentions: Café Sperl in Vienna; Koffee Mameya Kakeru in Tokyo
 
 ### Best Bakery
 
-**Hart Bageri, Copenhagen**
+**Hart Bageri in Copenhagen**
 
 Hart Bageri joins the precision of modern fermentation with the immediate pleasure of a neighborhood shop. Founded by baker Richard Hart in Copenhagen, it makes bread with character, pastries with disciplined richness, and savory food worth arriving for before lunch. The shops feel contemporary without turning flour sacks and stainless steel into a lifestyle display.
 
@@ -130,11 +130,11 @@ The renewed interest in artisan baking has produced many technically excellent l
 
 [Visit site](https://hartbageri.com/)
 
-Honorable mentions: Poilâne, Paris; Sullivan Street Bakery, New York
+Honorable mentions: Poilâne in Paris; Sullivan Street Bakery in New York
 
 ### Best Bookshop
 
-**Daunt Books Marylebone, London**
+**Daunt Books Marylebone in London**
 
 Daunt Books Marylebone’s celebrated Edwardian gallery supports, rather than substitutes for, intelligent bookselling. Daylight enters through the long skylight, oak balconies rise above the central floor, and travel books are arranged by country alongside history, fiction, memoir, and politics. The organization allows a destination to become a subject rather than a shelf of guidebooks.
 
@@ -146,11 +146,11 @@ Online retail makes every title available and almost none of them discoverable. 
 
 [Visit site](https://dauntbooks.co.uk/shops/marylebone/)
 
-Honorable mentions: Tsutaya Books Daikanyama, Tokyo; Libreria Bocca, Milan
+Honorable mentions: Tsutaya Books Daikanyama in Tokyo; Libreria Bocca in Milan
 
 ### Best Record Store
 
-**Disk Union, Tokyo**
+**Disk Union in Tokyo**
 
 Disk Union treats recorded music as several overlapping cultures rather than one retail category. Across its Tokyo branches, entire buildings and floors specialize in jazz, classical, rock, punk, soul, electronic music, and Japanese releases. The density can be intimidating, but the classification is exact enough that browsing becomes education rather than simply searching for an item already known.
 
@@ -162,11 +162,11 @@ Streaming has made access nearly universal while making musical context strangel
 
 [Visit site](https://diskunion.net/)
 
-Honorable mentions: Rough Trade East, London; Amoeba Music, Los Angeles
+Honorable mentions: Rough Trade East in London; Amoeba Music in Los Angeles
 
 ### Best Department Store
 
-**Isetan Shinjuku, Tokyo**
+**Isetan Shinjuku in Tokyo**
 
 Isetan Shinjuku still makes the breadth of retail feel like a civic pleasure rather than an exhausted real-estate format. Fashion, food, beauty, homewares, and craft are edited with unusual confidence, while each floor retains enough identity to reward wandering. The main building is large but legible, and service is precise without turning every encounter into luxury theater.
 
@@ -178,11 +178,11 @@ Department stores fail when scale replaces judgment. Isetan succeeds because cur
 
 [Visit site](https://www.mistore.jp/store/shinjuku.html)
 
-Honorable mentions: Mitsukoshi Nihombashi, Tokyo; KaDeWe, Berlin
+Honorable mentions: Mitsukoshi Nihombashi in Tokyo; KaDeWe in Berlin
 
 ### Best Cinema
 
-**Pathé Tuschinski, Amsterdam**
+**Pathé Tuschinski in Amsterdam**
 
 Pathé Tuschinski makes watching a film feel public and ceremonial without allowing architecture to overpower the screen. Opened in 1921 by Abraham Tuschinski, the building combines Art Deco, Amsterdam School, and theatrical fantasy in a sequence of foyers, stairs, murals, lamps, and carpets. The main auditorium restores anticipation before the lights fall.
 
@@ -194,7 +194,7 @@ Home screens offer convenience and technical quality, but cinema depends on shar
 
 [Visit site](https://www.pathe.nl/en/cinemas/pathe-tuschinski)
 
-Honorable mentions: Metrograph, New York; Cinéma du Panthéon, Paris
+Honorable mentions: Metrograph in New York; Cinéma du Panthéon in Paris
 
 ### Best Market
 
@@ -210,11 +210,11 @@ Famous markets often become stages where tourism observes a version of commerce 
 
 [Visit site](https://www.paris.fr/lieux/marche-d-aligre-5461)
 
-Honorable mentions: Nishiki Market, Kyoto; Borough Market, London
+Honorable mentions: Nishiki Market in Kyoto; Borough Market in London
 
 ### Best Museum
 
-**Louisiana Museum of Modern Art, Humlebæk**
+**Louisiana Museum of Modern Art in Humlebæk**
 
 Art, architecture, landscape, and the movement between them remain inseparable. Set above the Øresund north of Copenhagen, the museum extends through low brick-and-timber wings, sculpture gardens, courtyards, and changing views of water. Its scale supports major exhibitions without turning the visitor into circulation data, and the intervals between galleries make attention renewable.
 
@@ -226,11 +226,11 @@ The best museums do more than hold good objects. They establish conditions in wh
 
 [Visit site](https://louisiana.dk/en/)
 
-Honorable mentions: Fondation Beyeler, Riehen; The Menil Collection, Houston
+Honorable mentions: Fondation Beyeler in Riehen; The Menil Collection in Houston
 
 ### Best Public Library
 
-**Oodi, Helsinki**
+**Oodi in Helsinki**
 
 Oodi expands the idea of free civic space without weakening the central place of books. Opposite Finland’s parliament, the building contains reading rooms, children’s areas, studios, workshops, meeting spaces, games, kitchens, and a cinema beneath one sweeping roof. People may study, make, meet, repair, print, or simply remain indoors without being required to buy anything.
 
@@ -242,11 +242,11 @@ Public architecture often promises community through an impressive foyer and lit
 
 [Visit site](https://oodihelsinki.fi/en/)
 
-Honorable mentions: Stockholm Public Library; NYPL Schwarzman Building
+Honorable mentions: Stockholm Public Library in Stockholm; NYPL Schwarzman Building in New York
 
 ### Best City Park
 
-**Central Park, New York**
+**Central Park in New York**
 
 Central Park does not provide escape from New York so much as another, necessary version of it. Frederick Law Olmsted and Calvert Vaux composed meadows, woods, water, paths, bridges, and drives into an artificial landscape whose variety feels inexhaustible. Millions share it without experiencing the same park, and each season reorganizes how the city meets there.
 
@@ -258,11 +258,11 @@ Urban parks are sometimes praised as nature preserved, but Central Park is a gre
 
 [Visit site](https://www.centralparknyc.org/)
 
-Honorable mentions: Englischer Garten, Munich; Yoyogi Park, Tokyo
+Honorable mentions: Englischer Garten in Munich; Yoyogi Park in Tokyo
 
 ### Best Beach
 
-**Cala Goloritzé, Sardinia**
+**Cala Goloritzé in Sardinia**
 
 Arrival must be earned and the landscape remains stronger than the services usually attached to beauty. A steep path descends through limestone and Mediterranean scrub to a small crescent of pale stones, clear blue water, a natural arch, and the Aguglia pinnacle. There are no beach clubs to mediate the encounter, only shade, water, rock, and time.
 
@@ -274,11 +274,11 @@ The world has many more convenient beaches and several with softer sand. Golorit
 
 [Visit site](https://www.turismobaunei.eu/en/cala-goloritze/)
 
-Honorable mentions: Plage de Saleccia, Corsica; Fteri Beach, Kefalonia
+Honorable mentions: Plage de Saleccia in Corsica; Fteri Beach in Kefalonia
 
 ### Best Neighborhood
 
-**Daikanyama, Tokyo**
+**Daikanyama in Tokyo**
 
 Daikanyama demonstrates how a large city can sustain quiet streets, independent commerce, ambitious architecture, and ordinary residential life within walking distance of major transport. Low buildings, small gardens, slopes, cafés, fashion shops, studios, and bookshops produce interest without a single monumental attraction. It rewards wandering because the point is the relationship between places rather than one destination.
 
@@ -290,11 +290,11 @@ Good neighborhoods cannot be reduced to a collection of businesses, because thos
 
 [Visit site](https://www.gotokyo.org/en/destinations/western-tokyo/daikanyama/index.html)
 
-Honorable mentions: Brera, Milan; Frederiksberg, Copenhagen
+Honorable mentions: Brera in Milan; Frederiksberg in Copenhagen
 
 ### Best Train Station
 
-**Zürich Hauptbahnhof**
+**Zürich Hauptbahnhof in Zürich**
 
 Zürich Hauptbahnhof converts extraordinary transport complexity into an experience that remains legible, central, and deeply connected to the city. Intercity, international, regional, suburban, tram, and local services converge across surface and underground platforms, yet transfers usually feel like movement through one institution rather than a sequence of terminals. The station works first and impresses through that work.
 
@@ -306,4 +306,4 @@ Great stations make rail feel not like infrastructure hidden from public life bu
 
 [Visit site](https://www.sbb.ch/en/travel-information/stations/find-station/zuerich-hb.html)
 
-Honorable mentions: Tokyo Station; Antwerpen-Centraal
+Honorable mentions: Tokyo Station in Tokyo; Antwerpen-Centraal in Antwerp
