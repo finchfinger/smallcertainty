@@ -5,7 +5,7 @@ function Figure({ image,className="",imageClassName="" }:{image:JournalImage;cla
   return <figure className={className}>
     <div className={`overflow-hidden ${imageClassName}`}>
       {/* Sanity supplies the source; the arrangement controls its editorial crop. */}
-      <img src={image.url} alt={image.alt} className="h-full w-full object-cover"/>
+      <img src={image.url} alt={image.alt} width={2400} height={1600} loading="lazy" decoding="async" className="h-full w-full object-cover"/>
     </div>
     {note&&<figcaption className="border-b border-ink py-2 font-simon-mono text-[14px] leading-[20px] tracking-[-0.01em]">{note}</figcaption>}
   </figure>;

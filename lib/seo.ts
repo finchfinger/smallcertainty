@@ -13,7 +13,7 @@ export function absoluteUrl(path="/") {
 }
 
 export function pageTitle(title?:string) {
-  return title?`${title} — ${siteName}`:siteName;
+  return title?`${title} | ${siteName}`:siteName;
 }
 
 export function truncateDescription(text:string,maxLength=155) {
@@ -43,6 +43,7 @@ export function defaultMetadata(path="/"):Metadata {
       description:siteDescription,
       images:[socialImage.url],
     },
+    ...(process.env.GOOGLE_SITE_VERIFICATION?{verification:{google:process.env.GOOGLE_SITE_VERIFICATION}}:{}),
   };
 }
 
@@ -53,25 +54,28 @@ export function catalogItemDescription(item:CatalogItemData) {
 }
 
 export function catalogItemMetadata(item:CatalogItemData,path=item.href):Metadata {
-  const description=catalogItemDescription(item);
+  const description=truncateDescription(item.seo?.metaDescription||catalogItemDescription(item));
+  const title=item.seo?.seoTitle||item.label;
+  const socialTitle=item.seo?.ogTitle||title;
+  const socialDescription=truncateDescription(item.seo?.ogDescription||description,200);
   const url=absoluteUrl(path);
   const socialImage={url:absoluteUrl(defaultSocialImage),alt:defaultSocialImageAlt};
   return {
-    title:siteName,
+    title:pageTitle(title),
     description,
     alternates:{ canonical:url },
     openGraph:{
       type:"article",
       siteName,
-      title:pageTitle(item.label),
-      description,
+      title:pageTitle(socialTitle),
+      description:socialDescription,
       url,
       images:[socialImage],
     },
     twitter:{
       card:"summary_large_image",
-      title:pageTitle(item.label),
-      description,
+      title:pageTitle(socialTitle),
+      description:socialDescription,
       images:[socialImage.url],
     },
   };

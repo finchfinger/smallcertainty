@@ -30,8 +30,7 @@ export function DetailPageShell({ item,searchItems,activeNav="Catalog",counterSt
       "@type":"BreadcrumbList",
       itemListElement:[
         { "@type":"ListItem",position:1,name:siteName,item:absoluteUrl("/") },
-        item.sectionTitle?{ "@type":"ListItem",position:2,name:item.sectionTitle,item:absoluteUrl("/") }:undefined,
-        { "@type":"ListItem",position:item.sectionTitle?3:2,name:item.label,item:url },
+        { "@type":"ListItem",position:2,name:item.label,item:url },
       ].filter(Boolean),
     },
     {
@@ -47,12 +46,6 @@ export function DetailPageShell({ item,searchItems,activeNav="Catalog",counterSt
         position:recommendation.rank||index+1,
         name:recommendation.productName,
         url:recommendation.productHref,
-        item:{
-          "@type":"Product",
-          name:recommendation.productName,
-          description:recommendation.note,
-          url:recommendation.productHref,
-        },
       })),
     },
     {
@@ -68,6 +61,7 @@ export function DetailPageShell({ item,searchItems,activeNav="Catalog",counterSt
     <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(structuredData)}}/>
     <Header activeNav={activeNav} searchItems={searchItems}/>
     <main className="page-grid page-pad w-full pb-28 pt-12 lg:pt-16">
+      <nav aria-label="Breadcrumb" className="sr-only"><ol><li><Link href="/">Catalog</Link></li><li aria-current="page">{item.label}</li></ol></nav>
       <article className="col-span-full border-t border-ink pt-4 text-[14px] leading-[20px] tracking-[-0.01em] lg:grid lg:grid-cols-12 lg:gap-x-6">
         <h1 className="font-normal lg:col-span-2">{item.label}</h1>
 

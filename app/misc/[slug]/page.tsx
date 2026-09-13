@@ -1,27 +1,27 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { RankedDetailPageShell } from "@/components/RankedDetailPageShell";
-import { getMiscPage,miscPages } from "@/content/misc";
+import { getMiscPage } from "@/content/misc";
 import { getCatalogSections,getSearchItems } from "@/lib/catalogData";
+import {pageTitle} from "@/lib/seo";
 
 type MiscPageProps = {
   params:Promise<{slug:string}>;
 };
 
-export function generateStaticParams(){
-  return miscPages.map(page=>({slug:page.slug}));
-}
+export const dynamic="force-dynamic";
+export const revalidate=0;
 
 export async function generateMetadata({ params }:MiscPageProps):Promise<Metadata> {
   const { slug }=await params;
   const page=getMiscPage(slug);
   if(!page) return { title:"Small Certainty" };
   return {
-    title:"Small Certainty",
+    title:pageTitle(page.title),
     description:page.description,
     alternates:{ canonical:`/misc/${page.slug}` },
     openGraph:{
-      title:`${page.title} — Small Certainty`,
+      title:pageTitle(page.title),
       description:page.description,
       url:`/misc/${page.slug}`,
     },

@@ -20,6 +20,12 @@ export type CatalogItemData = {
   disabled?:boolean;
   external?:boolean;
   intro?:string;
+  seo?:{
+    seoTitle?:string;
+    metaDescription?:string;
+    ogTitle?:string;
+    ogDescription?:string;
+  };
   recommendations?:RecommendationData[];
 };
 

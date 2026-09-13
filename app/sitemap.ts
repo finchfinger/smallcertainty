@@ -1,11 +1,14 @@
 import type { MetadataRoute } from "next";
-import { journalArticles } from "@/content/journal";
 import { miscPages } from "@/content/misc";
 import { getCatalogSections } from "@/lib/catalogData";
+import { getJournalArticles } from "@/lib/journalData";
 import { absoluteUrl } from "@/lib/seo";
+
+export const dynamic="force-dynamic";
 
 export default async function sitemap():Promise<MetadataRoute.Sitemap> {
   const sections=await getCatalogSections();
+  const journalArticles=await getJournalArticles();
   const now=new Date();
   const catalogPages=sections.flatMap(section=>section.items
     .filter(item=>!item.disabled&&!item.external)
@@ -32,7 +35,6 @@ export default async function sitemap():Promise<MetadataRoute.Sitemap> {
     { url:absoluteUrl("/"),lastModified:now,changeFrequency:"daily",priority:1 },
     { url:absoluteUrl("/journal"),lastModified:now,changeFrequency:"weekly",priority:0.7 },
     { url:absoluteUrl("/profile"),lastModified:now,changeFrequency:"monthly",priority:0.5 },
-    { url:absoluteUrl("/llms.txt"),lastModified:now,changeFrequency:"weekly",priority:0.4 },
     ...catalogPages,
     ...journalPages,
     ...miscSitemapPages,

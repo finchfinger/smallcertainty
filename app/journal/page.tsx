@@ -3,11 +3,12 @@ import type { JournalArticle } from "@/content/journal";
 import { getCatalogSections,getSearchItems } from "@/lib/catalogData";
 import { getJournalArticles } from "@/lib/journalData";
 import type { Metadata } from "next";
+import {absoluteUrl} from "@/lib/seo";
 
 export const dynamic="force-dynamic";
 export const revalidate=0;
 export const metadata:Metadata={
-  title:"Small Certainty",
+  title:"Journal | Small Certainty",
   description:"Dispatches from Small Certainty: weekly best lists, notes on taste, and small editorial commitments.",
   alternates:{ canonical:"/journal" },
   openGraph:{
@@ -20,10 +21,6 @@ export const metadata:Metadata={
 function formatTileDate(date:string) {
   const value=new Date(`${date}T00:00:00`);
   return `${value.getDate()} ${value.toLocaleDateString("en-US",{month:"long"})} ${value.getFullYear()}`;
-}
-
-function tileImageStyle(article:JournalArticle) {
-  return article.imageSrc?{backgroundImage:`url(${article.imageSrc})`}:{background:article.imageTone||"rgba(0,0,0,.05)"};
 }
 
 function JournalSimpleRows({ articles }:{articles:JournalArticle[]}) {
@@ -62,10 +59,11 @@ function JournalTileStrip({ articles }:{articles:JournalArticle[]}) {
           {formatTileDate(article.date)}
         </time>
         <span
-          aria-hidden="true"
-          style={tileImageStyle(article)}
-          className="mt-4 block h-[260px] w-full rounded-lg bg-cover bg-center sm:h-[300px] lg:h-[352px]"
-        />
+          style={!article.imageSrc?{background:article.imageTone||"rgba(0,0,0,.05)"}:undefined}
+          className="mt-4 block h-[260px] w-full overflow-hidden rounded-lg sm:h-[300px] lg:h-[352px]"
+        >
+          {article.imageSrc?<img src={article.imageSrc} alt={article.title} width={1200} height={800} loading={index<4?"eager":"lazy"} decoding="async" className="h-full w-full object-cover"/>:null}
+        </span>
         <span className="mb-4 mt-4 block h-[40px] overflow-hidden font-simon-mono text-[14px] font-normal leading-[20px] tracking-[-0.01em] [display:-webkit-box] [-webkit-box-orient:vertical] [-webkit-line-clamp:2]">
           {article.title}
         </span>
@@ -81,10 +79,20 @@ export default async function JournalPage(){
   const sortedArticles=[...journalArticles].sort((a,b)=>new Date(`${b.date}T00:00:00`).getTime()-new Date(`${a.date}T00:00:00`).getTime());
   const tileArticles=sortedArticles.slice(0,12);
   const simpleArticles=sortedArticles.slice(12);
+  const structuredData={
+    "@context":"https://schema.org",
+    "@type":"ItemList",
+    name:"Small Certainty Journal",
+    url:absoluteUrl("/journal"),
+    numberOfItems:sortedArticles.length,
+    itemListElement:sortedArticles.map((article,index)=>({"@type":"ListItem",position:index+1,name:article.title,url:absoluteUrl(`/journal/${article.slug}`)})),
+  };
 
   return <div className="min-h-screen bg-paper">
+    <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(structuredData)}}/>
     <Header activeNav="Journal" searchItems={searchItems}/>
     <main className="page-grid page-pad w-full pb-28 pt-12 lg:pt-20">
+      <h1 className="sr-only">Small Certainty Journal</h1>
       <JournalTileStrip articles={tileArticles}/>
       <JournalSimpleRows articles={simpleArticles}/>
     </main>

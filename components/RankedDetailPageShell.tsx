@@ -4,6 +4,7 @@ import {MaterialIcon} from "./MaterialIcon";
 import type {SearchItem} from "./SearchOverlay";
 import {ResponsiveSectionLabel} from "./ResponsiveSectionLabel";
 import {absoluteUrl} from "@/lib/seo";
+import Link from "next/link";
 import type {CatalogItemData,RecommendationData} from "./types";
 
 type RankedDetailPageShellProps={
@@ -18,24 +19,36 @@ const counterIcons:Record<number,string>={1:"counter_1",2:"counter_2",3:"counter
 export function RankedDetailPageShell({item,searchItems,activeNav="Profile"}:RankedDetailPageShellProps){
   const recommendations:RecommendationData[]=item.recommendations?.length?item.recommendations:[1,2,3].map(rank=>({rank,productName:item.productName,productHref:item.productHref,note:item.intro||fallbackNote}));
   const url=absoluteUrl(item.href);
-  const structuredData={
-    "@context":"https://schema.org",
-    "@type":"ItemList",
-    name:item.label,
-    url,
-    itemListElement:recommendations.map((recommendation,index)=>({
-      "@type":"ListItem",
-      position:recommendation.rank||index+1,
-      name:recommendation.productName,
-      url:recommendation.productHref,
-    })),
-  };
+  const structuredData=[
+    {
+      "@context":"https://schema.org",
+      "@type":"BreadcrumbList",
+      itemListElement:[
+        {"@type":"ListItem",position:1,name:"Small Certainty",item:absoluteUrl("/")},
+        {"@type":"ListItem",position:2,name:item.label,item:url},
+      ],
+    },
+    {
+      "@context":"https://schema.org",
+      "@type":"ItemList",
+      name:item.label,
+      url,
+      itemListElement:recommendations.map((recommendation,index)=>({
+        "@type":"ListItem",
+        position:recommendation.rank||index+1,
+        name:recommendation.productName,
+        url:recommendation.productHref,
+      })),
+    },
+  ];
 
   return <>
     <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(structuredData)}}/>
     <Header activeNav={activeNav} searchItems={searchItems}/>
     <main className="page-grid page-pad relative isolate w-full pb-28 pt-12 lg:pt-16">
+      <nav aria-label="Breadcrumb" className="sr-only"><ol><li><Link href="/">Catalog</Link></li><li aria-current="page">{item.label}</li></ol></nav>
       <article className="relative z-10 lg:col-span-full">
+        <h1 className="sr-only">{item.label}</h1>
         <ol>
           {recommendations.map((recommendation,index)=>{
             const note=recommendation.note||item.intro||fallbackNote;

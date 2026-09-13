@@ -6,7 +6,8 @@ import { getCatalogSections,getSearchItems } from "@/lib/catalogData";
 import { getCollaborators } from "@/lib/collaboratorData";
 import type { Metadata } from "next";
 
-export const revalidate=60;
+export const dynamic="force-dynamic";
+export const revalidate=0;
 
 const fallbackInfrastructureSection:CatalogSectionData={
   title:"Infrastructure",
@@ -52,7 +53,7 @@ const fallbackInfrastructureSection:CatalogSectionData={
 };
 
 export const metadata:Metadata={
-  title:"Small Certainty",
+  title:"Profile | Small Certainty",
   description:"Small Certainty is an edited catalog of best lists: fewer options, better reasons, and a gentle end to the search.",
   alternates:{ canonical:"/profile" },
   openGraph:{
@@ -72,6 +73,7 @@ export default async function ProfilePage(){
   return <>
     <Header activeNav="Profile" searchItems={searchItems}/>
     <main className="page-grid page-pad w-full pb-28 pt-12 lg:pt-16">
+      <h1 className="sr-only">About Small Certainty</h1>
       <div className="col-span-2 lg:col-span-full">
         <AboutSection>Small Certainty is an edited catalog of things worth choosing. We pick what’s best and stop there. No clutter. No hedging. Just the thing, and why it holds. Some links may earn Small Certainty a commission. Payment never determines what we select or how we rank it.</AboutSection>
       </div>

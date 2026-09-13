@@ -24,6 +24,7 @@ export const catalogQuery=groq`*[_type == "catalogSection" && published == true]
 export const catalogItemDetailQuery=groq`*[_type == "catalogItem" && published == true && slug.current == $slug && section->slug.current == $section][0] {
   label,
   intro,
+  seo{seoTitle,metaDescription,ogTitle,ogDescription},
   "sectionTitle": section->title,
   "href": "/catalog/" + section->slug.current + "/" + slug.current,
   "productName": coalesce(recommendations[published != false][0].product->name, productName),

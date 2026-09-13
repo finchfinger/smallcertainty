@@ -2,18 +2,17 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ArticleContent } from "@/components/ArticleContent";
 import { Header } from "@/components/Header";
-import { journalArticles,type JournalContentBlock } from "@/content/journal";
+import type { JournalContentBlock } from "@/content/journal";
 import { getCatalogSections,getSearchItems } from "@/lib/catalogData";
 import { getJournalArticle } from "@/lib/journalData";
-import { absoluteUrl,defaultSocialImage,defaultSocialImageAlt,pageTitle } from "@/lib/seo";
+import { absoluteUrl,defaultSocialImage,defaultSocialImageAlt,pageTitle,siteName } from "@/lib/seo";
 
 type JournalArticlePageProps = {
   params:Promise<{slug:string}>;
 };
 
-export function generateStaticParams(){
-  return journalArticles.map(article=>({slug:article.slug}));
-}
+export const dynamic="force-dynamic";
+export const revalidate=0;
 
 export async function generateMetadata({ params }:JournalArticlePageProps):Promise<Metadata> {
   const { slug }=await params;
@@ -74,10 +73,38 @@ export default async function JournalArticlePage({ params }:JournalArticlePagePr
     _type:"articleTextSection",
     body:bodyCopy,
   }];
+  const url=absoluteUrl(`/journal/${article.slug}`);
+  const articleBody=paragraphs.join("\n\n");
+  const structuredData=[
+    {
+      "@context":"https://schema.org",
+      "@type":"BreadcrumbList",
+      itemListElement:[
+        {"@type":"ListItem",position:1,name:siteName,item:absoluteUrl("/")},
+        {"@type":"ListItem",position:2,name:"Journal",item:absoluteUrl("/journal")},
+        {"@type":"ListItem",position:3,name:article.title,item:url},
+      ],
+    },
+    {
+      "@context":"https://schema.org",
+      "@type":"Article",
+      headline:article.title,
+      description:article.seo?.metaDescription||article.dek,
+      datePublished:article.date,
+      author:{"@type":article.author&&article.author!==siteName?"Person":"Organization",name:article.author||siteName},
+      publisher:{"@type":"Organization",name:siteName,url:absoluteUrl("/")},
+      mainEntityOfPage:url,
+      url,
+      ...(article.imageSrc?{image:[absoluteUrl(article.imageSrc)]}:{}),
+      ...(articleBody?{articleBody}:{}),
+    },
+  ];
 
   return <>
+    <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(structuredData)}}/>
     <Header activeNav="Journal" searchItems={searchItems}/>
     <main className="page-grid page-pad w-full pb-40 pt-12 lg:pt-16">
+      <nav aria-label="Breadcrumb" className="sr-only"><ol><li><a href="/">Catalog</a></li><li><a href="/journal">Journal</a></li><li aria-current="page">{article.title}</li></ol></nav>
       <article className="col-span-2 lg:col-span-full">
         <div className="border-t border-ink pt-4 lg:grid lg:grid-cols-12 lg:gap-x-6">
           <time dateTime={article.date} className="block font-simon-mono text-[14px] font-normal leading-[20px] tracking-[-0.01em] lg:col-span-2">

@@ -196,7 +196,7 @@ export async function getJournalArticle(slug:string):Promise<JournalArticle|unde
   if(sanityConfigured){
     try{
       const article=await client.fetch<SanityArticle|null>(
-        `*[_type=="article" && slug.current==$slug][0]${articleProjection}`,
+        `*[_type=="article" && slug.current==$slug && defined(publishedAt) && dateTime(publishedAt+"T00:00:00Z")<=dateTime(now())][0]${articleProjection}`,
         {slug},
         {cache:"no-store"},
       );
@@ -212,7 +212,7 @@ export async function getJournalArticles():Promise<JournalArticle[]> {
   if(!sanityConfigured) return journalArticles;
   try{
     const articles=await client.fetch<SanityArticle[]>(
-      `*[_type=="article" && defined(slug.current)] | order(publishedAt desc)${articleProjection}`,
+      `*[_type=="article" && defined(slug.current) && defined(publishedAt) && dateTime(publishedAt+"T00:00:00Z")<=dateTime(now())] | order(publishedAt desc)${articleProjection}`,
       {},
       {cache:"no-store"},
     );
