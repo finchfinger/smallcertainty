@@ -198,7 +198,7 @@ Honorable mentions: Metrograph, New York; Cinéma du Panthéon, Paris
 
 ### Best Market
 
-**Marché d’Aligre, Paris**
+**Marché d’Aligre in Paris**
 
 Marché d’Aligre combines daily food, neighborhood argument, immigrant commerce, and accidental discovery within a few dense streets of the twelfth arrondissement. Produce stalls fill rue d’Aligre, permanent traders occupy the covered Marché Beauvau, and secondhand sellers spread across place d’Aligre. The result is useful before it is picturesque, which is why it remains worth visiting.
 
