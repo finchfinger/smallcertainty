@@ -107,7 +107,13 @@ The best publication accounts extend an editorial sensibility rather than merely
     recommendations:[
       {
         productName:"Copyright 2026. All rights reserved.",
-        note:"Small Certainty is edited, designed and maintained as a living catalog. Its original writing, photography, structure and interface may not be reproduced without permission. Product names, trademarks and outside works remain the property of their respective owners. Inclusion is editorial, never an assertion of ownership; a link may earn us a commission, but payment never determines what we select or how we rank it.",
+        note:`Small Certainty is edited, designed, and maintained as a living catalog. Its original writing, photography, structure, and interface may not be reproduced without permission. The point is simple: the work made for this publication belongs here, while the products, names, images, and ideas discussed throughout it remain connected to the people and organizations that made them.
+
+Product names, trademarks, photographs, and other outside works remain the property of their respective owners. Their appearance identifies the subjects under discussion; it does not imply affiliation, endorsement, sponsorship, or approval. A favorable judgment is still an independent editorial judgment, and no manufacturer acquires control of the catalog by being included in it.
+
+Recommendations can change when products change, links disappear, companies close, or better evidence arrives. Prices, specifications, availability, and ownership move faster than a permanent printed colophon would suggest. Readers should confirm consequential details with the maker or seller, and are encouraged to send corrections to hello@smallcertainty.com when the record no longer matches the object.
+
+The catalog may link to outside websites, but Small Certainty does not control their content, availability, privacy practices, or transactions. Unless a page says otherwise, inclusion is not paid placement. The arrangement is deliberately plain: we make and revise the judgments, makers retain their work and marks, and readers decide what to do with the recommendation.`,
       },
       {
         productName:"Monocle Terms & Conditions",
