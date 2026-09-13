@@ -60,7 +60,7 @@ Cookbooks often promise ease by concealing the decisions that make food good. Ha
   },
   {
     label:"Best Novel",
-    winner:{name:"Moby-Dick, Herman Melville",url:"https://www.penguinrandomhouse.com/books/113152/moby-dick-by-herman-melville/",note:`No other whaling voyage carries quite so much of the world aboard. Moby-Dick is an adventure, a workplace novel, a comedy, a metaphysical argument, and a study of disastrous leadership, often within the same chapter. Herman Melville turns one ship into a complete society, then sends it after an idea that has acquired the dangerous weight of fact.
+    winner:{name:"Moby-Dick by Herman Melville",url:"https://www.penguinrandomhouse.com/books/113152/moby-dick-by-herman-melville/",note:`No other whaling voyage carries quite so much of the world aboard. Moby-Dick is an adventure, a workplace novel, a comedy, a metaphysical argument, and a study of disastrous leadership, often within the same chapter. Herman Melville turns one ship into a complete society, then sends it after an idea that has acquired the dangerous weight of fact.
 
 The structure is famously unruly. Narrative chapters give way to sermons, stage directions, measurements, classifications, histories, and close technical accounts of ships and whales. This is not digression laid around the story; it is the method by which the story becomes enormous. Ishmael’s restless intelligence supplies breadth, while Ahab’s narrowing obsession creates the pressure that draws every voice and piece of knowledge toward the same end.
 
@@ -74,7 +74,7 @@ Many novels become smaller once their machinery is understood. Moby-Dick becomes
   },
   {
     label:"Best Nonfiction Book",
-    winner:{name:"The Power Broker, Robert Caro",url:"https://www.penguinrandomhouse.com/books/24312/the-power-broker-pulitzer-prize-winner-by-robert-a-caro/",note:`Robert Caro makes power visible in concrete, contracts, parks, tolls, ruined neighborhoods, and hours lost on a bus. The Power Broker takes Robert Moses as its subject, but its larger achievement is an anatomy of how authority escapes public language and embeds itself in systems that appear merely administrative. Few books alter the way a city can be read so completely.
+    winner:{name:"The Power Broker by Robert Caro",url:"https://www.penguinrandomhouse.com/books/24312/the-power-broker-pulitzer-prize-winner-by-robert-a-caro/",note:`Robert Caro makes power visible in concrete, contracts, parks, tolls, ruined neighborhoods, and hours lost on a bus. The Power Broker takes Robert Moses as its subject, but its larger achievement is an anatomy of how authority escapes public language and embeds itself in systems that appear merely administrative. Few books alter the way a city can be read so completely.
 
 Caro follows Moses from idealistic reformer to unelected master builder, tracing the public authorities, bond agreements, patronage networks, and command of information that made his position durable. The reporting is exhaustive, yet the engineering and finance never float free of consequence. A bridge clearance, highway route, or swimming-pool location is shown as a decision about whose time, land, mobility, and political voice will count.
 
