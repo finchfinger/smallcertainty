@@ -64,19 +64,25 @@ The best publication accounts extend an editorial sensibility rather than merely
     label:"Best X Account",
     recommendations:[
       {
-        productName:"Small Certainty",
+        productName:"@smallcertainty",
         productHref:"https://x.com/smallcertainty",
-        note:"Short notes from the catalog desk: new rows, revised picks, links worth keeping and small editorial arguments that do not yet require an essay.",
+        note:`X is useful when treated as a wire rather than a room. @smallcertainty uses it for new catalog entries, corrected links, brief observations, and recommendations whose immediate value does not require an essay. The account should tell a reader what has changed, point toward the source, and then get out of the way. It is an index in motion, not a substitute for the publication.
+
+The platform is particularly suited to dispatches from the catalog desk. A product returning to production, a shop opening, a useful interview, or an object spotted in public can be recorded while the information is still timely. Links lead back to the complete judgment, where context, honorable mentions, and revisions remain easier to find than they are in a chronological feed.
+
+X also rewards noise, repetition, and synthetic certainty, so restraint is part of the editorial method. @smallcertainty will not turn every recommendation into a campaign, join arguments simply because they are visible, or confuse frequency with relevance. Posts should remain concise, sourced where necessary, and useful after the hour in which they appeared. Following fewer accounts carefully is still preferable to pretending the entire stream can be understood.
+
+The account succeeds if it makes the larger project easier to follow without demanding constant attention. Expect links, corrections, field notes, and occasional disagreement, written in the same plain voice as the catalog. The permanent work belongs on Small Certainty; X provides the running signal that something worth seeing has been added, reconsidered, or found elsewhere.`,
       },
       {
-        productName:"Monocle",
-        productHref:"https://x.com/monoclemagazine",
-        note:"A measured stream of international affairs, design, business and travel from Monocle’s editors and correspondents.",
+        productName:"@FT",
+        productHref:"https://x.com/FT",
+        note:"The Financial Times uses the speed of X without abandoning the standards of a newsroom. Headlines arrive with enough context to be useful, and the account remains a dependable route into reporting on markets, politics, companies, and public life.",
       },
       {
-        productName:"Financial Times",
-        productHref:"https://x.com/FinancialTimes",
-        note:"Clear reporting on business, markets and public life, presented with the discipline of an established international newspaper.",
+        productName:"@craigmod",
+        productHref:"https://x.com/craigmod",
+        note:"Craig Mod treats the feed as a working notebook for walking, books, photography, publishing, Japan, and the software used to hold those interests together. The account is personal without becoming shapeless, and unusually willing to show how projects are made.",
       },
     ],
   },
@@ -85,9 +91,15 @@ The best publication accounts extend an editorial sensibility rather than merely
     label:"Best TikTok Account",
     recommendations:[
       {
-        productName:"Small Certainty",
+        productName:"@smallcertainty",
         productHref:"https://www.tiktok.com/@smallcertainty",
-        note:"The moving version of the catalog: fast comparisons, object tests and small field reports that benefit from a hand, a table or thirty seconds of evidence.",
+        note:`Some objects explain themselves only after they move. A hinge must open, a fabric must fall, a light must change a surface, and a bag must reveal how it is packed. @smallcertainty uses TikTok for this kind of evidence. The account turns selected catalog judgments into short demonstrations without pretending that every useful thing requires a performance.
+
+The strongest posts begin with a practical question. How quietly does the latch close? What fits inside? Can a child operate it? Does the material recover after being folded? A few deliberate shots can answer such questions more honestly than a paragraph of promotional adjectives. Comparisons, visits, repairs, and brief conversations with knowledgeable people also belong here when motion or sound carries part of the argument.
+
+TikTok’s incentives favor speed, novelty, and repetition, none of which automatically improve judgment. The account should therefore publish selectively, avoid borrowed trends that overwhelm the subject, and resist manufacturing an opinion simply to maintain a schedule. Captions can identify makers and sources, while the website retains the full description, links, honorable mentions, and any later correction.
+
+Used with discipline, short video becomes less a marketing channel than a compact form of field reporting. @smallcertainty should let a reader see why an object works, not merely watch someone announce that it does. The catalog remains the record; TikTok supplies movement, scale, handling, and the small bits of proof that make a recommendation easier to trust.`,
       },
       {
         productName:"NOWNESS",

@@ -19,16 +19,14 @@ export const imprintSection:CatalogSectionData={
     {
       label:"Best X Account",
       productName:"@smallcertainty",
-      href:"https://x.com/smallcertainty",
+      href:"/catalog/imprint/x-account",
       productHref:"https://x.com/smallcertainty",
-      external:true,
     },
     {
       label:"Best TikTok Account",
       productName:"@smallcertainty",
-      href:"https://www.tiktok.com/@smallcertainty",
+      href:"/catalog/imprint/tiktok-account",
       productHref:"https://www.tiktok.com/@smallcertainty",
-      external:true,
     },
     {
       label:"Best Disclaimer",

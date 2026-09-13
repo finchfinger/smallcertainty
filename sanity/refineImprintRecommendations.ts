@@ -55,7 +55,7 @@ async function refineImprintRecommendations(){
       sortOrder:setIndex+1,
       rowStatus:"none",
       updated:false,
-      directLink:set.slug==="x-account"||set.slug==="tiktok-account",
+      directLink:false,
       published:true,
       intro:topPick.note,
       lastReviewed:reviewedOn,
