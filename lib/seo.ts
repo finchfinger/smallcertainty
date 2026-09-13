@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import type { CatalogItemData } from "@/components/types";
 
 export const siteName="Small Certainty";
-export const siteDescription="An edited catalog of things worth choosing.";
+export const siteDescription="Small Certainty is a guide to the best things worth buying, keeping, reading, and using, chosen for design, usefulness, and lasting quality.";
 export const siteUrl=(process.env.NEXT_PUBLIC_SITE_URL||"https://smallcertainty.com").replace(/\/$/,"");
 export const defaultSocialImage="/journal/features/kluane-icefield.jpg";
 export const defaultSocialImageAlt="The Kluane Icefield and Mount Augusta in Yukon";

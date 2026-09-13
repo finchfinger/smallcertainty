@@ -1,17 +1,17 @@
 import { CatalogPageShell } from "@/components/CatalogPageShell";
 import { getCatalogSections } from "@/lib/catalogData";
-import { absoluteUrl,defaultSocialImage,defaultSocialImageAlt } from "@/lib/seo";
+import { absoluteUrl,defaultSocialImage,defaultSocialImageAlt,siteDescription } from "@/lib/seo";
 import type { Metadata } from "next";
 
 export const dynamic="force-dynamic";
 export const revalidate=0;
 export const metadata:Metadata={
   title:"Small Certainty",
-  description:"Small Certainty is a catalog of best lists: home, clothing, culture, travel, work, and the quiet choices that keep winning.",
+  description:siteDescription,
   alternates:{ canonical:"/" },
   openGraph:{
     title:"Small Certainty",
-    description:"An edited catalog of things worth choosing.",
+    description:siteDescription,
     url:"/",
     images:[{
       url:absoluteUrl(defaultSocialImage),
