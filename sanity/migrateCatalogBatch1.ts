@@ -176,6 +176,11 @@ type Draft={section:string;label:string;winner:string;description:string;winnerU
 
 const slugify=(value:string)=>value.normalize("NFKD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/&/g," and ").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
 
+const splitWinnerCompany=(winner:string)=>{
+  const match=winner.match(/^(.+?) from (.+)$/);
+  return match?{name:match[1],brand:match[2]}:{name:winner};
+};
+
 function parseDraftFile(path:string):Draft[]{
   const source=readFileSync(resolve(path),"utf8");
   const sectionChunks=source.split(/^## /m).slice(1);
@@ -265,14 +270,15 @@ async function main(){
     const item=bySlug.get(slug)||bySlug.get(oldSlug);
     const itemId=item?._id||(batch>=5?`catalog-item-${sectionSlug(draft.section)}-${slug}`:`catalog-item-${slug}`);
     migratedItemIds.add(itemId);
-    const products=[{name:draft.winner,url:draft.winnerUrl,description:draft.description},...draft.mentions.map(name=>({name,url:honorableMentionUrl(name),description:undefined}))];
+    const winner=splitWinnerCompany(draft.winner);
+    const products=[{...winner,idSeed:draft.winner,url:draft.winnerUrl,description:draft.description},...draft.mentions.map(name=>({name,idSeed:name,url:honorableMentionUrl(name),description:undefined}))];
     products.forEach(product=>{
-      const productId=`product-${slugify(product.name)}`;
-      const data={name:product.name,slug:{_type:"slug",current:slugify(product.name)},outboundUrl:product.url,published:true,...(product.description?{description:product.description}:{})};
+      const productId=`product-${slugify(product.idSeed)}`;
+      const data={name:product.name,slug:{_type:"slug",current:slugify(product.idSeed)},outboundUrl:product.url,published:true,...("brand" in product&&product.brand?{brand:product.brand}:{}),...(product.description?{description:product.description}:{})};
       tx=tx.createIfNotExists({_id:productId,_type:"product",...data});
       tx=tx.patch(productId,patch=>patch.set(data));
     });
-    const recommendations=products.map((product,index)=>({_key:`pick-${index+1}-${slugify(product.name)}`,_type:"recommendation",rank:index+1,product:{_type:"reference",_ref:`product-${slugify(product.name)}`},...(index===0?{editorialNote:draft.description}:{}),outboundUrlOverride:product.url,published:true}));
+    const recommendations=products.map((product,index)=>({_key:`pick-${index+1}-${slugify(product.idSeed)}`,_type:"recommendation",rank:index+1,product:{_type:"reference",_ref:`product-${slugify(product.idSeed)}`},...(index===0?{editorialNote:draft.description}:{}),outboundUrlOverride:product.url,published:true}));
     const data={label:draft.label,slug:{_type:"slug",current:slug},productName:draft.winner,outboundUrl:draft.winnerUrl,section:{_type:"reference",_ref:sectionBySlug.get(sectionSlug(draft.section))!._id},sortOrder:drafts.filter(value=>value.section===draft.section).findIndex(value=>value.label===draft.label)+1,published:true,recommendations,lastReviewed:new Date().toISOString().slice(0,10)};
     tx=tx.createIfNotExists({_id:itemId,_type:"catalogItem",...data});
     tx=tx.patch(itemId,patch=>patch.set(data));
