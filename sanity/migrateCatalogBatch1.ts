@@ -169,6 +169,11 @@ Object.assign(honorableMentionUrls,{
 });
 
 Object.assign(honorableMentionUrls,{
+  "Arctic Parka from Woolrich":"https://www.woolrich.com/us/en/arctic-parka-in-ramar-cloth-CFWOOU0483MRUT0001_MLB.html",
+  "Nuuk Parka M from Fjällräven":"https://www.fjallraven.com/us/en-us/men/jackets/parkas/nuuk-parka-m2/",
+});
+
+Object.assign(honorableMentionUrls,{
 "YOYO³":"https://www.stokke.com/USA/en-us/category/yoyo-strollers","Uppababy Cruz":"https://uppababy.com/strollers/full-size/cruz-v2/","Britax Poplar S":"https://us.britax.com/shop/car-seats/poplar-s-convertible-car-seat","Nuna Rava":"https://nunababy.com/usa/rava-convertible-car-seat","BabyBjörn Harmony":"https://www.babybjorn.com/products/baby-carriers/baby-carrier-harmony/","Tula Free-to-Grow":"https://babytula.com/collections/free-to-grow-baby-carriers","Ergobaby Evolve":"https://ergobaby.com/evolve-3-in-1-bouncer","Stokke Steps":"https://www.stokke.com/USA/en-us/high-chairs/stokke-steps/","Nomi":"https://www.evonomie.com/","IKEA Antilop":"https://www.ikea.com/us/en/p/antilop-high-chair-with-tray-white-silver-color-silver-color-s29067293/","Vitra Panton Junior":"https://www.vitra.com/en-us/product/details/panton-junior","Magis Me Too Little Big":"https://www.magisdesign.com/product/little-big/","Deuter Schmusebär":"https://www.deuter.com/us-en/shop/backpacks/p612214-children-s-backpack-schmusebar","L.L.Bean Junior Original":"https://www.llbean.com/llb/shop/121112","OmieBox":"https://www.omielife.com/products/omiebox","Bentgo Kids Stainless":"https://bentgo.com/products/bentgo-kids-stainless-steel-lunch-box","Early Rider Charger 12":"https://us.earlyrider.com/products/charger-12","Strider 12 Sport":"https://striderbikes.com/buy/shop-all/balance-bikes/12-sport/","Frog 44":"https://www.frogbikes.com/en_US/frog-44-kids-bike.html","Early Rider Belter":"https://us.earlyrider.com/collections/belter","Globber Go Up":"https://www.globber.com/us/product-category/go-up/","Scoot & Ride Highwaykick":"https://www.scootandride.com/en/highwaykick/","Davos Wooden Sled":"https://www.graf-schlitten.ch/en/","L.L.Bean Toboggan":"https://www.llbean.com/llb/shop/51406","Reima Vesi":"https://www.reima.com/en/products/raincoat-vesi","Hatley Splash":"https://hatley.com/collections/kids-rainwear","Kapla 200":"https://www.kapla.com/en/kapla-200-box.html","HABA Basic Building Blocks":"https://www.habausa.com/collections/blocks","Magna-Tiles":"https://www.magnatiles.com/products/classic-100-piece-set","Kapla":"https://www.kapla.com/en/","Jellycat Bashful Bunny":"https://us.jellycat.com/bashful-bunny/","Maileg Bunny":"https://www.mailegusa.com/collections/bunnies-rabbits","Stockmar Wax Crayons":"https://www.stockmar.de/en/products/wax-crayons/","Crayola 24-Count":"https://www.crayola.com/products/crayons/24-count-crayons-52-3024","The Snowy Day":"https://www.penguinrandomhouse.com/books/303357/the-snowy-day-by-ezra-jack-keats/","Goodnight Moon":"https://www.harpercollins.com/products/goodnight-moon-margaret-wise-brown","The Red Balloon":"https://www.criterion.com/films/343-the-red-balloon","Paddington 2":"https://www.warnerbros.com/movies/paddington-2"
 });
 
@@ -271,7 +276,7 @@ async function main(){
     const itemId=item?._id||(batch>=5?`catalog-item-${sectionSlug(draft.section)}-${slug}`:`catalog-item-${slug}`);
     migratedItemIds.add(itemId);
     const winner=splitWinnerCompany(draft.winner);
-    const products=[{...winner,idSeed:draft.winner,url:draft.winnerUrl,description:draft.description},...draft.mentions.map(name=>({name,idSeed:name,url:honorableMentionUrl(name),description:undefined}))];
+    const products=[{...winner,idSeed:draft.winner,url:draft.winnerUrl,description:draft.description},...draft.mentions.map(name=>({...splitWinnerCompany(name),idSeed:name,url:honorableMentionUrl(name),description:undefined}))];
     products.forEach(product=>{
       const productId=`product-${slugify(product.idSeed)}`;
       const data={name:product.name,slug:{_type:"slug",current:slugify(product.idSeed)},outboundUrl:product.url,published:true,...("brand" in product&&product.brand?{brand:product.brand}:{}),...(product.description?{description:product.description}:{})};

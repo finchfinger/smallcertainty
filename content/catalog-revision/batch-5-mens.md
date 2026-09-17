@@ -82,6 +82,22 @@ An unstructured blazer often removes so much structure that nothing remains. Dra
 
 Honorable mentions: Ring Jacket Model 3; Boglioli K-Jacket
 
+### Best Parka
+
+**Goose Down Fisherman Parka from Manifattura Ceccarelli**
+
+Manifattura Ceccarelli’s Goose Down Fisherman Parka is winter clothing built with the intelligence of working equipment and the judgment of an accomplished coatmaker. It is genuinely warm, generously pocketed, and protective without adopting the inflated silhouette of an expedition jacket. The result looks equally convincing beside a harbor, on a country walk, or over a jacket during a bitter city commute.
+
+The 7026-DW model is made in Italy from water-repellent dry cotton coated with paraffin and recycled polyester. Inside, traceable European white goose down in a 90/10 ratio provides 800-to-850 fill power, with cotton lining through the body and smooth cupro in the sleeves. A two-way zipper, snapped storm flap, adjustable hood and cuffs, reinforced hardware, and water-repellent stitching address weather with reassuring thoroughness.
+
+The four front pockets place storage and hand warmth where they are actually useful, while internal document pockets and zipped game pockets at the rear accommodate more than most daily routines require. The coat is substantial rather than packable, and its many details give it presence. Follow the maker’s care instructions, dry it properly, and expect the treated cotton to acquire marks rather than remain showroom-perfect.
+
+Technical parkas can make ordinary winter life feel like a polar exercise; fashionable ones often surrender protection for a cleaner photograph. Ceccarelli avoids both errors. Its warmth, repairable construction, and abundant utility justify the weight and expense, while the restrained shape allows it to outlast seasonal styling. For someone who needs one serious cold-weather coat, this is the point at which further comparison becomes unnecessary.
+
+[Visit site](https://www.manifatturaceccarelli.com/en/fisherman-parka-7026-dw.html)
+
+Honorable mentions: Arctic Parka from Woolrich; Nuuk Parka M from Fjällräven
+
 ### Best Jeans
 
 **OrSlow 105 Standard Fit**
