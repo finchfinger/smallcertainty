@@ -110,13 +110,19 @@ for(const block of blocks){
 }
 
 export const hermesRefusedArticle:JournalArticle={
-  slug:"the-things-hermes-refused-to-do",
-  title:"The Things Hermès Refused to Do",
+  slug:"the-art-of-passage",
+  title:"The Art of Passage",
   dek:"Hermès became a global luxury company by preserving the slow, difficult systems behind its objects. Its workshops, repairs, métiers, and ownership explain why inconvenience can be a productive discipline.",
   date:"2026-09-23",
   tags:["Business","Craft","Luxury"],
   author:"Small Certainty",
   sections,
+  furtherReading:[
+    "At 24 Faubourg Saint-Honoré, Frédéric Laffont",
+    "Hermès: Straight from the Horse’s Mouth, Luc Charbin",
+    "Hermès: Heavenly Days, Alice Charbin and Rachael Canepari",
+    "Deluxe: How Luxury Lost Its Luster, Dana Thomas",
+  ],
   seo:{
     metaDescription:"Hermès became a global luxury company by preserving the slow systems behind its objects, from craft training and small workshops to repair and family control.",
   },

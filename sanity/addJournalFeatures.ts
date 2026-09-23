@@ -117,6 +117,10 @@ async function addFeatures() {
       ogDescription:article.seo.ogDescription,
       ogImage:article.seo.ogImage?await uploadImage(article.seo.ogImage):undefined,
     }:undefined;
+    const furtherReading=(article.furtherReading||[]).map((paragraph,index)=>{
+      const text=typeof paragraph==="string"?paragraph:paragraph.spans.map(span=>span.text).join("");
+      return portableTextBlock(`${article.slug}-further-reading-${index+1}`,text,"normal");
+    });
     transaction=transaction.createOrReplace({
       _id:`article-${article.slug}`,
       _type:"article",
@@ -131,6 +135,7 @@ async function addFeatures() {
           ?await uploadImage(firstImage.primaryImage)
           :undefined,
       content,
+      furtherReading,
       seo,
     });
   }
