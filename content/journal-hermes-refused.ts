@@ -118,10 +118,10 @@ export const hermesRefusedArticle:JournalArticle={
   author:"Small Certainty",
   sections,
   furtherReading:[
-    "At 24 Faubourg Saint-Honoré, Frédéric Laffont",
-    "Hermès: Straight from the Horse’s Mouth, Luc Charbin",
-    "Hermès: Heavenly Days, Alice Charbin and Rachael Canepari",
-    "Deluxe: How Luxury Lost Its Luster, Dana Thomas",
+    {spans:[{text:"At 24 Faubourg Saint-Honoré",href:"https://editions-iconoclaste.fr/livre/au-24-faubourg-saint-honore/"},{text:"\nFrédéric Laffont"}]},
+    {spans:[{text:"Hermès: Straight from the Horse’s Mouth",href:"https://www.abramsbooks.com/product/hermes_9781419762598/"},{text:"\nLuc Charbin"}]},
+    {spans:[{text:"Hermès: Heavenly Days",href:"https://www.hachette.fr/livre/hermes-au-fil-des-jours-9782812319099"},{text:"\nAlice Charbin and Rachael Canepari"}]},
+    {spans:[{text:"Deluxe: How Luxury Lost Its Luster",href:"https://penguinrandomhouselibrary.com/book/?isbn=9780143113706"},{text:"\nDana Thomas"}]},
   ],
   seo:{
     metaDescription:"Hermès became a global luxury company by preserving the slow systems behind its objects, from craft training and small workshops to repair and family control.",

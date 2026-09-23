@@ -1,4 +1,5 @@
 import type { JournalContentBlock,JournalImage,JournalTextParagraph } from "@/content/journal";
+import {HoverLinkRow} from "./HoverLinkRow";
 
 function Figure({ image,className="",imageClassName="" }:{image:JournalImage;className?:string;imageClassName?:string}) {
   const note=[image.caption,image.credit].filter(Boolean).join(" — ");
@@ -51,12 +52,21 @@ function PullQuote({ block }:{block:Extract<JournalContentBlock,{_type:"pullQuot
 function FurtherReading({ paragraphs }:{paragraphs:JournalTextParagraph[]}) {
   return <section className="col-span-2 font-simon-mono text-[14px] font-normal leading-[20px] tracking-[-0.01em] lg:col-span-6 lg:col-start-4">
     <h2 className="mb-5 font-normal">FURTHER READING</h2>
-    {paragraphs.map((paragraph,index)=><p key={index} className={index>0?"mt-5":undefined}>
-      {typeof paragraph==="string"?paragraph:paragraph.spans.map((span,spanIndex)=>span.href
-        ?<a key={spanIndex} href={span.href} className="journal-text-link">{span.text}</a>
-        :span.text
-      )}
-    </p>)}
+    <ul className="border-t border-ink">
+      {paragraphs.map((paragraph,index)=>{
+        const spans=typeof paragraph==="string"?[{text:paragraph}]:paragraph.spans;
+        const text=spans.map(span=>span.text).join("");
+        const href=spans.find(span=>span.href)?.href;
+        const separator=text.lastIndexOf(",");
+        const [title,...authorParts]=text.includes("\n")?text.split("\n"):separator>=0?[text.slice(0,separator),text.slice(separator+1)]:[text,""];
+        const author=authorParts.join(" ").trim();
+        return <li key={`${title}-${index}`} className="border-b border-ink">
+          {href?<HoverLinkRow href={href} className="!min-h-[72px]">
+            <span><span className="block">{title.trim()}</span><span className="block">{author}</span></span>
+          </HoverLinkRow>:<div className="grid min-h-[72px] items-center py-3"><span><span className="block">{title.trim()}</span><span className="block">{author}</span></span></div>}
+        </li>;
+      })}
+    </ul>
   </section>;
 }
 

@@ -51,6 +51,17 @@ function portableTextBlock(key:string,text:string,style:"normal"|"h2"|"pullQuote
   };
 }
 
+function portableTextParagraph(key:string,paragraph:import("../content/journal").JournalTextParagraph){
+  if(typeof paragraph==="string") return portableTextBlock(key,paragraph,"normal");
+  const markDefs:Array<{_key:string;_type:"link";href:string}>=[];
+  const children=paragraph.spans.map((span,index)=>{
+    const markKey=span.href?`${key}-link-${index+1}`:undefined;
+    if(markKey&&span.href) markDefs.push({_key:markKey,_type:"link",href:span.href});
+    return {_key:`${key}-span-${index+1}`,_type:"span",marks:markKey?[markKey]:[],text:span.text};
+  });
+  return {_key:key,_type:"block",style:"normal",markDefs,children};
+}
+
 async function addFeatures() {
   const requestedSlugs=(process.env.JOURNAL_ARTICLE_SLUGS||"")
     .split(",")
@@ -88,8 +99,7 @@ async function addFeatures() {
           content.push(portableTextBlock(`${block._key}-heading`,block.heading,"h2"));
         }
         block.body.forEach((paragraph,index)=>{
-          const text=typeof paragraph==="string"?paragraph:paragraph.spans.map(span=>span.text).join("");
-          content.push(portableTextBlock(`${block._key}-paragraph-${index+1}`,text,"normal"));
+          content.push(portableTextParagraph(`${block._key}-paragraph-${index+1}`,paragraph));
         });
         continue;
       }
@@ -117,10 +127,7 @@ async function addFeatures() {
       ogDescription:article.seo.ogDescription,
       ogImage:article.seo.ogImage?await uploadImage(article.seo.ogImage):undefined,
     }:undefined;
-    const furtherReading=(article.furtherReading||[]).map((paragraph,index)=>{
-      const text=typeof paragraph==="string"?paragraph:paragraph.spans.map(span=>span.text).join("");
-      return portableTextBlock(`${article.slug}-further-reading-${index+1}`,text,"normal");
-    });
+    const furtherReading=(article.furtherReading||[]).map((paragraph,index)=>portableTextParagraph(`${article.slug}-further-reading-${index+1}`,paragraph));
     transaction=transaction.createOrReplace({
       _id:`article-${article.slug}`,
       _type:"article",

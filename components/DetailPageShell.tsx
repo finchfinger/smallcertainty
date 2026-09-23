@@ -5,6 +5,7 @@ import type { SearchItem } from "./SearchOverlay";
 import { absoluteUrl,siteName } from "@/lib/seo";
 import type { CatalogItemData,RecommendationData } from "./types";
 import {productDisplayName} from "@/lib/productDisplayName";
+import {HoverLinkRow} from "./HoverLinkRow";
 
 type DetailPageShellProps = {
   item:CatalogItemData & { sectionTitle?:string };
@@ -83,9 +84,9 @@ export function DetailPageShell({ item,searchItems,activeNav="Catalog",counterSt
             <ul className="border-t border-ink">
               {honorableMentions.map(recommendation=><li key={`${recommendation.rank}-${recommendation.productName}`} className="border-b border-ink">
                 {recommendation.productHref
-                  ?<Link href={recommendation.productHref} target="_blank" rel="noreferrer" className="best-page-link -mx-3 grid min-h-[52px] items-center rounded-md px-3 py-3 focus-visible:bg-black/[.04] focus-visible:outline-none">
+                  ?<HoverLinkRow href={recommendation.productHref}>
                     <span>{productDisplayName(recommendation.productName,recommendation.brand)}</span>
-                  </Link>
+                  </HoverLinkRow>
                   :<div className="grid min-h-[52px] items-center py-3">{productDisplayName(recommendation.productName,recommendation.brand)}</div>}
               </li>)}
             </ul>
