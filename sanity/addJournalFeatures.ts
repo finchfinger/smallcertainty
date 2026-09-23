@@ -110,6 +110,13 @@ async function addFeatures() {
       url:article.imageSrc,
       alt:`Cover image for ${article.title}`,
     }:undefined;
+    const seo=article.seo?{
+      seoTitle:article.seo.seoTitle,
+      metaDescription:article.seo.metaDescription,
+      ogTitle:article.seo.ogTitle,
+      ogDescription:article.seo.ogDescription,
+      ogImage:article.seo.ogImage?await uploadImage(article.seo.ogImage):undefined,
+    }:undefined;
     transaction=transaction.createOrReplace({
       _id:`article-${article.slug}`,
       _type:"article",
@@ -124,6 +131,7 @@ async function addFeatures() {
           ?await uploadImage(firstImage.primaryImage)
           :undefined,
       content,
+      seo,
     });
   }
 
