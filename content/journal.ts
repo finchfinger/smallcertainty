@@ -1,4 +1,5 @@
 import {hermesRefusedArticle} from "./journal-hermes-refused";
+import {yellowStaysArticle} from "./journal-yellow-stays";
 
 export type JournalImage = {
   url:string;
@@ -86,6 +87,7 @@ const johnMorganSections:Array<{heading?:string;body:string[]}>= [
 ];
 
 export const journalArticles:JournalArticle[]=[
+  yellowStaysArticle,
   hermesRefusedArticle,
   {
     slug:"the-patagonia-test",
