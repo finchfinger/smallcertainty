@@ -224,7 +224,7 @@ The price is considerable, and cheaper brewers can meet the same temperature sta
 
 [Visit site](https://ratiocoffee.com/products/ratio-eight-series-2-coffee-maker?srsltid=AU7gw4Xxjai7afbewvbZMD_P0YikUA8WId1Rkyz6GgTyw6OSyAzVfXYM)
 
-Honorable mentions: Ratio Six; Fellow Aiden
+Honorable mentions: Technivorm Moccamaster KBGV Select; Fellow Aiden
 
 ### Best Coffee Grinder
 

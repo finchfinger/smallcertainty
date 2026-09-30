@@ -25,10 +25,13 @@ The price is considerable, and cheaper brewers can meet the same temperature sta
 
 type Recommendation={_key:string;_type?:string;rank:number;badge?:string;product:{_type:string;_ref:string};editorialNote?:string;outboundUrlOverride?:string;published?:boolean};
 type CatalogItem={_id:string;recommendations:Recommendation[]};
+type Product={_id:string;name:string;description:string;outboundUrl:string};
 
 async function main(){
   const items=await client.fetch<CatalogItem[]>(`*[_type=="catalogItem" && label=="Best Coffee Maker"]{_id,recommendations}`);
   if(items.length===0) throw new Error("Could not find Best Coffee Maker.");
+  const runnerUp=await client.fetch<Product|null>(`*[_id=="product-technivorm-moccamaster-kbgv-select"][0]{_id,name,description,outboundUrl}`);
+  if(!runnerUp) throw new Error("Could not find the Technivorm Moccamaster KBGV Select product.");
 
   let tx=client.transaction().createIfNotExists({
     _id:productId,
@@ -42,7 +45,8 @@ async function main(){
   }).patch(productId,patch=>patch.set({name:productName,brand,description,outboundUrl:url,published:true}));
 
   for(const item of items){
-    const otherRecommendations=(item.recommendations||[]).filter(recommendation=>recommendation.rank!==1);
+    const fellowAiden=(item.recommendations||[]).find(recommendation=>recommendation.product?._ref==="product-fellow-aiden");
+    if(!fellowAiden) throw new Error("Could not find Fellow Aiden among the existing recommendations.");
     const recommendations:Recommendation[]=[{
       _key:"pick-1-ratio-eight-series-2",
       _type:"recommendation",
@@ -52,7 +56,23 @@ async function main(){
       editorialNote:description,
       outboundUrlOverride:url,
       published:true,
-    },...otherRecommendations].sort((a,b)=>a.rank-b.rank);
+    },{
+      _key:"pick-2-technivorm-moccamaster-kbgv-select",
+      _type:"recommendation",
+      rank:2,
+      badge:"Runner up",
+      product:{_type:"reference",_ref:runnerUp._id},
+      editorialNote:runnerUp.description,
+      outboundUrlOverride:runnerUp.outboundUrl,
+      published:true,
+    },{
+      ...fellowAiden,
+      _key:"pick-3-fellow-aiden",
+      _type:"recommendation",
+      rank:3,
+      badge:"Also good",
+      published:true,
+    }];
 
     tx=tx.patch(item._id,patch=>patch.set({
       productName,
@@ -69,7 +89,8 @@ async function main(){
   const saved=await client.fetch<Array<{_id:string;productName:string;outboundUrl:string;description:string;recommendationNames:string[]}>>(
     `*[_type=="catalogItem" && label=="Best Coffee Maker"]{_id,productName,outboundUrl,"description":intro,"recommendationNames":recommendations[published!=false]|order(rank asc).product->name}`
   );
-  const invalid=saved.filter(item=>item.productName!==productName||item.outboundUrl!==url||item.description!==description||item.recommendationNames[0]!==productName);
+  const expected=[productName,"Technivorm Moccamaster KBGV Select","Fellow Aiden"];
+  const invalid=saved.filter(item=>item.productName!==productName||item.outboundUrl!==url||item.description!==description||JSON.stringify(item.recommendationNames)!==JSON.stringify(expected));
   if(saved.length!==items.length||invalid.length>0) throw new Error("Sanity verification failed for Best Coffee Maker.");
 
   console.log(`Updated and verified ${saved.length} Best Coffee Maker document(s): ${saved[0].recommendationNames.join(" / ")}.`);
