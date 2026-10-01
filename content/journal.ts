@@ -1,5 +1,6 @@
 import {hermesRefusedArticle} from "./journal-hermes-refused";
 import {notBlueEnoughArticle} from "./journal-not-blue-enough";
+import {presentCorrectArticle} from "./journal-present-correct";
 import {yellowStaysArticle} from "./journal-yellow-stays";
 
 export type JournalImage = {
@@ -88,6 +89,7 @@ const johnMorganSections:Array<{heading?:string;body:string[]}>= [
 ];
 
 export const journalArticles:JournalArticle[]=[
+  presentCorrectArticle,
   notBlueEnoughArticle,
   yellowStaysArticle,
   hermesRefusedArticle,
