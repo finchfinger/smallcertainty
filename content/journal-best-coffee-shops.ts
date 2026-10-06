@@ -293,6 +293,7 @@ export const bestCoffeeShopsArticle:JournalArticle={
   dek:stripFormatting(blocks[1]),
   date:"2026-10-05",
   tags:["Coffee","Travel","Cities"],
+  imageSrc:"/journal/features/best-coffee-shops-rizky-subagja.webp",
   author:"Small Certainty",
   sections:[{body:plainBody}],
   content,
