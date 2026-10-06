@@ -171,26 +171,6 @@ input[type="search"]::-webkit-search-cancel-button { -webkit-appearance:none; ap
   }
 }
 .editorial-copy p+p,.editorial-indent { text-indent:var(--editorial-indent); }
-.journal-text-link {
-  color:inherit;
-  text-decoration:none;
-  background-image:linear-gradient(var(--ink),var(--ink));
-  background-position:left bottom;
-  background-repeat:no-repeat;
-  background-size:100% var(--journal-link-rule);
-  transition:background-color 150ms,background-size 150ms;
-}
-.journal-text-link:focus-visible {
-  background-color:var(--journal-link-hover);
-  background-size:100% var(--journal-link-rule-hover);
-  outline:none;
-}
-@media (hover:hover) and (pointer:fine) {
-  .journal-text-link:hover {
-    background-color:var(--journal-link-hover);
-    background-size:100% var(--journal-link-rule-hover);
-  }
-}
 .best-detail-action {
   position:relative;
 }

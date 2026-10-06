@@ -1,4 +1,5 @@
 import type { JournalContentBlock,JournalImage,JournalTextParagraph } from "@/content/journal";
+import {ActionLink} from "./ActionButton";
 import {HoverLinkRow} from "./HoverLinkRow";
 
 function Figure({ image,className="",imageClassName="" }:{image:JournalImage;className?:string;imageClassName?:string}) {
@@ -17,7 +18,7 @@ function TextSection({ block }:{block:Extract<JournalContentBlock,{_type:"articl
     {block.heading&&<h2 className="mb-5 font-normal">{block.heading.toUpperCase()}</h2>}
     {block.body.map((paragraph,index)=><p key={`${block._key}-${index}`} className={index>0?"mt-5":undefined}>
       {typeof paragraph==="string"?paragraph:paragraph.spans.map((span,spanIndex)=>span.href
-        ?<a key={spanIndex} href={span.href} className="journal-text-link">{span.text}</a>
+        ?<ActionLink key={spanIndex} href={span.href} target="_blank" rel="noreferrer" variant="text" className="best-detail-action -mx-3 !rounded-md">{span.text}</ActionLink>
         :span.text
       )}
     </p>)}
