@@ -21,6 +21,12 @@ export const article=defineType({
     }),
     defineField({name:"dek",title:"Summary",type:"text",rows:4,validation:rule=>rule.required()}),
     defineField({name:"publishedAt",title:"Published date",type:"date",validation:rule=>rule.required()}),
+    defineField({
+      name:"visibleFrom",
+      title:"Visible from",
+      type:"date",
+      description:"Optional. Controls when the article appears publicly; defaults to the Published date.",
+    }),
     defineField({name:"author",type:"string",initialValue:"Small Certainty"}),
     defineField({
       name:"coverImage",
