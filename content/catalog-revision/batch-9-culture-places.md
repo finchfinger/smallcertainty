@@ -236,7 +236,7 @@ Oodi expands the idea of free civic space without weakening the central place of
 
 ALA Architects organized the building into three distinct levels. An active ground floor continues the city through entrances, events, and services; a middle floor contains enclosed rooms and tools; the upper Book Heaven opens beneath an undulating white ceiling with trees, shelves, and broad views. A timber-clad bridge spans much of the ground level, allowing large public rooms with surprisingly few columns.
 
-Its popularity creates noise, busy elevators, and competition for specialized rooms, which should be booked when possible. Visitors should remember that Oodi is a working library, not an architectural attraction arranged for photographs. Explore beyond the top floor, return equipment correctly, and respect quiet zones. The café is convenient, but the freedom to occupy space without consumption is the building’s more important hospitality.
+Its popularity creates noise, busy elevators, and competition for specialized rooms, which should be booked when possible. Visitors should remember that Oodi is a working library, not an architectural attraction arranged for photographs. Explore beyond the top floor, return equipment correctly, and respect quiet zones. The café is convenient, but the building’s real generosity is that anyone can spend time there without buying anything.
 
 Public architecture often promises community through an impressive foyer and little else. Oodi makes the promise operational through staff, equipment, varied rooms, long hours, and a design that allows different kinds of public life to coexist. It is generous without becoming vague and monumental without intimidating use. Enter from the city, borrow or make something, and judge civic ambition by how easily an ordinary afternoon belongs there.
 
@@ -250,7 +250,7 @@ Honorable mentions: Stockholm Public Library in Stockholm; NYPL Schwarzman Build
 
 Central Park does not provide escape from New York so much as another, necessary version of it. Frederick Law Olmsted and Calvert Vaux composed meadows, woods, water, paths, bridges, and drives into an artificial landscape whose variety feels inexhaustible. Millions share it without experiencing the same park, and each season reorganizes how the city meets there.
 
-The 1858 Greensward Plan separated transverse traffic and modes of movement while using topography, planting, stonework, and carefully controlled vistas to conceal much of the surrounding grid. The Mall leads ceremonially, the Ramble confuses productively, the Reservoir opens the horizon, and Sheep Meadow supplies democratic emptiness. Playgrounds, ball fields, zoo, theater, memorials, and quieter northern landscapes support uses far beyond scenic walking.
+The 1858 Greensward Plan separated transverse traffic and modes of movement while using topography, planting, stonework, and carefully controlled vistas to conceal much of the surrounding grid. The Mall provides a formal promenade, the Ramble’s winding paths invite deliberate wandering, the Reservoir opens the horizon, and Sheep Meadow leaves room for thousands of people to do very little. Playgrounds, ball fields, zoo, theater, memorials, and quieter northern landscapes support uses far beyond scenic walking.
 
 The park is enormous, crowded at famous points, and not uniformly comfortable after dark. Choose one area rather than attempting every landmark, walk or cycle with awareness of designated paths, and check current conditions and closures. Weekday mornings reveal its working rhythms better than a packed summer afternoon. Food, water, weather, and distance still matter despite the surrounding city, especially north of the Reservoir.
 
@@ -264,13 +264,13 @@ Honorable mentions: Englischer Garten in Munich; Yoyogi Park in Tokyo
 
 **Cala Goloritzé in Sardinia**
 
-Arrival must be earned and the landscape remains stronger than the services usually attached to beauty. A steep path descends through limestone and Mediterranean scrub to a small crescent of pale stones, clear blue water, a natural arch, and the Aguglia pinnacle. There are no beach clubs to mediate the encounter, only shade, water, rock, and time.
+Cala Goloritzé is reached by a steep hike rather than a road or beachfront promenade. The path descends through limestone and Mediterranean scrub to a small crescent of pale stones, clear blue water, a natural arch, and the Aguglia pinnacle. There are no beach clubs or rental rows on the shore, so visitors must bring what they need and carry it out again.
 
 The cove was formed by a landslide on Sardinia’s Gulf of Orosei and became a protected natural monument. Springs beneath the sea cool the water and contribute to its startling clarity. Boats must remain offshore, preserving the swimming area and quiet near land. The hiking route begins on the Golgo plateau, dropping substantially through exposed terrain before the harder return ascent.
 
 Access rules, reservations, fees, and daily limits can change, so consult the official Baunei information before setting out. Carry ample water, food, sun protection, proper footwear, and everything back again. Pebbles make a mat useful and water shoes optional. There are no supplies at the cove, phone service may be unreliable, and the climb out punishes a day organized only around the photograph.
 
-The world has many more convenient beaches and several with softer sand. Goloritzé matters because protection, geography, and effort preserve a sense of proportion between visitor and place. Its beauty is not improved by consuming every viewpoint or arriving unprepared. Reserve properly, start early, swim within conditions, and leave before fatigue turns the ascent into resentment. The beach will remain precisely because access retains limits.
+The world has many more convenient beaches, several with softer sand. Goloritzé is memorable because geography and careful limits have kept the cove quiet. Reserve properly, start early, swim within conditions, and leave enough energy for the ascent. The reservation system and offshore boat boundary are not inconveniences to outsmart; they are what keep the water clear and the shore uncrowded.
 
 [Visit site](https://www.turismobaunei.eu/en/cala-goloritze/)
 
@@ -286,7 +286,7 @@ The neighborhood developed across a varied street pattern between Shibuya, Ebisu
 
 Weekends bring crowds to the most photographed shops, and the calm can be mistaken for emptiness if the visit is rushed. Begin at Daikanyama Station, walk Hillside Terrace carefully, then drift toward Ebisu or the Meguro River rather than tracing a shopping list. Respect residential lanes, avoid treating private buildings as sets, and stop somewhere long enough to understand the pace that makes the neighborhood coherent.
 
-Good neighborhoods cannot be reduced to a collection of businesses, because those businesses change. Daikanyama’s deeper strength is an urban grain that allows small institutions, thoughtful buildings, greenery, and domestic life to remain in conversation. It feels designed without becoming controlled and fashionable without entirely surrendering to fashion. Visit slowly, look above the storefronts, and carry home a standard for how density can remain humane.
+Good neighborhoods cannot be reduced to a collection of businesses, because those businesses change. Daikanyama’s lasting strength lies in its short blocks, varied building sizes, planted edges, and mixture of shops with ordinary residential life. It feels considered without being controlled and fashionable without entirely surrendering to fashion. Visit slowly, look above the storefronts, and notice how much urban variety fits within a comfortable walk.
 
 [Visit site](https://www.gotokyo.org/en/destinations/western-tokyo/daikanyama/index.html)
 
@@ -296,7 +296,7 @@ Honorable mentions: Brera in Milan; Frederiksberg in Copenhagen
 
 **Zürich Hauptbahnhof in Zürich**
 
-Zürich Hauptbahnhof converts extraordinary transport complexity into an experience that remains legible, central, and deeply connected to the city. Intercity, international, regional, suburban, tram, and local services converge across surface and underground platforms, yet transfers usually feel like movement through one institution rather than a sequence of terminals. The station works first and impresses through that work.
+Zürich Hauptbahnhof keeps an unusually complex transport system legible and connected to the city. Intercity, international, regional, suburban, tram, and local services converge across surface and underground platforms, yet transfers usually feel like movement through one institution rather than a sequence of terminals. Its distinction is practical: frequent trains, clear information, and direct connections between the platforms and the streets above.
 
 The monumental 1871 train hall and stone frontage establish civic scale, while later underground levels, passageways, retail streets, and platforms extend capacity beneath the city. Clear signage, synchronized timetables, frequent departures, and visible information allow the architecture to support Swiss rail operations rather than compete with them. The broad main hall hosts markets and events without obstructing its fundamental role as an urban room.
 
