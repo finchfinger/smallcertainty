@@ -171,6 +171,8 @@ Object.assign(honorableMentionUrls,{
 Object.assign(honorableMentionUrls,{
   "Arctic Parka from Woolrich":"https://www.woolrich.com/us/en/arctic-parka-in-ramar-cloth-CFWOOU0483MRUT0001_MLB.html",
   "Nuuk Parka M from Fjällräven":"https://www.fjallraven.com/us/en-us/men/jackets/parkas/nuuk-parka-m2/",
+  "Valstarino Jacket from Valstar":"https://valstarmilano.com/en-us/collections/valstarino",
+  "Five-Pocket Chore Jacket from Drake’s":"https://us.drakes.com/collections/perennial-chore-jackets",
 });
 
 Object.assign(honorableMentionUrls,{

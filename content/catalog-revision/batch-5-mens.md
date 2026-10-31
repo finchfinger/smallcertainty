@@ -82,6 +82,22 @@ An unstructured blazer often removes so much structure that nothing remains. Dra
 
 Honorable mentions: Ring Jacket Model 3; Boglioli K-Jacket
 
+### Best Casual Jacket
+
+**Paul Jacket from Samuel Snider**
+
+Samuel Snider’s Paul Jacket occupies the useful space between a blazer and a coat. Its elongated body gives the garment presence, while the soft construction and generous cut allow it to be worn over knitwear without the stiffness of formal tailoring. The midnight herringbone is quiet at a distance and richly textured up close.
+
+The pattern takes its cues from a nineteenth-century British military frock jacket, translated into proportions suited to contemporary clothes. Magee weaves the substantial cloth in Donegal from 75 percent wool and 25 percent baby alpaca. An organic-cotton lining is woven in Pennsylvania, bluff pockets preserve the clean surface, Italian horn buttons provide restrained contrast, and production takes place in New York’s Garment District.
+
+This is expensive, seasonal clothing rather than a permanent commodity. The long line and relaxed body should be tried with the trousers and layers it will actually accompany; sizing down simply to remove ease would defeat the pattern. The wool-and-alpaca cloth is warm enough for cool weather but does not replace a winter overcoat, and professional cleaning is recommended. Buyers outside New York should compare the published garment measurements carefully and account for the short return window.
+
+Most casual jackets derive their identity from workwear, aviation, or sport. The Paul Jacket starts with military tailoring but removes the ceremony, leaving a strong silhouette, useful warmth, and pockets that do not interrupt the line. Its distinction does not depend on conspicuous hardware or manufactured wear. Choose it for the proportion and cloth, allow room for a sweater, and let one assured jacket replace the vague layer usually kept for occasions that never quite arrive.
+
+[Visit site](https://samuelsnider.com/products/paul-jacket-fw26)
+
+Honorable mentions: Valstarino Jacket from Valstar; Five-Pocket Chore Jacket from Drake’s
+
 ### Best Parka
 
 **Goose Down Fisherman Parka from Manifattura Ceccarelli**
