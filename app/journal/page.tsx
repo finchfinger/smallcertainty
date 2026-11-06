@@ -49,12 +49,28 @@ function JournalTileStrip({ articles }:{articles:JournalArticle[]}) {
   return <section className="col-span-full mb-12 grid grid-cols-1 gap-y-0 sm:grid-cols-2 sm:gap-x-6 md:grid-cols-3 lg:grid-cols-4">
     {articles.map((article,index)=>{
       const hoverRadiusClass=index===0?"rounded-[8px]":"rounded-lg";
+      const isPublicDomain=article.category==="Library"||Boolean(article.originalYear);
       return <a
         key={`top-tile-${article.slug}-${index}`}
         href={`/journal/${article.slug}`}
         className={`-mx-3 ${hoverRadiusClass} px-3 py-0 transition-colors duration-150 hover:bg-black/[0.04] focus-visible:bg-black/[0.04] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink focus-visible:ring-offset-2 focus-visible:ring-offset-paper`}
       >
         <span aria-hidden="true" className="block border-t border-ink"/>
+        {isPublicDomain?<>
+          <div className="flex h-[424px] flex-col font-simon-mono tracking-[-0.01em] sm:h-[464px] lg:h-[516px]">
+            <time dateTime={article.originalYear} className="mt-4 block text-center text-[14px] leading-[20px]">
+              {article.originalYear}
+            </time>
+            <span className="flex flex-1 items-start justify-center pt-12 text-center text-[18px] leading-[1.35] sm:pt-14 lg:pt-16">
+              <span className="block max-w-[8ch]">{article.title}</span>
+            </span>
+            <span className="mb-8 block text-center text-[14px] leading-[20px]">
+              <span className="block">By:</span>
+              <span className="block">{article.author}</span>
+            </span>
+          </div>
+          <span aria-hidden="true" className="block border-t border-ink"/>
+        </>:<>
         <time dateTime={article.date} className="mt-4 block font-simon-mono text-[14px] leading-[20px] tracking-[-0.01em]">
           {formatTileDate(article.date)}
         </time>
@@ -67,6 +83,7 @@ function JournalTileStrip({ articles }:{articles:JournalArticle[]}) {
         <span className="mb-4 mt-4 block h-[40px] overflow-hidden font-simon-mono text-[14px] font-normal leading-[20px] tracking-[-0.01em] [display:-webkit-box] [-webkit-box-orient:vertical] [-webkit-line-clamp:2]">
           {article.title}
         </span>
+        </>}
       </a>;
     })}
   </section>;
