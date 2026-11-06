@@ -62,7 +62,7 @@ function JournalTileStrip({ articles }:{articles:JournalArticle[]}) {
               {article.originalYear}
             </time>
             <span className="flex flex-1 items-start justify-center pt-12 text-center text-[18px] leading-[1.35] sm:pt-14 lg:pt-16">
-              <span className="block max-w-[8ch]">{article.title}</span>
+              <span className="block">{article.title.split(/\s+/).map((word,wordIndex)=><span key={`${article.slug}-title-word-${wordIndex}`} className="block">{word}</span>)}</span>
             </span>
             <span className="mb-8 block text-center text-[14px] leading-[20px]">
               <span className="block">By:</span>
