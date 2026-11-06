@@ -61,7 +61,7 @@ function JournalTileStrip({ articles }:{articles:JournalArticle[]}) {
             <time dateTime={article.originalYear} className="mt-4 block text-center text-[14px] leading-[20px]">
               {article.originalYear}
             </time>
-            <span className="flex flex-1 items-start justify-center pt-12 text-center text-[18px] leading-[1.35] sm:pt-14 lg:pt-16">
+            <span className="flex flex-1 items-start justify-center pt-12 text-center text-[14px] leading-[20px] sm:pt-14 lg:pt-16">
               <span className="block">{article.title.split(/\s+/).map((word,wordIndex)=><span key={`${article.slug}-title-word-${wordIndex}`} className="block">{word}</span>)}</span>
             </span>
             <span className="mb-8 block text-center text-[14px] leading-[20px]">
@@ -69,7 +69,6 @@ function JournalTileStrip({ articles }:{articles:JournalArticle[]}) {
               <span className="block">{article.author}</span>
             </span>
           </div>
-          <span aria-hidden="true" className="block border-t border-ink"/>
         </>:<>
         <time dateTime={article.date} className="mt-4 block font-simon-mono text-[14px] leading-[20px] tracking-[-0.01em]">
           {formatTileDate(article.date)}
