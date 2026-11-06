@@ -58,15 +58,14 @@ function JournalTileStrip({ articles }:{articles:JournalArticle[]}) {
         <span aria-hidden="true" className="block border-t border-ink"/>
         {isPublicDomain?<>
           <div className="flex h-[384px] flex-col font-simon-mono tracking-[-0.01em] sm:h-[424px] lg:h-[476px]">
-            <time dateTime={article.originalYear} className="mt-4 block text-center text-[14px] leading-[20px]">
+            <time dateTime={article.originalYear} className="mt-4 block text-[14px] leading-[20px]">
               {article.originalYear}
             </time>
-            <span className="flex flex-1 items-start justify-center pt-12 text-center text-[14px] leading-[20px] sm:pt-14 lg:pt-16">
-              <span className="block">{article.title.split(/\s+/).map((word,wordIndex)=><span key={`${article.slug}-title-word-${wordIndex}`} className="block">{word}</span>)}</span>
+            <span className="mt-6 block text-[14px] leading-[20px]">
+              {article.title}
             </span>
-            <span className="mb-4 block text-center text-[14px] leading-[20px]">
-              <span className="block">By:</span>
-              <span className="block">{article.author}</span>
+            <span className="mt-6 block text-[14px] leading-[20px]">
+              By: {article.author}
             </span>
           </div>
         </>:<>
