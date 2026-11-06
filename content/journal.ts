@@ -14,7 +14,7 @@ export type JournalImage = {
 export type JournalTextParagraph =
   | string
   | {
-      spans:Array<{text:string;href?:string}>;
+      spans:Array<{text:string;href?:string;em?:boolean}>;
     };
 
 export type JournalContentBlock =
@@ -27,7 +27,7 @@ export type JournalContentBlock =
   | {
       _key:string;
       _type:"imageArrangement";
-      layout:"split"|"full"|"centered";
+      layout:"split"|"full"|"centered"|"portrait";
       primaryImage:JournalImage;
       secondaryImage?:JournalImage;
     }
@@ -47,6 +47,14 @@ export type JournalArticle = {
   imageSrc?:string;
   sections:Array<{heading?:string;body:string[]}>;
   author?:string;
+  originalYear?:string;
+  designation?:string;
+  category?:"Journal"|"Library";
+  format?:string;
+  publicationStatus?:"Draft"|"Scheduled"|"Published";
+  sourceLabel?:string;
+  sourceUrl?:string;
+  rights?:string;
   content?:JournalContentBlock[];
   furtherReading?:JournalTextParagraph[];
   seo?:{

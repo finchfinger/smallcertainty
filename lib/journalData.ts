@@ -21,7 +21,7 @@ type SanityContentBlock =
   | {
       _key:string;
       _type:"imageArrangement";
-      layout:"split"|"full"|"centered";
+      layout:"split"|"full"|"centered"|"portrait";
       primaryImage:SanityFigure;
       secondaryImage?:SanityFigure;
     }
@@ -32,6 +32,14 @@ type SanityArticle = {
   dek:string;
   date:string;
   author?:string;
+  originalYear?:string;
+  designation?:string;
+  category?:"Journal"|"Library";
+  format?:string;
+  publicationStatus?:"Draft"|"Scheduled"|"Published";
+  sourceLabel?:string;
+  sourceUrl?:string;
+  rights?:string;
   coverImage?:SanityFigure;
   content?:SanityContentBlock[];
   furtherReading?:Array<Extract<SanityContentBlock,{_type:"block"}>>;
@@ -50,6 +58,14 @@ const articleProjection=`{
   dek,
   "date":publishedAt,
   author,
+  originalYear,
+  designation,
+  category,
+  format,
+  publicationStatus,
+  sourceLabel,
+  sourceUrl,
+  rights,
   coverImage{
     image,
     alt,
@@ -130,6 +146,7 @@ function normalizeTextParagraph(block:Extract<SanityContentBlock,{_type:"block"}
     spans:(block.children||[]).map(child=>({
       text:child.text||"",
       href:(child.marks||[]).map(mark=>links.get(mark)).find(Boolean),
+      em:(child.marks||[]).includes("em")||undefined,
     })),
   };
   const text=paragraph.spans.map(span=>span.text).join("");

@@ -28,6 +28,14 @@ export const article=defineType({
       description:"Optional. Controls when the article appears publicly; defaults to the Published date.",
     }),
     defineField({name:"author",type:"string",initialValue:"Small Certainty"}),
+    defineField({name:"originalYear",title:"Original year",type:"string",description:"For Library texts, the year the work was first delivered or published."}),
+    defineField({name:"designation",title:"Designation",type:"string",description:"For example: Essay / Lecture."}),
+    defineField({name:"category",type:"string",options:{list:["Journal","Library"]}}),
+    defineField({name:"format",type:"string",description:"For example: Book, Essay, or Lecture."}),
+    defineField({name:"publicationStatus",title:"Publication status",type:"string",options:{list:["Draft","Scheduled","Published"]}}),
+    defineField({name:"sourceLabel",title:"Source",type:"string"}),
+    defineField({name:"sourceUrl",title:"Source URL",type:"url"}),
+    defineField({name:"rights",type:"string"}),
     defineField({
       name:"coverImage",
       title:"Journal cover image",
@@ -49,7 +57,7 @@ export const article=defineType({
           ],
           lists:[],
           marks:{
-            decorators:[],
+            decorators:[{title:"Italic",value:"em"}],
             annotations:[
               {
                 name:"link",
