@@ -17,7 +17,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <head>
         <meta
           name="impact-site-verification"
-          {...{ value: "2234f842-3095-4ddb-9262-6807be6c9a16" }}
+          {...{ value: "6dcca237-552c-44a5-bbe7-5a379767adbc" }}
         />
       </head>
       <body>
